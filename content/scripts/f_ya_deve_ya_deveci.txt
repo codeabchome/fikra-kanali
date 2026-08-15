@@ -1,34 +1,22 @@
-# ===== META =====
-# title_en: The Camel Who Learns to Read | title_tr: Ya Deve, Ya Deveci
-# duration_target: 55-65s | voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural | format: 9:16
-
-[scene: palace_tent | chars: hoca, timur | props: throne | action: timur_bragging]
-EN: One day, Timur was bragging to Hodja. Wild, impossible stories. So Hodja decided to out-brag the conqueror.
-TR: Bir gün Timur, Hoca'ya atıp tutuyordu. Öyle abartılar, öyle hikayeler. Hoca da hükümdara had bildirmeye karar verdi.
-
-[scene: palace_tent | chars: hoca, timur | props: camel_dream_bubble | action: hoca_boasts]
-EN: "Your Majesty, I own a camel like no other. Say 'fly' — it grows wings. One flaw: the poor thing can't read."
-TR: "Devletlim, bende öyle bir deve var ki, uç desem kanatlanır. Tek kusuru: okuması yazması yok."
-
-[scene: palace_tent | chars: timur | action: timur_excited_demands]
-EN: Timur's eyes lit up. "I MUST see this creature! Bring it!"
-TR: Timur'un gözleri parladı. "Bu yaratığı görmem lazım! Getir!"
-
-[scene: palace_tent | chars: hoca, timur | action: hoca_stalls_calm]
-EN: "Of course! But right now I'm teaching it the alphabet. Give me one week — it'll kneel before you AND recite."
-TR: "Elbette! Yalnız şu an kendisine harfleri öğretiyorum. Bir hafta müsaade edin — huzurunuzda hem diz çöksün hem okusun."
-
-[scene: palace_tent | chars: hoca, timur | props: calendar_x | action: week_later_stalling_again]
-EN: A week later: "Majesty, incredible news — it loved reading SO much, it now insists on memorizing entire books! One more week!"
-TR: Bir hafta sonra: "Devletlim, müthiş bir haber — okumayı öyle sevdi ki, şimdi de hafız olacağım diye tutturdu! Bir hafta daha!"
-
-[scene: street_day | chars: hoca, friend | action: friend_panics_grabs]
-EN: A friend pulled him aside, terrified: "Hodja, are you INSANE? You're lying to TIMUR! He'll have your head!"
-TR: Bir dostu dehşet içinde kolundan çekti: "Hocam, sen deli misin? TİMUR'a yalan söylüyorsun! Kelleni alır!"
-
-[scene: street_day | chars: hoca | action: hoca_shrugs_deadpan]
-EN: Hodja shrugged: "Relax. Every week I buy another week. And between now and then... either the camel dies, or the camel driver... or the SULTAN. Who knows!"
-TR: Hoca omuz silkti: "Telaş etme. Her hafta bir hafta kazanıyorum. O zamana kadar da... ya deve ölür, ya deveci... ya da SULTAN. Kim bilir!"
-
-# punchline_hold: 2s — hoca winking, friend jaw-dropped
-# NEW ASSETS: calendar_x (time-passing overlay), camel (dream bubble sketch only — cheap)
+# title_en: The Camel Who Learns to Read | title_tr: Ya Deve Ya Deveci
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: palace_tent | chars: timur, hoca | props: throne | action: timur_talk]
+EN: One day Timur was bragging to Hodja with wildly exaggerated stories. So Hodja decided to out-brag the conqueror himself.
+TR: Bir gün Timur, Hoca'ya abartılı hikayelerle atıp tutuyormuş. Hoca da hükümdarın kendisine racon kesmeye karar vermiş.
+[scene: palace_tent | chars: hoca, timur | action: hoca_talk]
+EN: He claimed to own a camel like no other, a creature so gifted that its only flaw was not knowing how to read.
+TR: Eşi benzeri olmayan bir devesi olduğunu anlatmış. Öyle yetenekli bir hayvanmış ki tek kusuru okuma yazma bilmemesiymiş.
+BEN: My camel's only flaw: can't read!
+BTR: Devemin tek kusuru: okuması yok!
+[scene: palace_tent | chars: timur, hoca | props: throne | action: timur_plead]
+EN: Timur's eyes lit up and he demanded to see this wonder at once. Hodja asked for one week, because he was currently teaching it the alphabet.
+TR: Timur'un gözleri parlamış, bu harikayı derhal görmek istemiş. Hoca bir hafta istemiş, çünkü şu an hayvana harfleri öğretiyormuş.
+[scene: palace_tent | chars: hoca, timur | action: hoca_talk]
+EN: A week later Hodja reported incredible news. The camel loved reading so much that it now insisted on memorizing entire books. He needed just one more week.
+TR: Bir hafta sonra Hoca inanılmaz haberler getirmiş. Deve okumayı öyle sevmiş ki şimdi de hafız olmak istiyormuş. Sadece bir hafta daha lazımmış.
+[scene: street_day | chars: friend, hoca | action: friend_shocked]
+EN: A terrified friend warned him that lying to Timur would cost him his head. But Hodja explained his flawless plan. Every week bought another week, and before the deadline, either the camel would die, or the camel driver, or maybe even the Sultan. Who knew.
+TR: Dehşete kapılan bir dostu, Timur'a yalan söylemenin kellesine mal olacağını söylemiş. Ama Hoca kusursuz planını açıklamış. Her hafta bir hafta kazandırıyormuş ve vade dolmadan ya deve ölürmüş, ya deveci, belki de Sultan. Kim bilirmiş.
+BEN: Either the camel dies, or the driver... or the Sultan!
+BTR: Ya deve ölür, ya deveci... ya da Sultan!
+# punchline_hold: 2

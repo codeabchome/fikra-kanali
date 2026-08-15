@@ -1,44 +1,24 @@
-# ===== META =====
-# id: f125 (Sen de Haklısın)
-# title_en: You're Right Too
-# title_tr: Sen De Haklısın
-# duration_target: 45-55s
-# voice_en: en-US-AndrewNeural
-# voice_tr: tr-TR-AhmetNeural
-# format: 9:16
-# hook: impossible_verdict
-
-[scene: home_interior | chars: hoca, plaintiff, defendant | action: two_men_arguing_enter]
-EN: Two men came to Hodja with a dispute, grabbing each other's collars, both furious.
-TR: İki adam yaka paça Hoca'ya geldi. İkisi de küplere binmiş.
-
-[scene: home_interior | chars: hoca, plaintiff | action: plaintiff_pleads]
-EN: The first man told his side. Passionately. Convincingly. Hodja listened carefully and nodded: "You're right."
-TR: İlki derdini anlattı. Ateşli ateşli, yana yakıla. Hoca can kulağıyla dinledi: "Haklısın."
-
-[scene: home_interior | chars: hoca, defendant | action: defendant_pleads]
-EN: Then the second man said: "Wait — hear MY side!" And his story was just as convincing. Hodja nodded: "You're right too."
-TR: Sonra ikincisi atıldı: "Dur — bir de BENİ dinle!" Onun anlattığı da bir o kadar mantıklıydı. Hoca başını salladı: "Sen de haklısın."
-
-[scene: home_interior | chars: hoca, wife, plaintiff, defendant | action: wife_interrupts]
-EN: His wife, listening from the corner, couldn't take it anymore:
-TR: Köşeden dinleyen hanımı dayanamadı:
-
-[scene: home_interior | chars: wife | action: wife_scolds]
-EN: "Husband! That's impossible! They can't BOTH be right — it's either one or the other!"
-TR: "Efendi! Böyle şey olur mu? Ya bu haklı, ya öteki!"
-
-[scene: home_interior | chars: hoca, wife | action: hoca_turns_deadpan]
-EN: Hodja thought for a moment. Turned to her. And said:
-TR: Hoca bir an düşündü. Hanımına döndü. Ve dedi ki:
-
-[scene: home_interior | chars: hoca | action: hoca_announce_smile]
-EN: "...You're right too."
-TR: "...Sen de haklısın, hanım."
-
-# punchline_hold: 2s — wife facepalm, two men look at each other confused
-# ===== NEW ASSETS =====
-# chars: plaintiff, defendant (template variants — reuse fighter rigs from quilt episode)
-# props: none new
-# envs: home_interior (reuse)
-# note: cheapest episode in batch — near-zero new assets. Good template for "single room dialogue" fıkra class.
+# title_en: You're Right Too | title_tr: Sen De Haklısın
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_interior | chars: hoca, plaintiff, defendant | action: men_plead]
+EN: One day two men brought their dispute to Hodja, each one absolutely certain that he was the wronged party.
+TR: Bir gün iki adam davalarını Hoca'ya getirmiş. İkisi de haksızlığa uğrayanın kendisi olduğundan eminmiş.
+[scene: home_interior | chars: plaintiff, hoca | action: plaintiff_talk]
+EN: The first man told his side so passionately and so convincingly that Hodja nodded and told him he was right.
+TR: İlk adam derdini öyle ateşli, öyle inandırıcı anlatmış ki Hoca başını sallayıp ona hak vermiş.
+BEN: You're right, son.
+BTR: Haklısın evladım.
+[scene: home_interior | chars: defendant, hoca | action: defendant_talk]
+EN: Then the second man told his side, and his story was every bit as convincing. So Hodja told him he was right too.
+TR: Sonra ikinci adam anlatmış. Onun hikayesi de en az ilki kadar mantıklıymış. Hoca ona da hak vermiş.
+BEN: You're right too, brother.
+BTR: Sen de haklısın kardeşim.
+[scene: home_interior | chars: wife, hoca | action: wife_shocked]
+EN: His wife, listening from the corner, objected that this was impossible. They could not both be right at the same time.
+TR: Köşeden dinleyen hanımı dayanamamış. Böyle şey olamazdı, ikisi birden haklı olamazdı.
+[scene: home_interior | chars: hoca, wife | action: hoca_point]
+EN: Hodja thought about it for a moment, turned to his wife, and agreed with her completely.
+TR: Hoca bir süre düşünmüş, hanımına dönmüş ve ona da tamamen katılmış.
+BEN: You're right too, dear!
+BTR: Sen de haklısın hanım!
+# punchline_hold: 2

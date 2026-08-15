@@ -1,47 +1,22 @@
-# ===== META =====
-# id: f173 (Yorgan Gitti, Kavga Bitti)
-# title_en: The Quilt Is Gone, The Fight Is Over
-# title_tr: Yorgan Gitti Kavga Bitti
-# duration_target: 55-65s
-# voice_en: en-US-GuyNeural
-# voice_tr: tr-TR-AhmetNeural
-# format: 9:16
-# hook: midnight_mystery
-
-[scene: bedroom_night | chars: hoca, wife | props: quilt, candle | action: hoca_wakes_startled]
-EN: One freezing night, Hodja woke up to shouting outside his window.
-TR: Soğuk bir gece yarısı, Hoca pencerenin dibinden gelen bağırışlarla uyandı.
-
-[scene: bedroom_night | chars: hoca, wife | props: quilt | action: wife_pulls_blanket]
-EN: Two men were fighting in the street. His wife groaned: "Ignore them. Come back to bed."
-TR: Sokakta iki adam kavga ediyordu. Hanımı söylendi: "Boş ver gürültüyü. Yat, uyu."
-
-[scene: bedroom_night | chars: hoca | props: quilt, candle | action: hoca_wraps_quilt]
-EN: But Hodja couldn't help himself. "Maybe I can make peace between them." He wrapped his warm quilt around his shoulders and stepped out.
-TR: Ama Hoca duramadı. "Belki aralarını bulur, barıştırırım." Sıcak yorganını sırtına alıp dışarı çıktı.
-
-[scene: street_night | chars: hoca, fighter_a, fighter_b | props: quilt, candle, moon | action: hoca_approaches_fight]
-EN: "Gentlemen! What are you fighting about at this hour?!"
-TR: "Beyler! Gecenin bu vaktinde neyin kavgası bu?!"
-
-[scene: street_night | chars: hoca, fighter_a, fighter_b | props: quilt | action: snatch_and_run]
-EN: The two men stopped... looked at each other... grabbed the quilt right off his back — and RAN.
-TR: İki adam durdu... birbirlerine baktı... yorganı Hoca'nın sırtından kaptıkları gibi — KAÇTILAR.
-
-[scene: street_night | chars: hoca | props: candle, moon | action: stand_confused_cold]
-EN: Hodja stood there in the cold, holding a candle. The street was suddenly very quiet.
-TR: Hoca soğukta öylece kaldı, elinde bir mum. Sokak bir anda sessizliğe gömüldü.
-
-[scene: bedroom_night | chars: hoca, wife | props: candle | action: hoca_returns_shrug]
-EN: Back inside, his wife asked: "So? What was the fight about?"
-TR: İçeri girince hanımı sordu: "Ee? Neymiş kavganın sebebi?"
-
-[scene: bedroom_night | chars: hoca, wife | action: hoca_deadpan]
-EN: "Apparently... it was about our quilt. The quilt is gone — the fight is over."
-TR: "Ne olacak hanım... bizim yorganın kavgasıymış. Yorgan gitti — kavga bitti."
-
-# punchline_hold: 1.5s — hoca deadpan, wife facepalm
-# ===== NEW ASSETS =====
-# chars: fighter x2 (template variants)
-# props: quilt (carry + snatch anim), candle (glow effect), moon
-# envs: bedroom_night, street_night (dark palette variant of street_day)
+# title_en: The Quilt Is Gone | title_tr: Yorgan Gitti Kavga Bitti
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: bedroom_night | chars: hoca, wife | props: quilt, candle | action: hoca_shocked]
+EN: One freezing night, Hodja woke up to the sound of two men fighting right outside his window.
+TR: Soğuk bir gece yarısı Hoca, penceresinin dibinde kavga eden iki adamın gürültüsüyle uyanmış.
+[scene: bedroom_night | chars: wife, hoca | props: quilt | action: wife_talk]
+EN: His wife told him to ignore the noise and go back to sleep, but Hodja was determined to go out and make peace.
+TR: Hanımı gürültüyü boş vermesini, yatıp uyumasını söylemiş ama Hoca illa çıkıp kavgacıları barıştıracakmış.
+BEN: Ignore them, come to bed!
+BTR: Boş ver, yat uyu!
+[scene: street_night | chars: hoca, fighter_a, fighter_b | props: quilt, candle, moon | action: hoca_plead]
+EN: So he wrapped his warm quilt around his shoulders and stepped into the cold to ask what the fight was about.
+TR: Sıcak yorganını sırtına sarıp soğuğa çıkmış ve kavganın sebebini sormuş.
+[scene: street_night | chars: fighter_a, fighter_b, hoca | props: moon, candle | action: fighters_shocked]
+EN: The two men suddenly stopped, grabbed the quilt right off his back, and vanished into the night without a word.
+TR: İki adam bir anda durmuş, yorganı Hoca'nın sırtından kaptıkları gibi tek kelime etmeden gecenin karanlığına karışmış.
+[scene: bedroom_night | chars: hoca, wife | props: candle | action: hoca_shrug]
+EN: Back inside, his wife asked what the fight had been about. Hodja explained that it was apparently about their quilt, because once the quilt was gone, the fight was over.
+TR: İçeri girince hanımı kavganın sebebini sormuş. Hoca da anlaşılan kavganın kendi yorganları yüzünden olduğunu söylemiş. Çünkü yorgan gidince kavga da bitmiş.
+BEN: The quilt is gone, the fight is over!
+BTR: Yorgan gitti, kavga bitti!
+# punchline_hold: 2

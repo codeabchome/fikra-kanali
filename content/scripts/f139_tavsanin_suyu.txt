@@ -1,47 +1,22 @@
-# ===== META =====
-# id: f139 (Tavşanın Suyunun Suyu)
-# title_en: The Soup of the Soup of the Hare
-# title_tr: Tavşanın Suyunun Suyu
-# duration_target: 60-70s
-# voice_en: en-US-GuyNeural
-# voice_tr: tr-TR-AhmetNeural
-# format: 9:16
-# hook: escalating_absurdity
-
-[scene: home_door | chars: hoca, peasant | props: hare | action: guest_brings_gift]
-EN: One day a villager knocked on Hodja's door with a gift — a fine, plump hare.
-TR: Bir gün köylünün biri Hoca'nın kapısını çaldı, elinde bir hediye — güzel, semiz bir tavşan.
-
-[scene: home_interior | chars: hoca, wife, peasant | props: soup_pot, table_spread | action: feast_together]
-EN: Hodja was delighted. They cooked it into a rich soup and feasted together like old friends.
-TR: Hoca çok memnun oldu. Tavşandan nefis bir çorba pişirdiler, dostça bir güzel yediler içtiler.
-
-[scene: home_door | chars: hoca, stranger_a | action: knock_introduce]
-EN: A week later — knock knock. "Who are you?" "I'm the neighbor of the man who brought the hare!"
-TR: Bir hafta sonra — tak tak. "Kimsin?" "Tavşanı getirenin komşusuyum!"
-
-[scene: home_interior | chars: hoca, stranger_a | props: soup_pot | action: serve_soup_polite]
-EN: Hodja, ever the host, served him soup.
-TR: Hoca misafir kısmını boş çevirmez, çorba ikram etti.
-
-[scene: home_door | chars: hoca, stranger_b, stranger_c | action: more_knocking]
-EN: Next week: "We're the FRIENDS of the neighbor of the man who brought the hare!"
-TR: Sonraki hafta: "Biz de tavşanı getirenin komşusunun ARKADAŞLARIYIZ!"
-
-[scene: home_interior | chars: hoca | props: soup_pot, water_jug | action: hoca_pours_water_sly]
-EN: Hodja said nothing. He went to the kitchen... filled the pot with plain water... and served it in fancy bowls.
-TR: Hoca hiçbir şey demedi. Mutfağa gitti... tencereye su doldurdu... ve güzelce kâselere koyup getirdi.
-
-[scene: home_interior | chars: hoca, stranger_b, stranger_c | props: soup_bowls | action: guests_taste_confused]
-EN: The guests tasted it. Blinked. "Hodja... this is just... water?"
-TR: Misafirler bir yudum aldı. Bakıştılar. "Hocam... bu... su değil mi?"
-
-[scene: home_interior | chars: hoca | props: soup_bowls | action: hoca_deadpan_announce]
-EN: "Not at all! That is the soup of the soup... of the hare that was brought to me."
-TR: "Ne münasebet! O, bana getirilen tavşanın suyunun... suyudur."
-
-# punchline_hold: 2s — guests staring at bowls, hoca serene
-# ===== NEW ASSETS =====
-# chars: peasant, stranger x3 (template variants)
-# props: hare, soup_pot, soup_bowls, water_jug, table_spread
-# envs: home_door (exterior door shot — reusable), home_interior (reuse)
+# title_en: The Soup of the Soup | title_tr: Tavşanın Suyunun Suyu
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_door | chars: peasant, hoca | props: hare | action: peasant_carry]
+EN: One day a villager knocked on Hodja's door carrying a gift, a fine plump hare. Hodja welcomed him warmly and they feasted together.
+TR: Bir gün köylünün biri elinde güzel, semiz bir tavşanla Hoca'nın kapısını çalmış. Hoca onu güzelce ağırlamış, birlikte yiyip içmişler.
+[scene: home_door | chars: stranger_a, hoca | action: stranger_talk]
+EN: A week later a stranger knocked, introducing himself as the neighbor of the man who brought the hare. Hodja served him soup anyway.
+TR: Bir hafta sonra kapı yine çalınmış. Gelen adam kendini tavşanı getirenin komşusu diye tanıtmış. Hoca yine de çorba ikram etmiş.
+BEN: I'm the hare guy's neighbor!
+BTR: Tavşancının komşusuyum!
+[scene: home_door | chars: stranger_b, stranger_c, hoca | action: strangers_plead]
+EN: The next week two more showed up, this time claiming to be the friends of the neighbor of the man who brought the hare.
+TR: Ertesi hafta iki kişi daha gelmiş. Bu sefer tavşanı getirenin komşusunun arkadaşları olduklarını söylüyorlarmış.
+[scene: home_interior | chars: hoca | props: soup_pot, water_jug | action: hoca_carry]
+EN: Hodja said nothing. He went to the kitchen, filled the pot with plain water, and served it in his finest bowls.
+TR: Hoca hiç ses etmemiş. Mutfağa gitmiş, tencereyi duru suyla doldurmuş ve en güzel kaselerine koyup getirmiş.
+[scene: home_interior | chars: stranger_b, stranger_c, hoca | props: soup_bowls | action: strangers_shocked]
+EN: The guests tasted it and stared at each other. It was just water. When they asked, Hodja explained with a straight face.
+TR: Misafirler bir yudum alınca bakışıp kalmış. Kaselerdeki düpedüz suymuş. Sorduklarında Hoca gayet ciddi bir yüzle açıklamış.
+BEN: The soup of the soup of the hare!
+BTR: Tavşanın suyunun suyu!
+# punchline_hold: 2

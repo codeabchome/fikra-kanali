@@ -1,30 +1,19 @@
-# ===== META =====
 # title_en: What If I Enter His Dream? | title_tr: Ya Rüyasına Girersem
-# duration_target: 50-60s | voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural | format: 9:16
-
-[scene: castle_wall | chars: guard | props: castle, gallows_silhouette | action: ominous_establishing]
-EN: Timur had a terrifying rule: anyone who appeared in his dreams... didn't see the next sunset.
-TR: Timur'un korkunç bir kuralı vardı: rüyasına giren... ertesi akşamı göremezdi.
-
-[scene: village_square | chars: hoca, friend_a, friend_b | action: hoca_packing_worried]
-EN: When heads started rolling, the villagers noticed Hodja loading his donkey. "Hodja?! Where are you going?!"
-TR: Kelleler gitmeye başlayınca, köylüler Hoca'yı eşeğine yük sararken buldu. "Hocam?! Nereye böyle?!"
-
-[scene: village_square | chars: hoca | props: donkey, bundle | action: hoca_announces_leaving]
-EN: "Far away. This town has lost its charm."
-TR: "Uzaklara. Buraların tadı tuzu kalmadı."
-
-[scene: village_square | chars: friend_a, friend_b | action: friends_pleading]
-EN: They begged him: "You're the only one Timur listens to! If YOU leave, what happens to US?"
-TR: Yalvardılar: "Timur bir tek seni dinliyor! Sen de gidersen bizim halimiz ne olur?"
-
-[scene: village_square | chars: hoca | props: donkey | action: hoca_explains_daytime]
-EN: Hodja sighed. "Look. During the DAY, I can watch my words. I can bow, I can smile, I can behave."
-TR: Hoca içini çekti. "Bakın. GÜNDÜZ kendime hakimim. Eğilirim, gülerim, suyunca giderim."
-
-[scene: village_square | chars: hoca | props: donkey, moon_dream_bubble | action: hoca_points_at_night_sky]
-EN: "But at NIGHT... what if I accidentally wander into his DREAM? How do I control THAT?!"
-TR: "Ama GECE... ya farkında olmadan adamın RÜYASINA girersem? Onu nasıl kontrol edeyim?!"
-
-# punchline_hold: 2s — hoca walking off with donkey into sunset
-# NEW ASSETS: castle_wall (env, ominous), gallows_silhouette (non-graphic), bundle
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: castle_wall | chars: guard | action: guard_idle]
+EN: Timur had a terrifying rule. Anyone who appeared in his dreams did not live to see the next sunset.
+TR: Timur'un korkunç bir kuralı varmış. Rüyasına giren, ertesi akşamı göremezmiş.
+[scene: village_square | chars: hoca, friend, villager_a | props: donkey, bundle | action: hoca_carry]
+EN: When heads started rolling, the villagers found Hodja loading his donkey and preparing to leave town for good.
+TR: Kelleler gitmeye başlayınca köylüler Hoca'yı eşeğine yük sararken bulmuş. Hoca kasabayı temelli terk etmeye hazırlanıyormuş.
+[scene: village_square | chars: friend, hoca | action: friend_plead]
+EN: They begged him to stay, since Timur listened to no one but him. If Hodja left, who would protect them?
+TR: Kalması için yalvarmışlar. Çünkü Timur bir tek onu dinliyormuş. Hoca giderse onları kim koruyacakmış?
+BEN: Don't leave us, Hodja!
+BTR: Bizi bırakma Hocam!
+[scene: village_square | chars: hoca, friend | props: donkey | action: hoca_point]
+EN: Hodja sighed and explained the problem. During the day he could watch his words, bow, and behave perfectly. But at night, what if he accidentally wandered into the man's dream? How was he supposed to control that?
+TR: Hoca içini çekip meseleyi açıklamış. Gündüz kendine hakimmiş, eğilir, güler, suyunca gidermiş. Ama gece? Ya farkında olmadan adamın rüyasına girerse? Onu nasıl kontrol edecekmiş?
+BEN: What if I enter his DREAM at night?!
+BTR: Ya gece RÜYASINA girersem?!
+# punchline_hold: 2

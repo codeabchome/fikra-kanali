@@ -1,34 +1,22 @@
-# ===== META =====
-# title_en: Run to the Lake! | title_tr: Göle Koş, Göle
-# duration_target: 50-60s | voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural | format: 9:16
-
-[scene: home_door | chars: hoca, wife | action: wife_nags_hoca_leaves]
-EN: Hodja's wife had one demand: "We're out of firewood. Go gather some thornbush!"
-TR: Hanımın tek derdi vardı: "Odun bitti. Git de bir iki yük çalı çırpı getir!"
-
-[scene: hill_road | chars: hoca | props: donkey | action: walking_with_donkey]
-EN: So Hodja took his donkey and gathered a huge load of dry thornbush.
-TR: Hoca eşeğini önüne kattı, kocaman bir yük kuru keven topladı.
-
-[scene: hill_road | chars: hoca | props: donkey, thornbush_load | action: hoca_doubts_load]
-EN: On the way back, a thought bit him: "All this work... but does this stuff even burn well?"
-TR: Dönüş yolunda içine bir kurt düştü: "Bunca emek verdim... ama bu keven har diye harlar mı acaba?"
-
-[scene: hill_road | chars: hoca | props: donkey, thornbush_load, flint | action: hoca_lights_corner]
-EN: "Only one way to find out." He struck a spark... at the corner of the load. While it was still ON the donkey.
-TR: "Sınamayı kurt yemez." Bir ucuna kavı tutuverdi... yük daha eşeğin SIRTINDAYKEN.
-
-[scene: hill_road | chars: hoca | props: donkey, fire_load | action: load_ignites_donkey_bolts]
-EN: WHOOSH. The whole load went up in flames — and the donkey BOLTED.
-TR: PAR! Yük bir anda alev aldı — eşek de OK gibi fırladı.
-
-[scene: hill_road | chars: hoca | props: donkey_running_fire | action: hoca_chases_exhausted]
-EN: Hodja ran after it. And ran. And ran. A burning donkey is surprisingly fast.
-TR: Hoca peşinden koştu. Koştu. Koştu. Yanan eşek şaşırtıcı derecede hızlıymış.
-
-[scene: hill_road | chars: hoca | props: donkey_distant_fire, lake_distant | action: hoca_shouts_hands_cupped]
-EN: Finally, out of breath, he cupped his hands and yelled: "Hey! Long-eared friend! If you have ANY brains — RUN TO THE LAKE!"
-TR: Sonunda soluğu kesilince ellerini ağzına götürüp bağırdı: "Hey! Uzun kulaklı arkadaş! Aklın varsa — GÖLE KOŞ, GÖLE!"
-
-# punchline_hold: 2s — tiny burning donkey silhouette heading toward lake
-# NEW ASSETS: thornbush_load, fire effect (flicker anim), flint, lake_distant (bg layer)
+# title_en: Run to the Lake! | title_tr: Göle Koş Göle
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_door | chars: wife, hoca | action: wife_point]
+EN: One day Hodja's wife announced that the firewood was finished, and sent him off to gather thornbush.
+TR: Bir gün Hoca'nın hanımı odunun bittiğini söylemiş ve onu çalı çırpı toplamaya yollamış.
+BEN: We're out of firewood!
+BTR: Odun bitti, hadi bakalım!
+[scene: hill_road | chars: hoca | props: donkey, thornbush_load | action: hoca_carry]
+EN: Hodja loaded a huge pile of dry thornbush onto the donkey. But on the way back, a doubt started gnawing at him. Did this stuff even burn well?
+TR: Hoca eşeğe kocaman bir yük kuru keven yüklemiş. Ama dönüş yolunda içine bir kurt düşmüş. Bu keven acaba güzel yanıyor muydu?
+[scene: hill_road | chars: hoca | props: donkey, thornbush_load | action: hoca_carry]
+EN: There was only one way to find out. So he held a spark to the corner of the load. While the load was still on the donkey.
+TR: Bunu öğrenmenin tek yolu vardı. Yükün ucuna bir kav tutmuş. Hem de yük daha eşeğin sırtındayken.
+[scene: hill_road | chars: hoca | props: donkey, fire_load | action: hoca_shocked]
+EN: The whole load went up in flames instantly, and the donkey bolted down the road like a flaming arrow.
+TR: Yük bir anda alev almış, eşek de yanan bir ok gibi yola fırlamış.
+[scene: hill_road | chars: hoca | props: donkey_distant_fire, lake_distant | action: hoca_point]
+EN: Hodja chased it until his breath ran out. Finally he stopped, cupped his hands, and gave his donkey the most practical advice of his life.
+TR: Hoca soluğu kesilene kadar peşinden koşmuş. Sonunda durmuş, ellerini ağzına götürmüş ve eşeğine hayatının en pratik tavsiyesini vermiş.
+BEN: If you have any brains, run to the lake!
+BTR: Aklın varsa göle koş, göle!
+# punchline_hold: 2

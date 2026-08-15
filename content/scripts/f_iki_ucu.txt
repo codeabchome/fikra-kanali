@@ -1,30 +1,19 @@
-# ===== META =====
 # title_en: The Impossible Turban | title_tr: İki Ucu Bir Araya Gelmez
-# duration_target: 45-55s | voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural | format: 9:16
-
-[scene: home_interior | chars: hoca | props: old_turban | action: hoca_annoyed_at_turban]
-EN: Hodja was fed up with his old turban. "This thing weighs as much as a millstone!" So he went and bought a new one.
-TR: Hoca eski sarığından bıkmıştı. "Bu mübarek değirmen taşı gibi!" Gitti, yeni bir sarık aldı.
-
-[scene: home_interior | chars: hoca | props: new_turban_cloth, mirror | action: wrapping_struggle_1]
-EN: He wrapped. And wrapped. And wrapped...
-TR: Sardı. Sardı. Sardı...
-
-[scene: home_interior | chars: hoca | props: new_turban_cloth, mirror | action: wrapping_struggle_2_tangled]
-EN: ...but no matter WHAT he did, the two ends of the cloth would never, EVER meet.
-TR: ...ama NE yaptıysa, kumaşın iki ucu bir türlü, ASLA bir araya gelmedi.
-
-[scene: home_interior | chars: hoca | props: tangled_turban | action: hoca_gives_up_furious]
-EN: Finally he snapped: "This isn't a turban, it's a CURSE. I'm selling it."
-TR: Sonunda pes etti: "Bu sarık değil, BELA. Satıyorum bunu."
-
-[scene: bazaar | chars: hoca, auctioneer, buyer | props: turban_cloth, market_stall | action: auction_scene]
-EN: At the auction, a poor man stepped forward, ready to bid on the beautiful cloth.
-TR: Mezatta garibin biri öne çıktı, o güzel kumaşa pey sürmeye hazırlandı.
-
-[scene: bazaar | chars: hoca, buyer | props: turban_cloth | action: hoca_whispers_warning]
-EN: And Hodja — the SELLER — leaned over and whispered: "Friend, save your money. Trust me... the two ends of this thing NEVER meet."
-TR: Ve Hoca — SATICI olduğu halde — eğilip fısıldadı: "Birader, paranı sakla. İnan bana... bu mübareğin iki ucu bir araya GELMEZ."
-
-# punchline_hold: 2s — buyer confused, auctioneer facepalm, hoca honest smile
-# NEW ASSETS: turban_cloth (wrap anim), auctioneer (template), buyer (template)
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_interior | chars: hoca | props: old_turban | action: hoca_shocked]
+EN: One day Hodja got fed up with his old turban, which weighed about as much as a millstone, and went out and bought a brand new one.
+TR: Bir gün Hoca değirmen taşı ağırlığındaki eski sarığından bıkmış ve gidip yepyeni bir sarık almış.
+[scene: home_interior | chars: hoca | props: turban_cloth | action: hoca_carry]
+EN: He wrapped and wrapped and wrapped. But no matter what he tried, the two ends of the cloth refused to ever meet.
+TR: Sarmış, sarmış, sarmış. Ama ne yaptıysa kumaşın iki ucu bir türlü bir araya gelmemiş.
+[scene: home_interior | chars: hoca | props: tangled_turban | action: hoca_shocked]
+EN: Finally he declared the thing not a turban but a curse, and decided to sell it at auction.
+TR: Sonunda bunun sarık değil düpedüz bela olduğunu ilan etmiş ve mezatta satmaya karar vermiş.
+BEN: This is not a turban, it's a CURSE!
+BTR: Bu sarık değil, BELA!
+[scene: bazaar | chars: hoca, buyer, auctioneer | props: turban_cloth, market_stall | action: hoca_talk]
+EN: At the auction a poor man stepped forward to bid on the beautiful cloth. And Hodja, the seller himself, leaned over and whispered a warning. He should save his money, because the two ends of this thing never, ever came together.
+TR: Mezatta garibin biri o güzel kumaşa pey sürmek için öne çıkmış. Ve bizzat satıcı olan Hoca eğilip adamı uyarmış. Parasını saklasınmış, çünkü bu mübareğin iki ucu asla bir araya gelmezmiş.
+BEN: Save your money, the ends NEVER meet!
+BTR: Paranı sakla, iki ucu GELMEZ!
+# punchline_hold: 2
