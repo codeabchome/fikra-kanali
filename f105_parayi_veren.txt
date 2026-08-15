@@ -1,0 +1,48 @@
+# ===== META =====
+# id: f105 (Parayı Veren, Düdüğü Çalar)
+# title_en: He Who Pays, Plays the Whistle
+# title_tr: Parayı Veren Düdüğü Çalar
+# duration_target: 50-60s
+# voice_en: en-US-AndrewNeural
+# voice_tr: tr-TR-AhmetNeural
+# format: 9:16
+# hook: kids_swarm
+
+[scene: village_square | chars: hoca, kid_a, kid_b, kid_c, kid_d | props: donkey | action: kids_surround]
+EN: Hodja was heading to the bazaar when the neighborhood kids swarmed him.
+TR: Hoca pazara gidiyordu ki mahallenin çocukları etrafını sarıverdi.
+
+[scene: village_square | chars: hoca, kid_a, kid_b, kid_c | action: kids_shouting_requests]
+EN: "Hodja! Bring me a whistle!" "Me too!" "Me too!" "And me!"
+TR: "Hocam! Bana düdük getir!" "Bana da!" "Bana da!" "Bir tane de bana!"
+
+[scene: village_square | chars: hoca, kid_d | props: coin | action: one_kid_pays]
+EN: Everyone shouted... but only ONE kid reached into his pocket and handed Hodja a coin. "Here's the money for mine."
+TR: Hepsi bağırdı... ama içlerinden sadece BİRİ cebinden para çıkarıp uzattı. "Benimkinin parası, Hocam."
+
+[scene: bazaar | chars: hoca, merchant | props: whistle, market_stall | action: hoca_buys_whistle]
+EN: At the bazaar, Hodja bought exactly one whistle.
+TR: Hoca pazardan tam olarak bir tane düdük aldı.
+
+[scene: village_square | chars: hoca, kid_a, kid_b, kid_c, kid_d | action: kids_run_expecting]
+EN: When he returned, the kids came running. "Where's mine?!" "Where's MINE?!"
+TR: Döndüğünde çocuklar koşarak geldi. "Benimki nerede?!" "BENİMKİ nerede?!"
+
+[scene: village_square | chars: hoca, kid_d | props: whistle | action: hand_whistle_to_one]
+EN: Hodja calmly handed the whistle to one kid. The one who paid.
+TR: Hoca sakince düdüğü tek bir çocuğa uzattı. Parayı verene.
+
+[scene: village_square | chars: hoca, kid_a, kid_b, kid_c | action: kids_protest_hoca_shrugs]
+EN: The others erupted: "That's not fair!" Hodja shrugged:
+TR: Diğerleri ayaklandı: "Ama bu haksızlık!" Hoca omuz silkti:
+
+[scene: village_square | chars: hoca, kid_d | props: whistle | action: kid_plays_whistle]
+EN: "He who pays... plays the whistle."
+TR: "Parayı veren... düdüğü çalar."
+
+# punchline_hold: 1.5s — kid_d playing whistle proudly, others sulking
+# ===== NEW ASSETS =====
+# chars: kid x4 (NEW template class: child proportions — smaller rig, bigger head)
+# props: whistle, coin, market_stall
+# envs: bazaar (stalls, awnings — reusable in many fıkras)
+# note: child template unlocks a large class of fıkras

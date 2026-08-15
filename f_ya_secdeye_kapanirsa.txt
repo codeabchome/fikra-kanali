@@ -1,0 +1,30 @@
+# ===== META =====
+# title_en: What If It Bows Down? | title_tr: Ya Secdeye Kapanırsa
+# duration_target: 45-55s | voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural | format: 9:16
+
+[scene: inn_exterior_night | chars: hoca | props: donkey, crooked_inn | action: hoca_arrives_tired]
+EN: One night, Hodja stopped at a roadside inn. An ANCIENT inn. The kind of building that stands out of pure habit.
+TR: Bir gece Hoca yol üstü bir hana indi. KADİM bir han. Ayakta durmayı alışkanlıktan sürdüren cinsten.
+
+[scene: inn_interior | chars: hoca, innkeeper | props: creaky_ceiling | action: ceiling_creaks_hoca_looks_up]
+EN: All night, the ceiling groaned. CREAK. CRACK. GROOOAN. Hodja eyed the sagging beams nervously.
+TR: Bütün gece tavan inledi. GICIR. ÇATIR. GIIIICIR. Hoca sarkan kirişlere endişeyle baktı.
+
+[scene: inn_interior | chars: hoca, innkeeper | action: hoca_asks_carefully]
+EN: Finally he asked the innkeeper: "Friend... your ceiling creaks an awful lot. Is it a cradle, perhaps?"
+TR: Sonunda hancıya sordu: "Baba... bu senin tavan amma gıcırdıyor. Beşik mi mübarek?"
+
+[scene: inn_interior | chars: innkeeper | props: creaky_ceiling | action: innkeeper_laughs_waves]
+EN: The innkeeper laughed it off: "Don't worry, Hodja! That's not creaking — the ceiling is PRAISING GOD!"
+TR: Hancı işi şakaya vurdu: "Merak etme Hocam! O gıcırtı değil — tavan Hakk'a TESPİH çekiyor!"
+
+[scene: inn_interior | chars: hoca | props: creaky_ceiling | action: hoca_stares_at_ceiling]
+EN: Hodja looked up at the ceiling. Then at the innkeeper. Then back at the ceiling.
+TR: Hoca tavana baktı. Sonra hancıya. Sonra yine tavana.
+
+[scene: inn_interior | chars: hoca | props: creaky_ceiling | action: hoca_deadpan_announce]
+EN: "Fine. But what if it gets carried away in worship... and BOWS DOWN? What happens to US?"
+TR: "İyi güzel de... ya bu tavan tespih çeke çeke aşka gelip... SECDEYE kapanırsa? Bizim halimiz ne olacak?"
+
+# punchline_hold: 2s — hoca pointing up, innkeeper's smile fading
+# NEW ASSETS: inn_exterior_night, inn_interior (sagging beams), innkeeper (template), creak lines (fx)

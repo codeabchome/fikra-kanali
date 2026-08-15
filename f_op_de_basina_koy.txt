@@ -1,0 +1,30 @@
+# ===== META =====
+# title_en: I'll Kiss It and Crown It | title_tr: Öp De Başına Koy
+# duration_target: 45-55s | voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural | format: 9:16
+
+[scene: village_road | chars: hoca | props: donkey | action: riding_very_slow]
+EN: Hodja was riding his donkey down the road. Well... "riding" is generous. The donkey moved like cold honey.
+TR: Hoca eşeğiyle yolda gidiyordu. Yani... "gidiyordu" demek biraz iyimser. Eşek bal gibi ağır akıyordu.
+
+[scene: village_road | chars: hoca, friend | props: donkey | action: friend_greets]
+EN: An old friend stopped him: "Hodja! Where are you headed?"
+TR: Eski bir ahbabı durdurdu: "Hocam! Hayırdır, nereye böyle?"
+
+[scene: village_road | chars: hoca | props: donkey | action: hoca_answers_calm]
+EN: "God willing... to Friday prayer."
+TR: "Allah nasip ederse... cuma namazına."
+
+[scene: village_road | chars: friend | action: friend_confused_counts_fingers]
+EN: The friend blinked. Counted on his fingers. "Hodja... today is TUESDAY."
+TR: Ahbap bir duraladı. Parmaklarıyla saydı. "Hocam... bugün SALI."
+
+[scene: village_road | chars: hoca | props: donkey | action: hoca_points_at_donkey]
+EN: Hodja looked down at his donkey. The donkey took one... slow... step.
+TR: Hoca eşeğine şöyle bir baktı. Eşek bir... ağır... adım attı.
+
+[scene: village_road | chars: hoca | props: donkey | action: hoca_deadpan_announce]
+EN: "If this creature gets me there by FRIDAY... I'll kiss it and crown it on my head."
+TR: "Bu gidişle beni cumaya yetiştirebilirse... öper, başımın üstüne korum."
+
+# punchline_hold: 2s — donkey mid-step, frozen; hoca resigned face
+# NEW ASSETS: friend (template), donkey slow-walk cycle (reuse rig)

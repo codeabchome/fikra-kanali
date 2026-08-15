@@ -1,0 +1,47 @@
+# ===== META =====
+# id: f172 (Ye Kürküm, Ye)
+# title_en: Eat, My Fur Coat!
+# title_tr: Ye Kürküm Ye
+# duration_target: 60-70s
+# voice_en: en-US-AndrewNeural
+# voice_tr: tr-TR-AhmetNeural
+# format: 9:16
+# hook: injustice_reversal
+
+[scene: street_day | chars: hoca | action: walk_modest]
+EN: Nasreddin Hodja was invited to a grand feast. He went straight from work — in his plain, dusty everyday clothes.
+TR: Nasreddin Hoca büyük bir ziyafete davetliydi. İşten çıktığı gibi gitti — üstünde gündelik, tozlu kıyafetleri.
+
+[scene: feast_hall | chars: hoca, host, guest_a, guest_b | props: feast_table | action: hoca_ignored]
+EN: And... nobody greeted him. No seat. No food. No "welcome, Hodja." He might as well have been invisible.
+TR: Ve... kimse yüzüne bakmadı. Ne buyur eden var, ne yer gösteren. Hoca adeta görünmezdi.
+
+[scene: street_day | chars: hoca | action: walk_determined]
+EN: Hodja quietly slipped out, went home...
+TR: Hoca sessizce sıvıştı, evine gitti...
+
+[scene: home_interior | chars: hoca | props: fur_coat, mirror | action: put_on_coat]
+EN: ...and came back wearing his magnificent fur coat.
+TR: ...ve o muhteşem kürkünü giyip geri döndü.
+
+[scene: feast_hall | chars: hoca, host, guest_a, guest_b | props: feast_table | action: crowd_welcomes]
+EN: Suddenly — a miracle! "Hodja! Welcome! Sit here, at the head! Please, eat, eat!"
+TR: Birden — mucize! "Hocam, buyur! Başköşeye buyur! Ye, iç, çekinme!"
+
+[scene: feast_hall | chars: hoca, host | props: feast_table, fur_coat | action: hoca_dips_sleeve]
+EN: Hodja sat down, grabbed the sleeve of his coat... and dipped it into the soup.
+TR: Hoca oturdu, kürkünün yenini tuttu... ve çorbanın içine batırdı.
+
+[scene: feast_hall | chars: hoca, host, guest_a, guest_b | props: fur_coat | action: crowd_shocked]
+EN: The whole table froze. "Hodja... what are you DOING?!"
+TR: Bütün sofra dondu kaldı. "Hocam... ne yapıyorsunuz?!"
+
+[scene: feast_hall | chars: hoca | props: fur_coat | action: hoca_deadpan_announce]
+EN: "Eat, my fur coat, eat! This feast isn't for me... it's for YOU."
+TR: "Ye kürküm, ye! Bu ziyafet bana değil... SANA."
+
+# punchline_hold: 1.5s — guests red-faced, hoca calm
+# ===== NEW ASSETS =====
+# chars: host (template: rich_robe), guest x2 (template variants)
+# props: feast_table (dishes, roast), fur_coat (wearable layer on hoca rig), mirror
+# envs: feast_hall (interior, cushions, rug), home_interior (reuse from ep_quilt bedroom base)

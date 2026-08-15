@@ -1,0 +1,38 @@
+# ===== META =====
+# title_en: The Mystery in the Bag | title_tr: Tavşana Kaç, Tazıya Tut
+# duration_target: 55-65s | voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural | format: 9:16
+
+[scene: forest_road | chars: hoca | props: hare, sack | action: hoca_catches_hare]
+EN: One day — nobody knows how — Hodja caught a hare. He'd never caught anything in his life. He was THRILLED.
+TR: Bir gün — nasıl olduysa — Hoca bir tavşan yakaladı. Ömründe hiçbir şey yakalamamıştı. Havalara UÇTU.
+
+[scene: home_interior | chars: hoca, wife | props: sack_moving | action: hoca_hands_sack_warns]
+EN: He rushed home: "Wife! There's a rare, mysterious creature in this bag! DON'T open it! I'm going to gather the neighbors — they must see this!"
+TR: Eve koştu: "Hanım! Bu torbada görülmedik, esrarengiz bir mahluk var! Sakın AÇMA! Ben konu komşuyu çağırayım — bunu görmeliler!"
+
+[scene: home_interior | chars: wife | props: sack_moving | action: wife_curious_peeks]
+EN: The moment he left... his wife peeked. Of course she peeked.
+TR: Hoca çıkar çıkmaz... hanım torbayı araladı. Tabii ki araladı.
+
+[scene: home_interior | chars: wife | props: hare_escaping, window | action: hare_bolts_out]
+EN: FWOOSH — the hare shot out the window and vanished.
+TR: FIRT — tavşan pencereden fırladığı gibi kayboldu.
+
+[scene: home_interior | chars: wife | props: sack, grain_scoop | action: wife_hides_evidence]
+EN: Panicking, she grabbed the first thing she saw — a grain scoop — stuffed it in the bag, and tied it shut.
+TR: Panikle gözüne ilk ilişeni kaptı — yem küreğini — torbaya tıkıp ağzını bağladı.
+
+[scene: home_interior | chars: hoca, wife, neighbor_a, neighbor_b, neighbor_c | props: sack | action: crowd_gathers_expectant]
+EN: Hodja returned with the WHOLE neighborhood. Drumroll... he opened the bag...
+TR: Hoca BÜTÜN mahalleyle döndü. Davullar... torbayı açtı...
+
+[scene: home_interior | chars: hoca, neighbor_a, neighbor_b | props: grain_scoop | action: scoop_falls_out_silence]
+EN: CLUNK. A grain scoop hit the floor. Silence. Everyone stared at Hodja.
+TR: TAK. Yem küreği yere düştü. Sessizlik. Herkes Hoca'ya baktı.
+
+[scene: home_interior | chars: hoca | props: grain_scoop | action: hoca_recovers_instantly]
+EN: Hodja didn't miss a beat. He picked it up proudly: "Behold, neighbors! TEN of these scoops... make exactly one bushel!"
+TR: Hoca bir saniye bile duraksamadı. Küreği gururla kaldırdı: "İşte komşular! Bu ölçeğin ON dolusu... tam bir kile eder!"
+
+# punchline_hold: 2s — neighbors blank stares, wife whistling innocently in corner
+# NEW ASSETS: sack (wiggle anim), grain_scoop, hare escape anim (reuse hare), neighbor x3 (template)

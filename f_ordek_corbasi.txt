@@ -1,0 +1,26 @@
+# ===== META =====
+# title_en: Duck Soup | title_tr: Ördek Çorbası
+# duration_target: 45-55s | voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural | format: 9:16
+
+[scene: riverside | chars: hoca | props: ducks_x3, river | action: hoca_sneaks_toward_ducks]
+EN: One day Hodja spotted a flock of ducks playing by the river. Dinner!
+TR: Bir gün Hoca dere kıyısında oynaşan ördekleri gördü. Akşam yemeği!
+
+[scene: riverside | chars: hoca | props: ducks_x3, river | action: hoca_lunges_ducks_scatter]
+EN: He lunged — SPLASH — the ducks scattered. He tried again. And again. Soaked from head to toe... zero ducks.
+TR: Atıldı — ŞLAP — ördekler dağıldı. Bir daha denedi. Bir daha. Sırılsıklam oldu... sıfır ördek.
+
+[scene: riverside | chars: hoca | props: bread, river | action: hoca_sits_dips_bread]
+EN: So Hodja shrugged, sat down at the water's edge, took out his bread... and started dipping it in the river.
+TR: Hoca omuz silkti, kıyıya oturdu, ekmeğini çıkardı... ve suya banıp yemeye başladı.
+
+[scene: riverside | chars: hoca, passerby | props: bread, river | action: passerby_asks]
+EN: A man passing by stared: "Uh... Hodja? What on earth are you eating?"
+TR: Yoldan geçen biri şaşkın baktı: "Hocam? Allah aşkına ne yiyorsun öyle?"
+
+[scene: riverside | chars: hoca | props: bread, ducks_distant | action: hoca_deadpan_announce]
+EN: Hodja kept dipping. "What does it look like? ...Duck soup."
+TR: Hoca banmaya devam etti. "Görmüyor musun? ...Ördek çorbası."
+
+# punchline_hold: 2s — hoca chewing serenely, ducks in distance
+# NEW ASSETS: ducks_x3 (swim+scatter), river (env), bread, passerby (template)

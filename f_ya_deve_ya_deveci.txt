@@ -1,0 +1,34 @@
+# ===== META =====
+# title_en: The Camel Who Learns to Read | title_tr: Ya Deve, Ya Deveci
+# duration_target: 55-65s | voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural | format: 9:16
+
+[scene: palace_tent | chars: hoca, timur | props: throne | action: timur_bragging]
+EN: One day, Timur was bragging to Hodja. Wild, impossible stories. So Hodja decided to out-brag the conqueror.
+TR: Bir gün Timur, Hoca'ya atıp tutuyordu. Öyle abartılar, öyle hikayeler. Hoca da hükümdara had bildirmeye karar verdi.
+
+[scene: palace_tent | chars: hoca, timur | props: camel_dream_bubble | action: hoca_boasts]
+EN: "Your Majesty, I own a camel like no other. Say 'fly' — it grows wings. One flaw: the poor thing can't read."
+TR: "Devletlim, bende öyle bir deve var ki, uç desem kanatlanır. Tek kusuru: okuması yazması yok."
+
+[scene: palace_tent | chars: timur | action: timur_excited_demands]
+EN: Timur's eyes lit up. "I MUST see this creature! Bring it!"
+TR: Timur'un gözleri parladı. "Bu yaratığı görmem lazım! Getir!"
+
+[scene: palace_tent | chars: hoca, timur | action: hoca_stalls_calm]
+EN: "Of course! But right now I'm teaching it the alphabet. Give me one week — it'll kneel before you AND recite."
+TR: "Elbette! Yalnız şu an kendisine harfleri öğretiyorum. Bir hafta müsaade edin — huzurunuzda hem diz çöksün hem okusun."
+
+[scene: palace_tent | chars: hoca, timur | props: calendar_x | action: week_later_stalling_again]
+EN: A week later: "Majesty, incredible news — it loved reading SO much, it now insists on memorizing entire books! One more week!"
+TR: Bir hafta sonra: "Devletlim, müthiş bir haber — okumayı öyle sevdi ki, şimdi de hafız olacağım diye tutturdu! Bir hafta daha!"
+
+[scene: street_day | chars: hoca, friend | action: friend_panics_grabs]
+EN: A friend pulled him aside, terrified: "Hodja, are you INSANE? You're lying to TIMUR! He'll have your head!"
+TR: Bir dostu dehşet içinde kolundan çekti: "Hocam, sen deli misin? TİMUR'a yalan söylüyorsun! Kelleni alır!"
+
+[scene: street_day | chars: hoca | action: hoca_shrugs_deadpan]
+EN: Hodja shrugged: "Relax. Every week I buy another week. And between now and then... either the camel dies, or the camel driver... or the SULTAN. Who knows!"
+TR: Hoca omuz silkti: "Telaş etme. Her hafta bir hafta kazanıyorum. O zamana kadar da... ya deve ölür, ya deveci... ya da SULTAN. Kim bilir!"
+
+# punchline_hold: 2s — hoca winking, friend jaw-dropped
+# NEW ASSETS: calendar_x (time-passing overlay), camel (dream bubble sketch only — cheap)

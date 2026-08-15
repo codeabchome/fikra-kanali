@@ -1,0 +1,1237 @@
+{
+  "source": "Nasreddin Hodja folk tales (anonymous, public domain plots)",
+  "note": "Plots retold in our own words; no verbatim text from any published compilation.",
+  "total": 175,
+  "episodes": [
+    {
+      "id": "f001",
+      "title_tr": "Adam Sen De!",
+      "slug": "adam_sen_de",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f002",
+      "title_tr": "Aklini Peyni̇r Ekmekle Mi̇ Yedi̇n",
+      "slug": "aklini_peyni_r_ekmekle_mi_yedi_n",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f003",
+      "title_tr": "Al Abdesti̇ni̇, Ver Pabucumu",
+      "slug": "al_abdesti_ni_ver_pabucumu",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f004",
+      "title_tr": "Allah Dağina Göre Kiş Veri̇r",
+      "slug": "allah_dagina_gore_kis_veri_r",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f005",
+      "title_tr": "Allah Ecelden Aman Verseydi̇..",
+      "slug": "allah_ecelden_aman_verseydi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f006",
+      "title_tr": "Allah Versi̇n",
+      "slug": "allah_versi_n",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f007",
+      "title_tr": "Altüst Olacak",
+      "slug": "altust_olacak",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f008",
+      "title_tr": "Amma Uzattin Ha!",
+      "slug": "amma_uzattin_ha",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f009",
+      "title_tr": "Anasindan Emdi̇ği̇ Burnundan Geli̇r",
+      "slug": "anasindan_emdi_gi_burnundan_geli_r",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f010",
+      "title_tr": "Aradiğini Bulduktan Geri̇",
+      "slug": "aradigini_bulduktan_geri",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f011",
+      "title_tr": "Ayağimi Taştan Esi̇rgemem",
+      "slug": "ayagimi_tastan_esi_rgemem",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f012",
+      "title_tr": "Ayaklari O Tarafa Çekmi̇ş De...",
+      "slug": "ayaklari_o_tarafa_cekmi_s_de",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f013",
+      "title_tr": "Ay Alip Sattiğim Yok",
+      "slug": "ay_alip_sattigim_yok",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f014",
+      "title_tr": "Bağdat Vi̇ran",
+      "slug": "bagdat_vi_ran",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f015",
+      "title_tr": "Bahsi̇ Kaybetti̇n Ya!",
+      "slug": "bahsi_kaybetti_n_ya",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f016",
+      "title_tr": "Bana Görünme De",
+      "slug": "bana_gorunme_de",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f017",
+      "title_tr": "Bi̇ndi̇ği̇ Dali Keser",
+      "slug": "bi_ndi_gi_dali_keser",
+      "status": "scripted",
+      "script_file": "f017_bindigi_dali_keser.txt"
+    },
+    {
+      "id": "f018",
+      "title_tr": "Başimi Belâya Sokamam",
+      "slug": "basimi_belaya_sokamam",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f019",
+      "title_tr": "Başina Pamuk Ekmi̇ş",
+      "slug": "basina_pamuk_ekmi_s",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f020",
+      "title_tr": "Başini Çevi̇ri̇p De...",
+      "slug": "basini_cevi_ri_p_de",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f021",
+      "title_tr": "Başinin Çaresi̇ne Baksin",
+      "slug": "basinin_caresi_ne_baksin",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f022",
+      "title_tr": "Ben Ehli̇ Kuburdanim",
+      "slug": "ben_ehli_kuburdanim",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f023",
+      "title_tr": "Ben Nefes Etmesi̇ne Ederi̇m Ama...",
+      "slug": "ben_nefes_etmesi_ne_ederi_m_ama",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f024",
+      "title_tr": "Ben Yeri̇mi̇ Sevmedi̇m",
+      "slug": "ben_yeri_mi_sevmedi_m",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f025",
+      "title_tr": "Biraktiği Yerde Otluyor",
+      "slug": "biraktigi_yerde_otluyor",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f026",
+      "title_tr": "Bi̇lenler Bi̇lmeyenlere Öğretsi̇n",
+      "slug": "bi_lenler_bi_lmeyenlere_ogretsi_n",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f027",
+      "title_tr": "Bi̇n Değnek, Di̇le Kolay!",
+      "slug": "bi_n_degnek_di_le_kolay",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f028",
+      "title_tr": "Bi̇r Firildak Çevi̇rdi̇m Ama...",
+      "slug": "bi_r_firildak_cevi_rdi_m_ama",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f029",
+      "title_tr": "Bi̇r Hayir Sahi̇bi̇ Çikip Ta",
+      "slug": "bi_r_hayir_sahi_bi_cikip_ta",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f030",
+      "title_tr": "Bi̇r Mendi̇l Kuruyunca Ya Kadar",
+      "slug": "bi_r_mendi_l_kuruyunca_ya_kadar",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f031",
+      "title_tr": "Bi̇r Pul Eksi̇k Veri̇n",
+      "slug": "bi_r_pul_eksi_k_veri_n",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f032",
+      "title_tr": "Bi̇r Umudum Kaldi",
+      "slug": "bi_r_umudum_kaldi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f033",
+      "title_tr": "Bi̇r Yunus Olamadim",
+      "slug": "bi_r_yunus_olamadim",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f034",
+      "title_tr": "Bi̇zi̇m Kaşik Düşmani",
+      "slug": "bi_zi_m_kasik_dusmani",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f035",
+      "title_tr": "Bi̇zi̇m Köyün Merhabasi",
+      "slug": "bi_zi_m_koyun_merhabasi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f036",
+      "title_tr": "Bi̇raz Da Bi̇z Öleli̇m",
+      "slug": "bi_raz_da_bi_z_oleli_m",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f037",
+      "title_tr": "Bostanciya Tere Satilmaz",
+      "slug": "bostanciya_tere_satilmaz",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f038",
+      "title_tr": "Boşuna Çabalama",
+      "slug": "bosuna_cabalama",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f039",
+      "title_tr": "Bu Da Bi̇r Mari̇fet Mi̇",
+      "slug": "bu_da_bi_r_mari_fet_mi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f040",
+      "title_tr": "Bu Eşeği̇n Başi Bi̇zi̇m Ama",
+      "slug": "bu_esegi_n_basi_bi_zi_m_ama",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f041",
+      "title_tr": "Bu İş Yarenli̇ğe Gelmez",
+      "slug": "bu_i_s_yarenli_ge_gelmez",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f042",
+      "title_tr": "Bu İş Bi̇zi̇m Kadiya Düşer",
+      "slug": "bu_i_s_bi_zi_m_kadiya_duser",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f043",
+      "title_tr": "Bulunca Bayram, Bulmayinca Seyran",
+      "slug": "bulunca_bayram_bulmayinca_seyran",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f044",
+      "title_tr": "Buyurun, Cenaze Namazina",
+      "slug": "buyurun_cenaze_namazina",
+      "status": "scripted",
+      "script_file": "f_buyurun_cenaze.txt"
+    },
+    {
+      "id": "f045",
+      "title_tr": "Büyüye Büyüye Kazan Olmuş",
+      "slug": "buyuye_buyuye_kazan_olmus",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f046",
+      "title_tr": "Çömlek Hesabina Kalsa",
+      "slug": "comlek_hesabina_kalsa",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f047",
+      "title_tr": "Di̇psi̇z Ambar, Boş Ki̇le",
+      "slug": "di_psi_z_ambar_bos_ki_le",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f048",
+      "title_tr": "Doğurduğuna İnaniyorsun Da...",
+      "slug": "dogurduguna_i_naniyorsun_da",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f049",
+      "title_tr": "Dostlar Bi̇zi̇ Aliş Veri̇şte Görsün De...",
+      "slug": "dostlar_bi_zi_alis_veri_ste_gorsun_de",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f050",
+      "title_tr": "Dünya Dedi̇ği̇n Kaç Kulaç",
+      "slug": "dunya_dedi_gi_n_kac_kulac",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f051",
+      "title_tr": "Dünyasini Zi̇ndan Etmi̇şler",
+      "slug": "dunyasini_zi_ndan_etmi_sler",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f052",
+      "title_tr": "Eli̇ Sakalinda Kalmiş",
+      "slug": "eli_sakalinda_kalmis",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f053",
+      "title_tr": "Eli̇yle Eker, Di̇li̇yle Bi̇çer",
+      "slug": "eli_yle_eker_di_li_yle_bi_cer",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f054",
+      "title_tr": "Elleri̇ Böğründe, Muradi Koynunda",
+      "slug": "elleri_bogrunde_muradi_koynunda",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f055",
+      "title_tr": "Elvan Elvan Çi̇çek",
+      "slug": "elvan_elvan_ci_cek",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f056",
+      "title_tr": "Eşek Başi Deği̇li̇m Ya",
+      "slug": "esek_basi_degi_li_m_ya",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f057",
+      "title_tr": "Eşek De Okuyup Adam Olur",
+      "slug": "esek_de_okuyup_adam_olur",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f058",
+      "title_tr": "Fi̇ncanci Katirlari",
+      "slug": "fi_ncanci_katirlari",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f059",
+      "title_tr": "Gari̇bi̇n Ki̇mi̇ Var Ki̇",
+      "slug": "gari_bi_n_ki_mi_var_ki",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f060",
+      "title_tr": "Geçi̇nmeğe Gönlün Olmadiktan Sonra",
+      "slug": "geci_nmege_gonlun_olmadiktan_sonra",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f061",
+      "title_tr": "Geti̇r Heybemi̇, Al Semeri̇ni̇",
+      "slug": "geti_r_heybemi_al_semeri_ni",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f062",
+      "title_tr": "Geti̇r Şu Kara Kapli Ki̇tabi",
+      "slug": "geti_r_su_kara_kapli_ki_tabi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f063",
+      "title_tr": "Göle Koş, Göle",
+      "slug": "gole_kos_gole",
+      "status": "scripted",
+      "script_file": "f_gole_kos.txt"
+    },
+    {
+      "id": "f064",
+      "title_tr": "Gözleri̇ni̇zi̇ Ağartiyorsunuz Ama...",
+      "slug": "gozleri_ni_zi_agartiyorsunuz_ama",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f065",
+      "title_tr": "Gözünü Korkutmak İçi̇n",
+      "slug": "gozunu_korkutmak_i_ci_n",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f066",
+      "title_tr": "Gözünün Önünde Gerek",
+      "slug": "gozunun_onunde_gerek",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f067",
+      "title_tr": "Gülünecek Ne Var Bunda!",
+      "slug": "gulunecek_ne_var_bunda",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f068",
+      "title_tr": "Hangi̇ Cehenneme Gi̇tseler!",
+      "slug": "hangi_cehenneme_gi_tseler",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f069",
+      "title_tr": "Hangi̇ni̇zi̇n Göbeği̇ Atiyorsa",
+      "slug": "hangi_ni_zi_n_gobegi_atiyorsa",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f070",
+      "title_tr": "Havadan Nem Kapiyor",
+      "slug": "havadan_nem_kapiyor",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f071",
+      "title_tr": "Hay Ömrüne Bereket",
+      "slug": "hay_omrune_bereket",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f072",
+      "title_tr": "Her Gün Bayram Olsa",
+      "slug": "her_gun_bayram_olsa",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f073",
+      "title_tr": "Hey Gi̇di̇ Gençli̇k Hey!",
+      "slug": "hey_gi_di_gencli_k_hey",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f074",
+      "title_tr": "Hirsizin Eli Beratlisi",
+      "slug": "hirsizin_eli_beratlisi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f075",
+      "title_tr": "Hi̇kmeti̇nden Sual Olunmaz",
+      "slug": "hi_kmeti_nden_sual_olunmaz",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f076",
+      "title_tr": "Huylu, Huyundan Geçer Mi̇",
+      "slug": "huylu_huyundan_gecer_mi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f077",
+      "title_tr": "İğne İpli̇k",
+      "slug": "i_gne_i_pli_k",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f078",
+      "title_tr": "İlâmda Kusur Olur Mu?",
+      "slug": "i_lamda_kusur_olur_mu",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f079",
+      "title_tr": "İmaret Deği̇l Burasi",
+      "slug": "i_maret_degi_l_burasi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f080",
+      "title_tr": "İnsan Bol Buldu Mu, Bunarmiş",
+      "slug": "i_nsan_bol_buldu_mu_bunarmis",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f081",
+      "title_tr": "İpe Un Sermi̇şler",
+      "slug": "i_pe_un_sermi_sler",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f082",
+      "title_tr": "İşi̇ Sağlam Kaziğa Bağlamiş",
+      "slug": "i_si_saglam_kaziga_baglamis",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f083",
+      "title_tr": "Kanatlanacak Deği̇l Ya",
+      "slug": "kanatlanacak_degi_l_ya",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f084",
+      "title_tr": "Kavukta Keramet Varsa",
+      "slug": "kavukta_keramet_varsa",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f085",
+      "title_tr": "Kazin Ayaği Öyle Deği̇l",
+      "slug": "kazin_ayagi_oyle_degi_l",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f086",
+      "title_tr": "Kendi̇m Sandim",
+      "slug": "kendi_m_sandim",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f087",
+      "title_tr": "Kerbela’Ya Düşmüş Gi̇bi̇",
+      "slug": "kerbela_ya_dusmus_gi_bi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f088",
+      "title_tr": "Kirk Köyden Kovulur",
+      "slug": "kirk_koyden_kovulur",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f089",
+      "title_tr": "Kisasa Kisas",
+      "slug": "kisasa_kisas",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f090",
+      "title_tr": "Kiyamet Kopanda",
+      "slug": "kiyamet_kopanda",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f091",
+      "title_tr": "Kiyamet Öyle Kopmaz, Böyle Kopar",
+      "slug": "kiyamet_oyle_kopmaz_boyle_kopar",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f092",
+      "title_tr": "Ki̇mi̇n Hatirin A Geli̇r",
+      "slug": "ki_mi_n_hatirin_a_geli_r",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f093",
+      "title_tr": "Ki̇tabin Yazdiğina Bakilirsa",
+      "slug": "ki_tabin_yazdigina_bakilirsa",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f094",
+      "title_tr": "Kör Dögüşü",
+      "slug": "kor_dogusu",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f095",
+      "title_tr": "Kör Kütük Olmuş",
+      "slug": "kor_kutuk_olmus",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f096",
+      "title_tr": "Koy Dumani Doğru Çiksin",
+      "slug": "koy_dumani_dogru_ciksin",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f097",
+      "title_tr": "Köyümüzün Can Şenli̇ği̇",
+      "slug": "koyumuzun_can_senli_gi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f098",
+      "title_tr": "Kul Borcu, Allah Borcu",
+      "slug": "kul_borcu_allah_borcu",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f099",
+      "title_tr": "Kuş Olsa Yeti̇şemez",
+      "slug": "kus_olsa_yeti_semez",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f100",
+      "title_tr": "Kuyu Da Ne Kuyu",
+      "slug": "kuyu_da_ne_kuyu",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f101",
+      "title_tr": "Kürsüden İnmek De Mi̇",
+      "slug": "kursuden_i_nmek_de_mi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f102",
+      "title_tr": "Maşallah Nur Topu Gi̇bi̇",
+      "slug": "masallah_nur_topu_gi_bi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f103",
+      "title_tr": "Mavi̇ Boncuk",
+      "slug": "mavi_boncuk",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f104",
+      "title_tr": "Meram Anlatamadim Gi̇tti̇",
+      "slug": "meram_anlatamadim_gi_tti",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f105",
+      "title_tr": "Merdi̇ven Dedi̇ği̇n",
+      "slug": "merdi_ven_dedi_gi_n",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f106",
+      "title_tr": "Misir’A Kadi Olmuş",
+      "slug": "misir_a_kadi_olmus",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f107",
+      "title_tr": "Ne Aliş Veri̇şi̇m Kalacak?",
+      "slug": "ne_alis_veri_si_m_kalacak",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f108",
+      "title_tr": "Ne Altin Oldu, Ne Gümüş!",
+      "slug": "ne_altin_oldu_ne_gumus",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f109",
+      "title_tr": "Ne Ci̇ngöz, Ne Sari Öküz",
+      "slug": "ne_ci_ngoz_ne_sari_okuz",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f110",
+      "title_tr": "Ne Yüzüme Bakiyorsun?",
+      "slug": "ne_yuzume_bakiyorsun",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f111",
+      "title_tr": "Nuh Nebi̇’Den Kalma",
+      "slug": "nuh_nebi_den_kalma",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f112",
+      "title_tr": "Od Yok, Ocak Yok",
+      "slug": "od_yok_ocak_yok",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f113",
+      "title_tr": "Oğlun Kadar Da Olamadin",
+      "slug": "oglun_kadar_da_olamadin",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f114",
+      "title_tr": "Ona Da Oldu Olanlar!",
+      "slug": "ona_da_oldu_olanlar",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f115",
+      "title_tr": "Orasi Öyle Ama",
+      "slug": "orasi_oyle_ama",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f116",
+      "title_tr": "Orta Göbeği̇nden Vurmuş",
+      "slug": "orta_gobegi_nden_vurmus",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f117",
+      "title_tr": "Öbür Dünyaya Gi̇tmi̇ş, Gelmi̇ş Ama",
+      "slug": "obur_dunyaya_gi_tmi_s_gelmi_s_ama",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f118",
+      "title_tr": "Ölme Eşeği̇m, Ölme",
+      "slug": "olme_esegi_m_olme",
+      "status": "scripted",
+      "script_file": "f_olme_esegim.txt"
+    },
+    {
+      "id": "f119",
+      "title_tr": "Öp De, Başina Koy",
+      "slug": "op_de_basina_koy",
+      "status": "scripted",
+      "script_file": "f_op_de_basina_koy.txt"
+    },
+    {
+      "id": "f120",
+      "title_tr": "Ördek Çorbasi",
+      "slug": "ordek_corbasi",
+      "status": "scripted",
+      "script_file": "f_ordek_corbasi.txt"
+    },
+    {
+      "id": "f121",
+      "title_tr": "Ötesi̇ne Allah Keri̇m",
+      "slug": "otesi_ne_allah_keri_m",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f122",
+      "title_tr": "Parayi Veren, Düdüğü Çalar",
+      "slug": "parayi_veren_dudugu_calar",
+      "status": "scripted",
+      "script_file": "f105_parayi_veren.txt",
+      "id_note": "batch01"
+    },
+    {
+      "id": "f123",
+      "title_tr": "Sahaflardan Deği̇l, Kavaflardan",
+      "slug": "sahaflardan_degi_l_kavaflardan",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f124",
+      "title_tr": "Sakiz Mi Dedi̇n, Sakiz",
+      "slug": "sakiz_mi_dedi_n_sakiz",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f125",
+      "title_tr": "Saklarlar Da Güzün Yerler",
+      "slug": "saklarlar_da_guzun_yerler",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f126",
+      "title_tr": "Sana Göre Ne Var",
+      "slug": "sana_gore_ne_var",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f127",
+      "title_tr": "Sen De Haklisin",
+      "slug": "sen_de_haklisin",
+      "status": "scripted",
+      "script_file": "f125_sen_de_haklisin.txt",
+      "id_note": "batch01"
+    },
+    {
+      "id": "f128",
+      "title_tr": "Seni̇ Gi̇di̇ Seni̇!",
+      "slug": "seni_gi_di_seni",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f129",
+      "title_tr": "Sermayeyi̇ Kedi̇ye Yüklemek",
+      "slug": "sermayeyi_kedi_ye_yuklemek",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f130",
+      "title_tr": "Sinamayi Kurt Yemez",
+      "slug": "sinamayi_kurt_yemez",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f131",
+      "title_tr": "Sormasi Ayip Olmasin Ya",
+      "slug": "sormasi_ayip_olmasin_ya",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f132",
+      "title_tr": "Soyar, Soğana Çevi̇ri̇rler",
+      "slug": "soyar_sogana_cevi_ri_rler",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f133",
+      "title_tr": "Sökül Bakalim Ondaliğimi",
+      "slug": "sokul_bakalim_ondaligimi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f134",
+      "title_tr": "Sözünü Bi̇lmezi̇n Bi̇ri̇",
+      "slug": "sozunu_bi_lmezi_n_bi_ri",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f135",
+      "title_tr": "Suç, Günah Ki̇mde",
+      "slug": "suc_gunah_ki_mde",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f136",
+      "title_tr": "Şu Gurbet Ellerde",
+      "slug": "su_gurbet_ellerde",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f137",
+      "title_tr": "Şu Ağir Gövde İle",
+      "slug": "su_agir_govde_i_le",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f138",
+      "title_tr": "Tanri Mi̇safi̇ri̇",
+      "slug": "tanri_mi_safi_ri",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f139",
+      "title_tr": "Tavşana Kaç, Taziya Tut!",
+      "slug": "tavsana_kac_taziya_tut",
+      "status": "scripted",
+      "script_file": "f_tavsana_kac.txt"
+    },
+    {
+      "id": "f140",
+      "title_tr": "Tavşanin Suyunun Suyu",
+      "slug": "tavsanin_suyunun_suyu",
+      "status": "scripted",
+      "script_file": "f139_tavsanin_suyu.txt",
+      "id_note": "batch01"
+    },
+    {
+      "id": "f141",
+      "title_tr": "Teli̇nle, Duvağinla",
+      "slug": "teli_nle_duvaginla",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f142",
+      "title_tr": "Testi̇yi̇ Kirdiktan Geri̇",
+      "slug": "testi_yi_kirdiktan_geri",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f143",
+      "title_tr": "Tevekkeli̇ Deği̇l",
+      "slug": "tevekkeli_degi_l",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f144",
+      "title_tr": "Tingir Elek, Tingir Saç",
+      "slug": "tingir_elek_tingir_sac",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f145",
+      "title_tr": "Tutmasina Tutmaz Ama...",
+      "slug": "tutmasina_tutmaz_ama",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f146",
+      "title_tr": "Tuz, Ekmek Hakki İçi̇n",
+      "slug": "tuz_ekmek_hakki_i_ci_n",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f147",
+      "title_tr": "Tüyü Bozuğun Bi̇ri̇",
+      "slug": "tuyu_bozugun_bi_ri",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f148",
+      "title_tr": "Uyku Başina Siçramiş",
+      "slug": "uyku_basina_sicramis",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f149",
+      "title_tr": "Uykusunu Kaçirmiş",
+      "slug": "uykusunu_kacirmis",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f150",
+      "title_tr": "Uykuyu Haram Etmi̇ş",
+      "slug": "uykuyu_haram_etmi_s",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f151",
+      "title_tr": "Üstüne Bi̇r Tas Su İç",
+      "slug": "ustune_bi_r_tas_su_i_c",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f152",
+      "title_tr": "Üstüne Düşmeyen Şeye Karişma",
+      "slug": "ustune_dusmeyen_seye_karisma",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f153",
+      "title_tr": "Üzümünü Ye, Bağini Sorma",
+      "slug": "uzumunu_ye_bagini_sorma",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f154",
+      "title_tr": "Ya Ağlamaya Eli̇m Değmezse",
+      "slug": "ya_aglamaya_eli_m_degmezse",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f155",
+      "title_tr": "Ya Ben De İçi̇nde Olsaydim",
+      "slug": "ya_ben_de_i_ci_nde_olsaydim",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f156",
+      "title_tr": "Ya Deve, Ya Deveci̇",
+      "slug": "ya_deve_ya_deveci",
+      "status": "scripted",
+      "script_file": "f_ya_deve_ya_deveci.txt"
+    },
+    {
+      "id": "f157",
+      "title_tr": "Ya Rüyasina Gi̇rersem",
+      "slug": "ya_ruyasina_gi_rersem",
+      "status": "scripted",
+      "script_file": "f_ya_ruyasina_girersem.txt"
+    },
+    {
+      "id": "f158",
+      "title_tr": "Ya Secdeye Kapanirsa",
+      "slug": "ya_secdeye_kapanirsa",
+      "status": "scripted",
+      "script_file": "f_ya_secdeye_kapanirsa.txt"
+    },
+    {
+      "id": "f159",
+      "title_tr": "Ya Üstünde Olsaydim",
+      "slug": "ya_ustunde_olsaydim",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f160",
+      "title_tr": "Yalanini Yüzüne Vurur",
+      "slug": "yalanini_yuzune_vurur",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f161",
+      "title_tr": "Yapan Yapmiş Yapisini",
+      "slug": "yapan_yapmis_yapisini",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f162",
+      "title_tr": "Ye Kürküm, Ye...",
+      "slug": "ye_kurkum_ye",
+      "status": "scripted",
+      "script_file": "f172_ye_kurkum_ye.txt",
+      "id_note": "batch01"
+    },
+    {
+      "id": "f163",
+      "title_tr": "Yel Üfürdü, Su Götürdü",
+      "slug": "yel_ufurdu_su_goturdu",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f164",
+      "title_tr": "Yerden Alip Göğe Savuruyor",
+      "slug": "yerden_alip_goge_savuruyor",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f165",
+      "title_tr": "Yeri̇nde Yeller Esecekti̇",
+      "slug": "yeri_nde_yeller_esecekti",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f166",
+      "title_tr": "Yesene Be Bi̇rader",
+      "slug": "yesene_be_bi_rader",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f167",
+      "title_tr": "Yeter Gayri Uzatma",
+      "slug": "yeter_gayri_uzatma",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f168",
+      "title_tr": "Yolculuk Bu",
+      "slug": "yolculuk_bu",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f169",
+      "title_tr": "Yorgan Gi̇tti̇, Kavga Bi̇tti̇",
+      "slug": "yorgan_gi_tti_kavga_bi_tti",
+      "status": "scripted",
+      "script_file": "f173_yorgan_gitti.txt"
+    },
+    {
+      "id": "f170",
+      "title_tr": "Yorulayim Deme",
+      "slug": "yorulayim_deme",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f171",
+      "title_tr": "Yükü Yetmi̇yormuş Gi̇bi̇",
+      "slug": "yuku_yetmi_yormus_gi_bi",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f172",
+      "title_tr": "Nasretti̇n Hoca’Nin",
+      "slug": "nasretti_n_hoca_nin",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f173",
+      "title_tr": "Tari̇hçi̇ Gözüyle Nasretti̇n Hoca",
+      "slug": "tari_hci_gozuyle_nasretti_n_hoca",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f174",
+      "title_tr": "Eleşti̇rmen Gözüyle Nasretti̇n Hoca",
+      "slug": "elesti_rmen_gozuyle_nasretti_n_hoca",
+      "status": "pending",
+      "script_file": null
+    },
+    {
+      "id": "f175",
+      "title_tr": "Folklorcu Gözüyle Nasretti̇n Hoca",
+      "slug": "folklorcu_gozuyle_nasretti_n_hoca",
+      "status": "pending",
+      "script_file": null
+    }
+  ],
+  "scripted_count": 15
+}

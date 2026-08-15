@@ -1,0 +1,30 @@
+# ===== META =====
+# title_en: Don't Die, My Donkey | title_tr: Ölme Eşeğim, Ölme
+# duration_target: 45-55s | voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural | format: 9:16
+
+[scene: village_square | chars: villager_a, villager_b | props: empty_baskets | action: villagers_gloomy]
+EN: One year, a terrible famine hit the town. No rain, no grain, no hay. People could barely feed themselves.
+TR: Bir yıl memlekete korkunç bir kıtlık çöktü. Ne yağmur var, ne arpa, ne saman. İnsanlar kendi boğazını zor doyuruyordu.
+
+[scene: barn_interior | chars: hoca | props: donkey, bran_handful | action: hoca_shares_food]
+EN: But Hodja, every single day, saved a handful of bran from his own plate... and brought it to his donkey.
+TR: Ama Hoca her gün kendi boğazından bir avuç kepek artırır... eşeğine getirirdi.
+
+[scene: barn_interior | chars: hoca | props: donkey | action: hoca_whispers_to_ear]
+EN: And every day, he leaned close to its ear and whispered the same promise:
+TR: Ve her gün kulağına eğilip aynı sözü fısıldardı:
+
+[scene: barn_interior | chars: hoca | props: donkey | action: hoca_pleads_gentle]
+EN: "Don't die, my donkey. Don't die. Hold on just a little..."
+TR: "Ölme eşeğim, ölme. Dayan azıcık..."
+
+[scene: barn_interior | chars: hoca | props: donkey, barley_dream_bubble | action: hoca_promises_dreamy]
+EN: "When summer comes... I'll give you barley by the HANDFUL. Heaps of it! Mountains of it!"
+TR: "Yaz gelince... sana avuç avuç arpa vereceğim. Tepeleme! Dağ gibi!"
+
+[scene: barn_interior | chars: hoca | props: donkey | action: donkey_side_eye]
+EN: The donkey chewed the bran slowly... and gave him a look that said: "Summer, huh. Sure."
+TR: Eşek kepeği ağır ağır çiğnedi... ve şöyle bir baktı: "Yaz demek. Tabii tabii."
+
+# punchline_hold: 2s — donkey deadpan side-eye at camera
+# NEW ASSETS: barn_interior (env), bran_handful, dream_bubble (thought overlay), donkey face expressions

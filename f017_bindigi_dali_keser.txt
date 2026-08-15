@@ -1,0 +1,48 @@
+# ===== META =====
+# id: f017 (Bindiği Dalı Keser)
+# title_en: The Man Who Saw the Future
+# title_tr: Bindiği Dalı Keser
+# duration_target: 55-65s
+# voice_en: en-US-GuyNeural
+# voice_tr: tr-TR-AhmetNeural
+# format: 9:16
+# hook: visual_slapstick
+
+[scene: forest | chars: hoca | props: tree_big, axe, branch | action: hoca_on_branch_chopping]
+EN: One day, Hodja climbed a tree, sat on a branch... and started chopping it. The very branch he was sitting on.
+TR: Bir gün Hoca ağaca çıktı, bir dala oturdu... ve o dalı kesmeye başladı. Üstünde oturduğu dalı.
+
+[scene: forest | chars: hoca, traveler | props: tree_big, axe | action: traveler_warns]
+EN: A traveler passing by shouted: "Hey! Old man! You're cutting the branch you're SITTING on! You'll fall!"
+TR: Yoldan geçen bir adam seslendi: "Baba! Bindiğin dalı kesiyorsun! Düşeceksin!"
+
+[scene: forest | chars: hoca | props: tree_big, axe | action: hoca_ignores_chops]
+EN: Hodja rolled his eyes. "Mind your own business." Chop. Chop. Chop—
+TR: Hoca omuz silkti. "Sen işine bak." Tak. Tak. Tak—
+
+[scene: forest | chars: hoca | props: branch_falling | action: branch_breaks_fall]
+EN: CRACK.
+TR: ÇATIRT.
+
+[scene: forest | chars: hoca | props: broken_branch | action: hoca_on_ground_dazed]
+EN: Hodja hit the ground. But instead of being angry... he was AMAZED.
+TR: Hoca yere serildi. Ama kızmak yerine... hayretler içindeydi.
+
+[scene: forest_road | chars: hoca, traveler | action: hoca_chases_grabs]
+EN: He ran after the traveler and grabbed his collar: "You knew I would fall — so you must know when I'll DIE! Tell me!"
+TR: Adamın peşinden koşup yakasına yapıştı: "Sen benim düşeceğimi bildin — öleceğim günü de bilirsin! Söyle!"
+
+[scene: forest_road | chars: hoca, traveler | props: donkey | action: traveler_escapes_pointing]
+EN: The poor man, desperate to escape, said: "Fine! When your donkey brays twice on a hill... you're done." And he ran.
+TR: Adamcağız yakayı kurtarmak için: "Peki! Eşeğin yokuşta iki kez anırırsa... işin biter." deyip kaçtı.
+
+[scene: hill_road | chars: hoca | props: donkey, wood_load | action: donkey_brays_hoca_faints]
+EN: On the way home... the donkey brayed. Twice. Hodja lay down on the road: "Well. That's it. I'm dead."
+TR: Eve dönerken... eşek anırdı. İki kez. Hoca yola uzanıverdi: "Eh. Bu kadarmış. Öldüm."
+
+# punchline_hold: 1.5s — hoca lying flat, donkey confused looking at him
+# ===== NEW ASSETS =====
+# chars: traveler (template variant)
+# props: tree_big (climbable, branch joint), axe, branch_falling, donkey (RIG — reusable everywhere), wood_load
+# envs: forest, forest_road, hill_road (slope variant of village_road)
+# note: donkey rig is high priority — appears in dozens of fıkras
