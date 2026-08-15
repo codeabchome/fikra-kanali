@@ -1,0 +1,60 @@
+name: Gunluk Fikra Yayini
+
+on:
+  schedule:
+    # UTC 06:30, 11:30, 15:30 = TR saatiyle ~09:30, 14:30, 18:30 (gunde 3 bolum)
+    - cron: "30 6 * * *"
+    - cron: "30 11 * * *"
+    - cron: "30 15 * * *"
+  workflow_dispatch:
+    inputs:
+      episodes:
+        description: "Bu calismada kac bolum yayinlansin"
+        default: "1"
+      privacy:
+        description: "public / unlisted / private"
+        default: "public"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Bagimliliklar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install -q -r requirements.txt
+
+      - name: Bolumleri uret ve yayinla
+        env:
+          EN_CLIENT_ID: ${{ secrets.YT_EN_CLIENT_ID }}
+          EN_CLIENT_SECRET: ${{ secrets.YT_EN_CLIENT_SECRET }}
+          EN_REFRESH_TOKEN: ${{ secrets.YT_EN_REFRESH_TOKEN }}
+          TR_CLIENT_ID: ${{ secrets.YT_TR_CLIENT_ID }}
+          TR_CLIENT_SECRET: ${{ secrets.YT_TR_CLIENT_SECRET }}
+          TR_REFRESH_TOKEN: ${{ secrets.YT_TR_REFRESH_TOKEN }}
+          EPISODES_PER_RUN: ${{ github.event.inputs.episodes || '1' }}
+          PRIVACY: ${{ github.event.inputs.privacy || 'public' }}
+        run: python -m pipeline.run_daily
+
+      - name: Defteri commit et
+        run: |
+          git config user.name "fikra-bot"
+          git config user.email "actions@github.com"
+          git pull --rebase || true
+          git add content/published/published.json
+          git diff --cached --quiet || git commit -m "yayin defteri guncellendi [skip ci]"
+          git push
