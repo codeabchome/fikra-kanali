@@ -28,7 +28,7 @@ class Episode:
 
 
 TAG_RE = re.compile(r"^\[scene:\s*(?P<body>.+?)\]\s*$")
-LINE_RE = re.compile(r"^(EN|TR):\s*(.+)$")
+LINE_RE = re.compile(r"^(EN|TR|BEN|BTR):\s*(.+)$")
 HOLD_RE = re.compile(r"punchline_hold:\s*([\d.]+)")
 
 

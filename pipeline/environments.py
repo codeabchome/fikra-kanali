@@ -10,34 +10,25 @@ W, H = 1080, 1920
 GROUND_Y = 1560
 INK = (35, 32, 30)
 
-DAY = {"sky_top": (150, 200, 235), "sky_bot": (205, 230, 245),
-       "ground": (215, 165, 100), "ground2": (190, 140, 80)}
-NIGHT = {"sky_top": (25, 30, 60), "sky_bot": (55, 65, 105),
-         "ground": (90, 80, 90), "ground2": (70, 62, 72)}
-INTERIOR = {"wall": (205, 170, 120), "wall2": (185, 150, 100),
-            "floor": (150, 100, 60)}
-INTERIOR_NIGHT = {"wall": (120, 95, 75), "wall2": (100, 78, 60),
-                  "floor": (85, 60, 42)}
+DAY = {"sky_top": (125, 205, 235), "sky_bot": (125, 205, 235),
+       "ground": (190, 190, 190), "ground2": (190, 190, 190)}
+NIGHT = {"sky_top": (45, 55, 110), "sky_bot": (45, 55, 110),
+         "ground": (130, 130, 145), "ground2": (130, 130, 145)}
+INTERIOR = {"wall": (245, 205, 130), "wall2": (245, 205, 130),
+            "floor": (200, 140, 80)}
+INTERIOR_NIGHT = {"wall": (150, 125, 165), "wall2": (150, 125, 165),
+                  "floor": (110, 90, 125)}
 
 
 def _vgrad(img, y0, y1, c0, c1):
-    d = ImageDraw.Draw(img)
-    for y in range(y0, y1):
-        t = (y - y0) / max(1, (y1 - y0))
-        c = tuple(int(c0[i] + (c1[i] - c0[i]) * t) for i in range(3))
-        d.line([(0, y), (W, y)], fill=c)
+    ImageDraw.Draw(img).rectangle((0, y0, W, y1), fill=c0)
 
 
 def _outdoor_base(img, sk, pal, t):
     _vgrad(img, 0, GROUND_Y - 380, pal["sky_top"], pal["sky_bot"])
     _vgrad(img, GROUND_Y - 380, H, pal["ground"], pal["ground2"])
-    # zemin dokusu
-    for i in range(6):
-        y = GROUND_Y - 40 + i * 60
-        sk.line((40, y + (i % 2) * 12), (W - 40, y - (i % 2) * 10),
-                fill=tuple(max(0, c - 18) for c in pal["ground2"]), width=3)
-    # bulutlar (yavaş kayar)
-    cx = (t * 18) % (W + 500) - 250
+    # bulutlar (statik)
+    cx = 120
     for dx, dy, s in ((0, 220, 1.0), (620, 360, 0.7)):
         x = (cx + dx) % (W + 500) - 250
         col = (250, 250, 252) if pal is DAY else (80, 88, 120)
@@ -45,13 +36,13 @@ def _outdoor_base(img, sk, pal, t):
         sk.ellipse(x + 80 * s, dy - 20 * s, 90 * s, 34 * s, fill=col, outline=None)
 
 
-def _house(sk, x, y, s=1.0, color=(210, 150, 90), roof=(170, 60, 50)):
+def _house(sk, x, y, s=1.0, color=(245, 170, 90), roof=(225, 80, 70)):
     sk.poly([(x - 110 * s, y), (x + 110 * s, y), (x + 110 * s, y - 150 * s), (x - 110 * s, y - 150 * s)],
             fill=color, outline=INK, width=4)
     sk.poly([(x - 125 * s, y - 150 * s), (x + 125 * s, y - 150 * s), (x + 95 * s, y - 195 * s), (x - 95 * s, y - 195 * s)],
             fill=roof, outline=INK, width=4)
     sk.poly([(x - 35 * s, y - 60 * s), (x + 35 * s, y - 60 * s), (x + 35 * s, y - 120 * s), (x - 35 * s, y - 120 * s)],
-            fill=(90, 130, 160), outline=INK, width=3)
+            fill=(140, 210, 240), outline=INK, width=3)
     sk.line((x, y - 60 * s), (x, y - 120 * s), fill=INK, width=2)
     sk.line((x - 35 * s, y - 90 * s), (x + 35 * s, y - 90 * s), fill=INK, width=2)
 
@@ -69,8 +60,10 @@ def village_square(img, sk, t, night=False):
     _outdoor_base(img, sk, pal, t)
     _house(sk, 190, GROUND_Y - 320, 0.9, (200, 140, 85))
     _house(sk, 880, GROUND_Y - 300, 1.0, (215, 160, 100), (90, 110, 70))
-    _minaret(sk, 545, GROUND_Y - 330, 1.0)
-    sk.ellipse(545, GROUND_Y - 330, 90, 55, fill=(230, 225, 215), outline=INK, width=3)
+    sk.poly([(455, GROUND_Y - 330), (635, GROUND_Y - 330), (635, GROUND_Y - 460), (455, GROUND_Y - 460)],
+            fill=(235, 230, 220), outline=INK, width=5)
+    sk.arc(545, GROUND_Y - 460, 90, 180, 360, fill=(120, 170, 120), width=40)
+    _minaret(sk, 690, GROUND_Y - 330, 0.8)
     if night:
         from .props import moon
         moon(sk, 900, 260, 1.0, t)

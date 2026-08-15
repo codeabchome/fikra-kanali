@@ -1,202 +1,226 @@
 # -*- coding: utf-8 -*-
-"""human.py — parametrik karakter şablonu + imza karakterler.
-Her karakter draw(sk, x, y, scale, pose, t, facing) ile çizilir.
-x,y = ayak hizası merkez. Pozlar aksiyon çözücüden gelir."""
+"""human.py — v2: Paint Terk stili karakterler.
+Sari yuvarlak kafa + yuvarlatilmis dikdortgen govde + kalin siyah kol/bacak,
+kirmizi yanak. STATIK."""
 import hashlib
 import math
 
-SKIN = (224, 172, 138)
-INK = (35, 32, 30)
+INK = (15, 15, 15)
+SKIN = (255, 200, 10)
+CHEEK = (235, 60, 50)
 
-ROBES = [(106, 76, 147), (44, 110, 73), (160, 64, 52), (52, 88, 148),
-         (150, 100, 40), (90, 90, 100), (170, 120, 160), (60, 120, 120)]
-TURBANS = [(240, 236, 220), (200, 60, 60), (70, 130, 70), (220, 170, 60),
-           (120, 160, 200), (180, 120, 170)]
+SHIRT_COLORS = [(255, 200, 10), (90, 200, 90), (250, 120, 60), (120, 170, 250),
+                (240, 110, 170), (170, 130, 250), (250, 210, 90)]
+HAT_COLORS = [(20, 20, 20), (200, 40, 40), (40, 120, 200), (90, 60, 40)]
+
+TR_NAMES = {"hoca": "HOCA", "wife": "HANIM", "timur": "TIMUR", "guard": "ASKER",
+            "butcher": "KASAP", "traveler": "YOLCU", "innkeeper": "HANCI",
+            "dervish": "DERVIS", "merchant": "SATICI", "peasant": "KOYLU",
+            "friend": "AHBAP", "host": "EV SAHIBI", "buyer": "MUSTERI",
+            "auctioneer": "TELLAL", "passerby": "YOLCU"}
+EN_NAMES = {"hoca": "HODJA", "wife": "WIFE", "timur": "TIMUR", "guard": "GUARD",
+            "butcher": "BUTCHER", "traveler": "TRAVELER", "innkeeper": "INNKEEPER",
+            "dervish": "DERVISH", "merchant": "MERCHANT", "peasant": "VILLAGER",
+            "friend": "FRIEND", "host": "HOST", "buyer": "BUYER",
+            "auctioneer": "AUCTIONEER", "passerby": "PASSERBY"}
+GENERIC_TR = {"villager": "KOYLU", "fighter": "KAVGACI", "kid": "COCUK",
+              "stranger": "MISAFIR", "guest": "MISAFIR", "neighbor": "KOMSU",
+              "plaintiff": "DAVACI", "defendant": "DAVALI"}
+GENERIC_EN = {"villager": "VILLAGER", "fighter": "FIGHTER", "kid": "KID",
+              "stranger": "GUEST", "guest": "GUEST", "neighbor": "NEIGHBOR",
+              "plaintiff": "MAN 1", "defendant": "MAN 2"}
+
+TR_FIX = {"TIMUR": "TIMUR", "DERVIS": "DERVI\u015e", "KOYLU": "K\u00d6YL\u00dc",
+          "MUSTERI": "M\u00dc\u015eTER\u0130", "COCUK": "\u00c7OCUK",
+          "MISAFIR": "M\u0130SAF\u0130R", "KOMSU": "KOM\u015eU"}
 
 
-def _h(name, salt=""):
-    return int(hashlib.md5((name + salt).encode()).hexdigest(), 16)
+def display_name(key, lang="TR"):
+    key = key.lower()
+    table = TR_NAMES if lang == "TR" else EN_NAMES
+    label = None
+    if key in table:
+        label = table[key]
+    else:
+        gen = GENERIC_TR if lang == "TR" else GENERIC_EN
+        for g, lb in gen.items():
+            if key.startswith(g):
+                label = lb
+                break
+    if label is None:
+        label = key.upper().replace("_", " ")
+    if lang == "TR":
+        label = TR_FIX.get(label, label)
+    return label
+
+
+def _h(name):
+    return int(hashlib.md5(name.encode()).hexdigest(), 16)
 
 
 class Character:
-    def __init__(self, name, build="normal", beard=None, headwear=None,
-                 robe=None, turban=None, big_turban=False, child=False,
-                 female=False):
+    def __init__(self, name, child=False, female=False):
         h = _h(name)
         self.name = name
         self.child = child
         self.female = female
-        self.build = build if build != "auto" else ["thin", "normal", "stocky"][h % 3]
-        self.beard = beard if beard is not None else (h >> 3) % 3  # 0 yok,1 kısa,2 uzun
-        self.robe = robe or ROBES[h % len(ROBES)]
-        self.turban = turban or TURBANS[(h >> 5) % len(TURBANS)]
-        self.headwear = headwear or ("turban" if not female else "scarf")
-        self.big_turban = big_turban
+        self.key = name.lower()
+        self.is_hoca = self.key == "hoca"
+        self.is_timur = self.key == "timur"
+        self.shirt = SHIRT_COLORS[h % len(SHIRT_COLORS)]
+        self.hat = HAT_COLORS[(h >> 4) % len(HAT_COLORS)]
+        self.hair_style = (h >> 8) % 3
+        if self.is_hoca:
+            self.shirt = (150, 90, 200)
+        if self.is_timur:
+            self.shirt = (230, 60, 60)
+        if female and not self.is_hoca:
+            self.shirt = (250, 120, 170)
+        self.hand_pos = None
 
-    # ------------------------------------------------------------------
     def draw(self, sk, x, y, scale=1.0, pose="idle", t=0.0, facing=1):
-        s = scale * (0.62 if self.child else 1.0)
-        H = 300 * s                      # toplam boy
-        head_r = (34 if not self.child else 40) * s
-        bob = math.sin(t * 2 * math.pi * 1.4) * 3 * s
-        if pose in ("walk", "run", "flee"):
-            sp = 2.6 if pose != "run" else 4.5
-            bob = abs(math.sin(t * 2 * math.pi * sp)) * 5 * s
-        hip_y = y - H * 0.42 + bob
-        sh_y = y - H * 0.78 + bob        # omuz
-        head_c = (x, y - H * 0.88 + bob)
+        s = scale * (0.65 if self.child else 1.0)
+        head_r = 62 * s
+        body_w = 130 * s
+        body_h = 170 * s
+        leg_h = 110 * s
+        lw = max(10, int(16 * s))
 
-        wide = {"thin": 0.8, "normal": 1.0, "stocky": 1.25}[self.build]
-        belly = 1.35 if self.build == "stocky" else 1.0
+        hip_y = y - leg_h
+        top_y = hip_y - body_h
+        head_c = (x, top_y - head_r * 0.55)
+        self.hand_pos = (x + body_w * 0.42 * facing + 80 * s * facing,
+                         top_y + 60 * s)
 
         if pose == "lie":
-            self._draw_lying(sk, x, y, s, wide)
+            self._lying(sk, x, y, s, body_w, head_r, lw)
             return
 
-        # bacaklar (cübbe altından kısa)
-        leg_a = 0.0
-        if pose in ("walk", "run", "flee"):
-            sp = 2.6 if pose != "run" else 4.5
-            leg_a = math.sin(t * 2 * math.pi * sp) * (14 if pose == "walk" else 24) * s
-        sk.line((x - 12 * s * wide, hip_y), (x - 12 * s * wide + leg_a, y), fill=INK, width=int(6 * s) or 3)
-        sk.line((x + 12 * s * wide, hip_y), (x + 12 * s * wide - leg_a, y), fill=INK, width=int(6 * s) or 3)
-        # ayaklar
-        sk.line((x - 12 * s * wide + leg_a, y), (x - 12 * s * wide + leg_a + 14 * s * facing, y), fill=INK, width=int(6 * s) or 3)
-        sk.line((x + 12 * s * wide - leg_a, y), (x + 12 * s * wide - leg_a + 14 * s * facing, y), fill=INK, width=int(6 * s) or 3)
+        # bacaklar + ayaklar
+        for side in (-1, 1):
+            lx = x + body_w * 0.24 * side
+            sk.line((lx, hip_y + 6), (lx, y), fill=INK, width=lw)
+            sk.line((lx, y), (lx + 30 * s * facing, y), fill=INK, width=lw)
 
-        # cübbe / entari
-        rw = 34 * s * wide * belly
-        robe_pts = [(x - rw * 0.55, sh_y), (x + rw * 0.55, sh_y),
-                    (x + rw, hip_y + 26 * s), (x - rw, hip_y + 26 * s)]
-        sk.poly(robe_pts, fill=self.robe, outline=INK, width=int(4 * s) or 3)
-        if self.build == "stocky":  # göbek vurgusu
-            sk.arc(x, sh_y + (hip_y - sh_y) * 0.62, rw * 0.72, 200, 340,
-                   fill=INK, width=int(3 * s) or 2)
+        # govde
+        sk.rrect(x - body_w / 2, top_y, x + body_w / 2, hip_y + 10 * s,
+                 r=int(34 * s), fill=self.shirt)
 
         # kollar
-        self._arms(sk, x, sh_y, s, wide, pose, t, facing)
+        self._arms(sk, x, top_y + 30 * s, body_w, s, lw, pose, facing)
 
-        # baş
-        sk.circle(*head_c, head_r, fill=SKIN, outline=INK, width=int(4 * s) or 3)
-        ex = head_c[0] + 10 * s * facing
-        sk.d.ellipse((ex - 3 * s, head_c[1] - 6 * s, ex + 3 * s, head_c[1]), fill=INK)
-        sk.d.ellipse((ex - 3 * s - 16 * s * facing, head_c[1] - 6 * s,
-                      ex + 3 * s - 16 * s * facing, head_c[1]), fill=INK)
-        # sakal (önce; ağız üstüne çizilecek)
-        if self.beard and not self.female and not self.child:
-            col = (245, 245, 245) if self.beard == 2 else (70, 55, 45)
-            ln = 30 * s if self.beard == 2 else 16 * s
-            sk.poly([(head_c[0] - head_r * 0.62, head_c[1] + head_r * 0.55),
-                     (head_c[0] + head_r * 0.62, head_c[1] + head_r * 0.55),
-                     (head_c[0] + 6 * s * facing, head_c[1] + head_r * 0.75 + ln)],
-                    fill=col, outline=INK, width=int(3 * s) or 2)
-        # ağız
-        my = head_c[1] + head_r * 0.42
+        # kafa + yuz
+        sk.circle(*head_c, head_r, fill=SKIN)
+        ex = head_c[0] + head_r * 0.32 * facing
+        ey = head_c[1] - head_r * 0.10
+        sk.d.ellipse((ex - 7 * s, ey - 7 * s, ex + 7 * s, ey + 7 * s), fill=INK)
+        sk.circle(head_c[0] - head_r * 0.35 * facing, head_c[1] + head_r * 0.25,
+                  12 * s, fill=CHEEK)
+        mx = head_c[0] + head_r * 0.30 * facing
+        my = head_c[1] + head_r * 0.52
         if pose in ("shocked", "plead"):
-            sk.circle(head_c[0] + 4 * s * facing, my, 6 * s, fill=(90, 40, 40), outline=INK, width=2)
+            sk.circle(mx, my, 12 * s, fill=INK)
         else:
-            sk.arc(head_c[0] + 4 * s * facing, my - 2 * s, 8 * s, 20, 160, width=int(3 * s) or 2)
-        # başlık
+            sk.d.ellipse((mx - 10 * s, my - 4 * s, mx + 10 * s, my + 12 * s), fill=CHEEK)
+
+        if self.is_hoca:
+            sk.poly([(head_c[0] - head_r * 0.55, head_c[1] + head_r * 0.45),
+                     (head_c[0] + head_r * 0.55, head_c[1] + head_r * 0.45),
+                     (head_c[0], head_c[1] + head_r * 1.45)], fill=(250, 250, 250))
+        elif self.is_timur:
+            sk.poly([(head_c[0] - head_r * 0.4, head_c[1] + head_r * 0.5),
+                     (head_c[0] + head_r * 0.4, head_c[1] + head_r * 0.5),
+                     (head_c[0], head_c[1] + head_r * 0.95)], fill=INK)
+
         self._headwear(sk, head_c, head_r, s)
 
-    # ------------------------------------------------------------------
+    def _lying(self, sk, x, y, s, body_w, head_r, lw):
+        sk.rrect(x - 120 * s, y - 70 * s, x + 90 * s, y - 10 * s,
+                 r=int(28 * s), fill=self.shirt)
+        hx = x - 150 * s
+        sk.circle(hx, y - 45 * s, head_r * 0.9, fill=SKIN)
+        sk.line((hx - 20 * s, y - 50 * s), (hx + 2 * s, y - 50 * s), fill=INK, width=6)
+        if self.is_hoca:
+            sk.ellipse(hx, y - 45 * s - head_r * 0.8, head_r * 1.3, head_r * 0.6,
+                       fill=(250, 250, 250))
+        sk.line((x + 60 * s, y - 20 * s), (x + 110 * s, y), fill=INK, width=lw)
+
     def _headwear(self, sk, head_c, head_r, s):
         hx, hy = head_c
-        if self.headwear == "scarf":
-            sk.arc(hx, hy, head_r * 1.12, 140, 400, fill=self.turban, width=int(10 * s) or 5)
-            sk.poly([(hx - head_r, hy), (hx - head_r * 0.4, hy + head_r * 1.6),
-                     (hx + head_r * 0.4, hy + head_r * 1.6), (hx + head_r, hy)],
-                    fill=self.turban, outline=INK, width=int(3 * s) or 2)
-            sk.circle(hx, hy, head_r * 0.98, outline=INK, width=int(3 * s) or 2)
+        if self.is_hoca:
+            sk.ellipse(hx, hy - head_r * 0.85, head_r * 1.5, head_r * 0.75, fill=(250, 250, 250))
+            sk.ellipse(hx, hy - head_r * 1.35, head_r * 0.95, head_r * 0.5, fill=(250, 250, 250))
             return
-        if self.headwear == "helmet":
-            sk.arc(hx, hy - head_r * 0.15, head_r * 1.05, 180, 360, fill=(120, 120, 130), width=int(12 * s) or 6)
-            sk.line((hx, hy - head_r * 1.2), (hx, hy - head_r * 1.7), fill=(120, 120, 130), width=int(5 * s) or 3)
+        if self.is_timur:
+            sk.ellipse(hx, hy - head_r * 0.8, head_r * 1.3, head_r * 0.6, fill=(250, 215, 90))
+            sk.poly([(hx - 12 * s, hy - head_r * 1.35), (hx + 12 * s, hy - head_r * 1.35),
+                     (hx, hy - head_r * 1.85)], fill=(250, 215, 90))
             return
-        # sarık / kavuk
-        mult = 1.9 if self.big_turban else 1.25
-        ty = hy - head_r * (0.95 if not self.big_turban else 1.15)
-        sk.ellipse(hx, ty, head_r * mult, head_r * (0.62 if not self.big_turban else 0.95),
-                   fill=self.turban, outline=INK, width=int(4 * s) or 3)
-        sk.arc(hx, ty, head_r * mult * 0.7, 200, 340, width=int(3 * s) or 2)
-        if self.big_turban:
-            sk.ellipse(hx, ty - head_r * 0.5, head_r * 1.2, head_r * 0.5,
-                       fill=self.turban, outline=INK, width=int(3 * s) or 2)
+        if self.female:
+            sk.arc(hx, hy, head_r * 1.05, 150, 390, fill=(230, 120, 170),
+                   width=int(head_r * 0.45))
+            return
+        if self.key == "guard":
+            sk.arc(hx, hy - head_r * 0.1, head_r * 1.0, 180, 360,
+                   fill=(150, 150, 160), width=int(head_r * 0.5))
+            return
+        if self.hair_style == 0:
+            sk.ellipse(hx + head_r * 0.12, hy - head_r * 0.72, head_r * 0.85,
+                       head_r * 0.5, fill=INK)
+        elif self.hair_style == 1:
+            sk.ellipse(hx, hy - head_r * 0.7, head_r * 0.95, head_r * 0.45, fill=self.hat)
+            sk.ellipse(hx + head_r * 0.55, hy - head_r * 0.42, head_r * 0.5,
+                       head_r * 0.16, fill=self.hat)
+        else:
+            sk.ellipse(hx, hy - head_r * 0.75, head_r * 1.15, head_r * 0.5,
+                       fill=(245, 245, 240))
 
-    # ------------------------------------------------------------------
-    def _arms(self, sk, x, sh_y, s, wide, pose, t, facing):
-        w = int(6 * s) or 3
-        L = 52 * s
-        sw = 30 * s * wide  # omuz genişliği yarısı
+    def _arms(self, sk, x, sh_y, body_w, s, lw, pose, facing):
+        L = 95 * s
+        sxf = x + body_w * 0.40 * facing
+        sxb = x - body_w * 0.40 * facing
 
-        def arm(side, a1_deg, a2_deg):
-            sx = x + sw * side
-            a1 = math.radians(a1_deg)
-            ex_, ey_ = sx + math.cos(a1) * L * 0.55 * side, sh_y + math.sin(a1) * L * 0.55
-            a2 = math.radians(a2_deg)
-            hx_, hy_ = ex_ + math.cos(a2) * L * 0.5 * side, ey_ + math.sin(a2) * L * 0.5
-            sk.line((sx, sh_y), (ex_, ey_), fill=self.robe, width=w + 4)
-            sk.line((ex_, ey_), (hx_, hy_), fill=self.robe, width=w + 4)
-            sk.circle(hx_, hy_, 7 * s, fill=SKIN, outline=INK, width=2)
-            return hx_, hy_
+        def arm(sx, ang_deg, ln=L):
+            a = math.radians(ang_deg)
+            ex_ = sx + math.cos(a) * ln
+            ey_ = sh_y + math.sin(a) * ln
+            sk.line((sx, sh_y), (ex_, ey_), fill=INK, width=lw)
+            sk.circle(ex_, ey_, lw * 0.55, fill=INK)
+            return ex_, ey_
 
-        f, b = facing, -facing
+        F = 0 if facing > 0 else 180
+        B = 180 - F
         if pose == "point":
-            arm(b, 70, 80)
-            self.hand = arm(f, -20, -10)
+            arm(sxb, 90 + (25 if facing > 0 else -25))
+            self.hand_pos = arm(sxf, F - 18 * facing)
         elif pose == "plead":
-            arm(f, -35, -25); arm(b, -35, -25)
+            self.hand_pos = arm(sxf, F - 35 * facing)
+            arm(sxb, B + 35 * facing)
         elif pose == "shrug":
-            arm(f, -60, -140); arm(b, -60, -140)
+            arm(sxf, F - 55 * facing, L * 0.8)
+            arm(sxb, B + 55 * facing, L * 0.8)
         elif pose == "facepalm":
-            arm(b, 70, 80)
-            hx_, hy_ = arm(f, -75, -120)
+            arm(sxb, 90 + 25 * facing)
+            arm(sxf, F - 100 * facing, L * 0.72)
         elif pose == "carry":
-            arm(f, -10, -60); arm(b, -10, -60)
-        elif pose in ("walk", "run", "flee"):
-            sp = 2.6 if pose == "walk" else 4.5
-            sw_a = math.sin(t * 2 * math.pi * sp) * (25 if pose == "walk" else 45)
-            arm(f, 60 + sw_a, 70 + sw_a); arm(b, 60 - sw_a, 70 - sw_a)
-        elif pose == "talk":
-            g = math.sin(t * 2 * math.pi * 1.8) * 12
-            arm(f, 10 + g, 0 + g); arm(b, 70, 80)
+            self.hand_pos = arm(sxf, F - 12 * facing, L * 0.85)
+            arm(sxb, B + 15 * facing, L * 0.85)
         elif pose == "shocked":
-            arm(f, -50, -70); arm(b, -50, -70)
+            arm(sxf, F - 60 * facing)
+            arm(sxb, B + 60 * facing)
         elif pose == "bow":
-            arm(f, 40, 90); arm(b, 40, 90)
-        else:  # idle
-            arm(f, 70, 78); arm(b, 70, 78)
-
-    def _draw_lying(self, sk, x, y, s, wide):
-        # yerde yatan hâl (basit yan çizim)
-        sk.ellipse(x, y - 18 * s, 90 * s, 22 * s, fill=self.robe, outline=INK, width=3)
-        hx = x - 100 * s
-        sk.circle(hx, y - 20 * s, 30 * s, fill=SKIN, outline=INK, width=3)
-        sk.ellipse(hx - 6 * s, y - 48 * s, 34 * s, 16 * s, fill=self.turban, outline=INK, width=3)
-        sk.line((hx - 12 * s, y - 24 * s), (hx - 4 * s, y - 24 * s), fill=INK, width=2)  # kapalı göz
-        sk.line((hx + 2 * s, y - 24 * s), (hx + 10 * s, y - 24 * s), fill=INK, width=2)
-
-
-# ---------------------------------------------------------------- imzalar
-SIGNATURES = {
-    "hoca": Character("hoca", build="stocky", beard=2, robe=(106, 76, 147),
-                      turban=(245, 242, 230), big_turban=True),
-    "wife": Character("wife", build="normal", female=True,
-                      robe=(70, 90, 150), turban=(230, 200, 90)),
-    "timur": Character("timur", build="stocky", beard=1,
-                       robe=(180, 40, 40), turban=(250, 220, 120), big_turban=True),
-    "guard": Character("guard", build="normal", beard=1, headwear="helmet",
-                       robe=(90, 90, 120)),
-}
+            arm(sxf, 90 - 35 * facing)
+            arm(sxb, 90 + 35 * facing)
+        elif pose == "talk":
+            self.hand_pos = arm(sxf, F - 8 * facing)
+            arm(sxb, 90 + 25 * facing)
+        else:
+            arm(sxf, 80)
+            arm(sxb, 100)
 
 
 def get_character(name):
     key = name.strip().lower()
-    if key in SIGNATURES:
-        return SIGNATURES[key]
     child = key.startswith("kid")
-    female = key in ("wife", "woman", "girl") or key.startswith("woman")
-    ch = Character(key, build="auto", child=child, female=female)
-    if ch.beard == 2:
-        ch.beard = 1  # beyaz uzun sakal Hoca'nın imzası
-    return ch
+    female = key in ("wife",) or key.startswith("woman")
+    return Character(key, child=child, female=female)
