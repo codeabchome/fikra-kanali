@@ -1,0 +1,52 @@
+name: Kanal Baglanti Testi
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repoyu al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Bagimliliklari kur
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q google-api-python-client google-auth google-auth-oauthlib
+
+      - name: Test videosu uret (5 sn, 1080x1920 dikey)
+        run: |
+          ffmpeg -y -loglevel error \
+            -f lavfi -i "color=c=0x1a5c8a:s=1080x1920:d=5" \
+            -f lavfi -i "sine=frequency=440:duration=5" \
+            -vf "drawtext=text='BAGLANTI TESTI':fontcolor=white:fontsize=90:x=(w-text_w)/2:y=(h-text_h)/2" \
+            -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest test.mp4
+          ls -la test.mp4
+
+      - name: EN kanala yukle (Scribbled Yarns)
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_EN_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_EN_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_EN_REFRESH_TOKEN }}
+        run: |
+          python pipeline/upload.py --file test.mp4 \
+            --title "Connection test - safe to delete" \
+            --description "Automated pipeline connection test." \
+            --privacy private --lang en
+
+      - name: TR kanala yukle (Karalama Fikralar)
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_TR_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_TR_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_TR_REFRESH_TOKEN }}
+        run: |
+          python pipeline/upload.py --file test.mp4 \
+            --title "Baglanti testi - silinebilir" \
+            --description "Otomasyon baglanti testi." \
+            --privacy private --lang tr
