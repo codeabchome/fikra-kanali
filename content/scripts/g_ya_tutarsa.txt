@@ -1,0 +1,19 @@
+# title_en: What If It Works? | title_tr: Ya Tutarsa
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: riverside | chars: hoca | props: soup_bowls, river | action: hoca_carry]
+EN: One day the villagers spotted Hodja crouched at the edge of the great lake, spooning yogurt starter into the water.
+TR: Bir gün köylüler Hoca'yı koca gölün kıyısına çömelmiş, suya kaşık kaşık yoğurt mayası çalarken görmüş.
+[scene: riverside | chars: villager_a, hoca | props: river | action: villager_shocked]
+EN: They asked what on earth he was doing. Hodja calmly explained that he was fermenting the lake into yogurt.
+TR: Ne yaptığını sormuşlar. Hoca da gayet sakin, gölü yoğurt yapmak için mayaladığını söylemiş.
+BEN: I'm turning the lake into yogurt.
+BTR: Gölü yoğurt yapıyorum.
+[scene: riverside | chars: villager_a, hoca | props: river | action: villager_facepalm]
+EN: The villagers burst out laughing. A whole lake could never turn into yogurt, and surely Hodja knew that.
+TR: Köylüler kahkahayı basmış. Koca göl yoğurt tutar mıymış hiç, Hoca da bunu bilmez miymiş.
+[scene: riverside | chars: hoca, villager_a | props: river | action: hoca_point]
+EN: Hodja agreed that it would probably never work. But then he raised his spoon and said the words that would outlive empires.
+TR: Hoca muhtemelen tutmayacağını kabul etmiş. Ama sonra kaşığını kaldırmış ve imparatorluklardan uzun yaşayacak o lafı etmiş.
+BEN: But... WHAT IF IT WORKS?
+BTR: Ama... YA TUTARSA?
+# punchline_hold: 2

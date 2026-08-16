@@ -1,0 +1,19 @@
+# title_en: The Sound of Money | title_tr: Paranın Sesi
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: bazaar | chars: merchant, peasant | props: soup_pot, market_stall | action: merchant_point]
+EN: One day a cook dragged a poor man in front of Hodja, the judge of the day, demanding payment. The man's crime? He had eaten his plain bread next to the cook's kitchen, flavoring it with the smell of the food.
+TR: Bir gün bir aşçı, garibin birini o günün kadısı olan Hoca'nın karşısına sürüklemiş ve para istemiş. Adamın suçu neymiş? Kuru ekmeğini aşçının mutfağının yanında, yemek kokusuyla tatlandırarak yemek.
+BEN: He ate the SMELL of my food!
+BTR: Yemeğimin KOKUSUNU yedi!
+[scene: bazaar | chars: peasant, hoca | action: peasant_plead]
+EN: The poor man swore he had not touched a single bite. He had only smelled the air, which, last time he checked, was free.
+TR: Garip adam tek lokmaya dokunmadığına yemin etmiş. Sadece havayı koklamışmış, o da son baktığında bedavaymış.
+[scene: bazaar | chars: hoca, merchant, peasant | props: coin | action: hoca_carry]
+EN: Hodja listened to both sides, nodded gravely, and took a few coins out of his pouch. The cook's eyes lit up.
+TR: Hoca iki tarafı da dinlemiş, ciddiyetle başını sallamış ve kesesinden birkaç akçe çıkarmış. Aşçının gözleri parlamış.
+[scene: bazaar | chars: hoca, merchant | props: coin | action: hoca_point]
+EN: Then he shook the coins next to the cook's ear and declared the case closed. The man who ate the smell of the food had just paid with the sound of the money.
+TR: Sonra paraları aşçının kulağının dibinde şıngırdatmış ve davayı kapatmış. Yemeğin kokusunu yiyen adam, borcunu paranın sesiyle ödemiş.
+BEN: The SMELL is paid with the SOUND!
+BTR: KOKUNUN bedeli, paranın SESİ!
+# punchline_hold: 2

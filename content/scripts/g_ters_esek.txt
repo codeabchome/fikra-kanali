@@ -1,0 +1,19 @@
+# title_en: Riding Backwards | title_tr: Eşeğe Ters Binmek
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: village_road | chars: hoca | props: donkey | action: hoca_carry]
+EN: One day the villagers saw Hodja riding to the mosque sitting backwards on his donkey, facing the tail.
+TR: Bir gün köylüler Hoca'yı eşeğe ters binmiş, yüzü kuyruğa dönük şekilde camiye giderken görmüş.
+[scene: village_road | chars: villager_a, villager_b, hoca | props: donkey | action: villagers_shocked]
+EN: The whole road stopped to stare. Some laughed, some worried the old man had finally lost it.
+TR: Bütün yol durup bakmış. Kimi gülmüş, kimi ihtiyarın sonunda kafayı yediğinden endişe etmiş.
+[scene: village_road | chars: villager_a, hoca | props: donkey | action: villager_plead]
+EN: Finally someone gathered the courage to ask why on earth he was riding backwards.
+TR: Sonunda biri cesaretini toplayıp neden ters bindiğini sormuş.
+BEN: Hodja... why backwards?!
+BTR: Hocam... neden ters?!
+[scene: village_road | chars: hoca, villager_a | props: donkey | action: hoca_point]
+EN: Hodja explained the flawless logic. If he sat forward, his back would face his friends behind him. If they walked in front, their backs would face him. This way, everyone could see each other. The problem was clearly the donkey.
+TR: Hoca kusursuz mantığı açıklamış. Düz binse arkadaki dostlarına sırtı dönük olacakmış. Onlar öne geçse bu sefer onların sırtı ona dönük olacakmış. Böyleyse herkes birbirini görüyormuş. Sorun besbelli eşekteymiş.
+BEN: I'm not backwards. The DONKEY is!
+BTR: Ben ters değilim. EŞEK ters!
+# punchline_hold: 2

@@ -1,0 +1,22 @@
+# title_en: Those Who Know, Tell Those Who Don't | title_tr: Bilenler Bilmeyenlere Anlatsın
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: mosque_courtyard | chars: hoca, villager_a, villager_b, villager_c | action: hoca_talk]
+EN: One day Hodja climbed the pulpit to give a sermon, but he had prepared absolutely nothing. So he asked the crowd whether they knew what he was going to talk about.
+TR: Bir gün Hoca vaaz vermek için kürsüye çıkmış ama hiçbir hazırlığı yokmuş. Bu yüzden cemaate ne anlatacağını bilip bilmediklerini sormuş.
+[scene: mosque_courtyard | chars: villager_a, hoca | action: villager_talk]
+EN: The crowd said no, they had no idea. Hodja shrugged and said that if they knew nothing, there was no point in telling them anything. And he left.
+TR: Cemaat hayır demiş, hiçbir fikirleri yokmuş. Hoca da madem bilmiyorsunuz, size anlatmanın alemi yok deyip inmiş.
+BEN: If you don't know, why bother!
+BTR: Bilmiyorsanız anlatmaya gerek yok!
+[scene: mosque_courtyard | chars: hoca, villager_a, villager_b | action: hoca_talk]
+EN: The next week they got smarter. When he asked the same question, everyone shouted that yes, they knew. So Hodja said that since they already knew, there was nothing to tell. And he left again.
+TR: Ertesi hafta cemaat akıllanmış. Aynı soruyu sorunca herkes evet biliyoruz diye bağırmış. Hoca da madem biliyorsunuz, anlatacak bir şey yok deyip yine inmiş.
+[scene: mosque_courtyard | chars: villager_a, villager_b, hoca | action: villagers_plead]
+EN: The third week they made a master plan. Half would say yes, half would say no. That way he would be trapped.
+TR: Üçüncü hafta usta bir plan yapmışlar. Yarısı evet diyecekmiş, yarısı hayır. Böylece Hoca köşeye sıkışacakmış.
+[scene: mosque_courtyard | chars: hoca, villager_a, villager_b | action: hoca_point]
+EN: Hodja listened to the mixed answer, nodded with satisfaction, and produced the perfect solution. Those who knew should tell those who didn't. And he left.
+TR: Hoca karışık cevabı dinlemiş, memnuniyetle başını sallamış ve kusursuz çözümü sunmuş. Bilenler bilmeyenlere anlatsınmış. Ve inip gitmiş.
+BEN: Those who KNOW, tell those who DON'T!
+BTR: BİLENLER BİLMEYENLERE anlatsın!
+# punchline_hold: 2

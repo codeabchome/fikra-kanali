@@ -1,0 +1,17 @@
+# title_en: Bring Me Someone Who Fell | title_tr: Damdan Düşen
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: street_day | chars: hoca | action: hoca_carry]
+EN: One day Hodja climbed onto his roof to fix the tiles. And what happens to everyone who climbs a roof in a folk tale happened to him.
+TR: Bir gün Hoca kiremitleri onarmak için dama çıkmış. Ve fıkralarda dama çıkan herkesin başına gelen onun da başına gelmiş.
+[scene: street_day | chars: hoca | action: hoca_lie]
+EN: He slipped and crashed to the ground, aching in places he did not know existed.
+TR: Ayağı kaymış, yere çakılmış ve varlığından haberdar olmadığı yerleri bile ağrımaya başlamış.
+[scene: street_day | chars: neighbor_a, neighbor_b, hoca | action: neighbors_plead]
+EN: The neighbors rushed over, gathered around him, and buried him in advice. Each one knew exactly what he should have done.
+TR: Komşular koşup başına toplanmış ve onu tavsiye yağmuruna tutmuş. Her biri ne yapması gerektiğini gayet iyi biliyormuş.
+[scene: street_day | chars: hoca, neighbor_a, neighbor_b | action: hoca_point]
+EN: Hodja looked up at the crowd and made one simple request. Someone should bring him a person who had also fallen off a roof. Because only that person could understand his condition.
+TR: Hoca kalabalığa bakmış ve tek bir ricada bulunmuş. Ona damdan düşmüş birini getirsinlermiş. Çünkü halinden ancak o anlarmış.
+BEN: Bring me someone who FELL OFF A ROOF!
+BTR: Bana DAMDAN DÜŞEN birini getirin!
+# punchline_hold: 2

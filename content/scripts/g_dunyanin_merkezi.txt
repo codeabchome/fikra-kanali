@@ -1,0 +1,24 @@
+# title_en: The Center of the World | title_tr: Dünyanın Merkezi
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: village_square | chars: traveler, hoca | props: donkey | action: traveler_point]
+EN: One day a scholar arrived in town, determined to embarrass Hodja with impossible questions in front of everyone.
+TR: Bir gün kasabaya bir alim gelmiş. Niyeti, herkesin önünde Hoca'yı imkansız sorularla rezil etmekmiş.
+[scene: village_square | chars: traveler, hoca, villager_a | action: traveler_talk]
+EN: He asked his masterpiece question. Where exactly was the center of the world?
+TR: En iddialı sorusunu sormuş. Dünyanın merkezi tam olarak neredeymiş?
+BEN: WHERE is the center of the world?
+BTR: Dünyanın merkezi NERESİ?
+[scene: village_square | chars: hoca, traveler | props: donkey | action: hoca_point]
+EN: Hodja didn't blink. He pointed at his donkey's front left foot and announced that the center of the world was exactly where that hoof was standing.
+TR: Hoca gözünü bile kırpmamış. Eşeğinin sol ön ayağını göstermiş ve dünyanın merkezinin tam o toynağın bastığı yer olduğunu ilan etmiş.
+BEN: Right under my donkey's left foot.
+BTR: Eşeğimin sol ön ayağının altı.
+[scene: village_square | chars: traveler, hoca | props: donkey | action: traveler_shocked]
+EN: The scholar objected. How could he possibly prove such a ridiculous claim?
+TR: Alim itiraz etmiş. Bu saçma iddiayı nasıl kanıtlayacakmış?
+[scene: village_square | chars: hoca, traveler | props: donkey | action: hoca_shrug]
+EN: Hodja shrugged and offered the fairest deal in the history of science. If the scholar didn't believe him, he was welcome to measure it himself.
+TR: Hoca omuz silkmiş ve bilim tarihinin en adil teklifini sunmuş. İnanmıyorsa buyursun, kendisi ölçsünmüş.
+BEN: Don't believe me? MEASURE it!
+BTR: İnanmıyorsan ÖLÇ!
+# punchline_hold: 2

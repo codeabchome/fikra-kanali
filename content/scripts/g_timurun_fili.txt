@@ -1,0 +1,22 @@
+# title_en: Timur's Elephant | title_tr: Timur'un Fili
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: village_square | chars: villager_a, villager_b, hoca | props: elephant | action: villagers_plead]
+EN: When Timur conquered the land, he sent one of his war elephants to Hodja's village to be fed. The beast ate everything. The hay, the grain, the entire winter supply.
+TR: Timur memleketi ele geçirince savaş fillerinden birini beslensin diye Hoca'nın köyüne yollamış. Hayvan önüne geleni yemiş. Samanı, arpayı, bütün kışlık erzağı.
+[scene: village_square | chars: villager_a, hoca | props: elephant | action: villager_plead]
+EN: The desperate villagers begged Hodja to lead them to Timur and ask him to take the elephant back. They swore they would stand right behind him.
+TR: Çaresiz köylüler Hoca'ya yalvarmış. Başlarına geçsin, Timur'a gitsinler ve fili geri almasını istesinler. Arkasında dimdik duracaklarına yemin etmişler.
+BEN: We're right behind you, Hodja!
+BTR: Arkandayız Hocam!
+[scene: mountain_road | chars: hoca | action: hoca_shocked]
+EN: But as they approached Timur's camp, the brave villagers remembered urgent business one by one. By the tent, Hodja stood completely alone.
+TR: Ama Timur'un karargahına yaklaştıkça cesur köylülerin birer birer acil işleri hatırına gelmiş. Çadırın önünde Hoca tek başına kalakalmış.
+[scene: palace_tent | chars: timur, hoca | props: throne | action: timur_talk]
+EN: Timur asked what the village wanted regarding the elephant he had so generously sent them.
+TR: Timur, cömertçe gönderdiği fil hakkında köyün ne istediğini sormuş.
+[scene: palace_tent | chars: hoca, timur | props: elephant | action: hoca_plead]
+EN: Hodja glanced back at the empty doorway where his supporters used to be, smiled, and made the village's official request. The poor elephant was terribly lonely. Could His Majesty please send it a mate?
+TR: Hoca destekçilerinin az önce durduğu bomboş kapıya bir bakmış, gülümsemiş ve köyün resmi talebini iletmiş. Zavallı fil çok yalnızmış. Devletlim lütfen ona bir eş gönderebilir miymiş?
+BEN: The elephant is lonely... send a MATE!
+BTR: Fil çok yalnız... bir EŞ gönderin!
+# punchline_hold: 2

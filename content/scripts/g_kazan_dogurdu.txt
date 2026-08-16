@@ -1,0 +1,22 @@
+# title_en: The Pot That Gave Birth | title_tr: Kazan Doğurdu
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_door | chars: hoca, neighbor_a | props: soup_pot | action: hoca_plead]
+EN: One day Hodja borrowed a large cauldron from his neighbor. A week later he returned it with a small pot sitting inside.
+TR: Bir gün Hoca komşusundan büyük bir kazan ödünç almış. Bir hafta sonra kazanı, içinde küçük bir tencereyle geri getirmiş.
+[scene: home_door | chars: neighbor_a, hoca | props: soup_pot | action: neighbor_shocked]
+EN: The confused neighbor asked what the small pot was. Hodja congratulated him, because his cauldron had given birth.
+TR: Şaşıran komşu küçük tencerenin ne olduğunu sormuş. Hoca da onu tebrik etmiş, çünkü kazanı doğurmuş.
+BEN: Congrats! Your cauldron gave birth!
+BTR: Gözün aydın! Kazanın doğurdu!
+[scene: home_door | chars: neighbor_a, hoca | props: soup_pot | action: neighbor_carry]
+EN: The neighbor happily accepted both pots without asking a single question. Free pot is free pot.
+TR: Komşu tek soru sormadan iki kabı da kabul etmiş. Bedava tencere, bedava tenceredir.
+[scene: home_door | chars: hoca, neighbor_a | action: hoca_talk]
+EN: Some time later Hodja borrowed the cauldron again. But this time weeks passed and it never came back. Finally the neighbor knocked on his door.
+TR: Bir süre sonra Hoca kazanı yine ödünç almış. Ama bu sefer haftalar geçmiş, kazan geri gelmemiş. Sonunda komşu kapıya dayanmış.
+[scene: home_door | chars: hoca, neighbor_a | action: hoca_shrug]
+EN: Hodja delivered the sad news. The cauldron had passed away. And when the neighbor protested that a cauldron cannot die, Hodja reminded him that he had happily believed it could give birth.
+TR: Hoca acı haberi vermiş. Kazan vefat etmiş. Komşu kazanın ölemeyeceğine itiraz edince de Hoca ona doğurduğuna seve seve inandığını hatırlatmış.
+BEN: You believed it gave BIRTH, didn't you?
+BTR: Doğurduğuna inanmıştın ama?
+# punchline_hold: 2

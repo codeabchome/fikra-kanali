@@ -1,0 +1,19 @@
+# title_en: Let the Turban Read It | title_tr: Sarığı Al Sen Oku
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_door | chars: neighbor_a, hoca | props: recipe_paper | action: neighbor_plead]
+EN: One day a neighbor brought Hodja a letter, begging him to read it out loud.
+TR: Bir gün komşunun biri Hoca'ya bir mektup getirmiş ve okuması için yalvarmış.
+[scene: home_door | chars: hoca, neighbor_a | props: recipe_paper | action: hoca_shrug]
+EN: Hodja examined the paper from every angle. It was written in a foreign script, and he could not read a single word of it. So he honestly said so.
+TR: Hoca kağıdı her açıdan incelemiş. Yabancı bir yazıyla yazılmışmış ve tek kelimesini okuyamıyormuş. O da dürüstçe okuyamadığını söylemiş.
+[scene: home_door | chars: neighbor_a, hoca | action: neighbor_point]
+EN: The neighbor got angry and started mocking him. What kind of scholar was he? He wore the great turban of a learned man, yet he couldn't even read a letter.
+TR: Komşu sinirlenmiş ve onunla alay etmeye başlamış. Ne biçim alimmiş bu? Başında koca alim sarığı taşıyormuş ama bir mektubu bile okuyamıyormuş.
+BEN: You wear the turban but can't read?!
+BTR: Başında koca sarık var, okuyamıyorsun!
+[scene: home_door | chars: hoca, neighbor_a | props: recipe_paper | action: hoca_point]
+EN: Hodja calmly took off his enormous turban and placed it on the neighbor's head. If the skill came from the turban, he was welcome to wear it and read the letter himself.
+TR: Hoca sakince koca kavuğunu çıkarmış ve komşunun başına geçirmiş. Madem marifet sarıktaymış, buyursun taksınmış ve mektubu kendisi okusunmuş.
+BEN: If the skill is in the turban, YOU read it!
+BTR: Marifet sarıktaysa al, SEN oku!
+# punchline_hold: 2

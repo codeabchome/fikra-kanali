@@ -1,0 +1,22 @@
+# title_en: The Cat and the Meat | title_tr: Et Buysa Kedi Nerede
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: bazaar | chars: hoca, butcher | props: meat_package, market_stall | action: hoca_carry]
+EN: One day Hodja bought two kilos of the finest meat and brought it home, dreaming of a feast.
+TR: Bir gün Hoca iki kilo en iyi etten almış ve ziyafet hayalleriyle eve getirmiş.
+[scene: home_interior | chars: wife | props: soup_pot | action: wife_carry]
+EN: But while he was out, his wife cooked the whole thing and ate it with her friends, down to the last bite.
+TR: Ama Hoca dışarıdayken hanımı etin tamamını pişirmiş ve arkadaşlarıyla son lokmasına kadar yemiş.
+[scene: home_interior | chars: wife, hoca | action: wife_talk]
+EN: When Hodja asked about dinner, she blamed the cat. The greedy animal had supposedly stolen all the meat.
+TR: Hoca yemeği sorunca hanımı suçu kediye atmış. Güya obur hayvan etin hepsini aşırmış.
+BEN: The cat ate all the meat!
+BTR: Eti kedi yedi!
+[scene: home_interior | chars: hoca, wife | props: soup_pot | action: hoca_carry]
+EN: Hodja said nothing. He grabbed the cat, put it on the scales, and weighed it carefully. Exactly two kilos.
+TR: Hoca hiçbir şey dememiş. Kediyi kaptığı gibi teraziye koymuş ve dikkatlice tartmış. Tam iki kilo.
+[scene: home_interior | chars: hoca, wife | action: hoca_point]
+EN: Then he turned to his wife with the question that no one has answered for seven hundred years. If this was the meat, where was the cat? And if this was the cat, where was the meat?
+TR: Sonra hanımına dönmüş ve yedi yüz yıldır cevaplanamayan soruyu sormuş. Bu etse kedi nerede? Yok bu kediyse... et nerede?
+BEN: If this is the cat, WHERE IS THE MEAT?
+BTR: Bu kediyse, ET NEREDE?
+# punchline_hold: 2

@@ -1,0 +1,19 @@
+# title_en: The Walnut and the Pumpkin | title_tr: Ceviz ve Kabak
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: forest | chars: hoca | props: tree_big | action: hoca_shrug]
+EN: One hot day Hodja lay down under a giant walnut tree, right next to a pumpkin patch, and started philosophizing.
+TR: Sıcak bir gün Hoca kocaman bir ceviz ağacının altına, kabak tarlasının hemen yanına uzanmış ve felsefe yapmaya başlamış.
+[scene: forest | chars: hoca | props: tree_big | action: hoca_point]
+EN: The design of the world seemed all wrong to him. Huge pumpkins grew on thin little vines on the ground, while tiny walnuts hung on this mighty tree. If he were in charge, it would be the opposite.
+TR: Dünyanın tasarımı ona tamamen hatalı görünmüş. Koskoca kabaklar yerdeki incecik saplarda büyüyor, minicik cevizler ise bu heybetli ağaçta sallanıyormuş. İş ona kalsa tam tersi olurmuş.
+BEN: Pumpkins should grow on TREES!
+BTR: Kabaklar AĞAÇTA olmalıydı!
+[scene: forest | chars: hoca | props: tree_big | action: hoca_lie]
+EN: Just as he was drifting into sleep, a walnut dropped from the tree and bonked him right on the head.
+TR: Tam uykuya dalarken ağaçtan bir ceviz kopmuş ve tepesine inmiş.
+[scene: forest | chars: hoca | props: tree_big | action: hoca_plead]
+EN: Hodja jumped up, rubbed his head, and raised his hands to the sky in gratitude. If the world had been designed his way, a pumpkin would have just landed on his head instead.
+TR: Hoca yerinden fırlamış, başını ovuşturmuş ve ellerini göğe açıp şükretmiş. Dünya onun dediği gibi tasarlansaymış, az önce kafasına ceviz değil koca bir kabak inecekmiş.
+BEN: Imagine if that was a PUMPKIN!
+BTR: Ya KABAK düşseydi!
+# punchline_hold: 2

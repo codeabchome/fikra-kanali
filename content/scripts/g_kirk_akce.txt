@@ -1,0 +1,21 @@
+# title_en: Timur's Price | title_tr: Kırk Akçe
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: palace_tent | chars: timur, hoca | props: throne | action: timur_talk]
+EN: One day the mighty Timur was feeling philosophical and asked Hodja a dangerous question. If he were for sale, how much would he be worth?
+TR: Bir gün koca Timur felsefi takılıyormuş ve Hoca'ya tehlikeli bir soru sormuş. Satılık olsaymış, kaç para edermiş?
+BEN: How much am I worth, Hodja?
+BTR: Ben kaç para ederim Hocam?
+[scene: palace_tent | chars: hoca, timur | action: hoca_talk]
+EN: Hodja examined the conqueror from head to toe like a careful merchant, and announced his professional appraisal. Forty silver coins.
+TR: Hoca, hükümdarı tepeden tırnağa titiz bir tüccar gibi süzmüş ve profesyonel değerlendirmesini açıklamış. Kırk akçe.
+BEN: Forty silver coins.
+BTR: Kırk akçe.
+[scene: palace_tent | chars: timur, hoca | props: throne | action: timur_shocked]
+EN: Timur exploded. Forty coins?! The belt he was wearing alone was worth forty coins!
+TR: Timur küplere binmiş. Kırk akçe mi?! Sadece belindeki kuşak kırk akçe edermiş!
+[scene: palace_tent | chars: hoca, timur | action: hoca_shrug]
+EN: Hodja nodded politely and confirmed that they were in complete agreement. He had, in fact, been pricing the belt.
+TR: Hoca kibarca başını sallamış ve tamamen aynı fikirde olduklarını doğrulamış. Zaten o da fiyatı kuşağa vermişmiş.
+BEN: Exactly. I WAS pricing the belt.
+BTR: Aynen. Ben de KUŞAĞA dedim zaten.
+# punchline_hold: 2

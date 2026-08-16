@@ -1,0 +1,20 @@
+# title_en: What If I Was In It? | title_tr: Ya İçinde Ben Olsaydım
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: bedroom_night | chars: hoca, wife | props: candle | action: hoca_shocked]
+EN: One night Hodja woke up to a strange rustling in the garden. Someone, or something, was moving out there in the dark.
+TR: Bir gece Hoca bahçeden gelen tuhaf hışırtılarla uyanmış. Dışarıda, karanlıkta biri ya da bir şey kıpırdıyormuş.
+[scene: street_night | chars: hoca | props: moon, fur_coat | action: hoca_point]
+EN: He peeked out and saw a shadowy figure standing perfectly still by the tree. A burglar, obviously. So he grabbed his bow and shot it clean through the chest.
+TR: Dışarı bakınca ağacın dibinde hiç kıpırdamadan duran karaltıyı görmüş. Besbelli hırsızmış. Yayını kaptığı gibi karaltıyı tam göğsünden vurmuş.
+[scene: street_night | chars: hoca, wife | props: moon | action: hoca_carry]
+EN: Then he went back to bed and slept like a champion. Justice had been served.
+TR: Sonra yatağına dönmüş ve şampiyonlar gibi uyumuş. Adalet yerini bulmuş.
+[scene: street_day | chars: hoca, wife | props: fur_coat | action: hoca_shocked]
+EN: In the morning they went out to inspect the burglar. It was Hodja's own coat, hanging on the line to dry, now with a hole right through the chest.
+TR: Sabah hırsıza bakmaya çıkmışlar. Meğer vurduğu şey, kurusun diye ipe asılan kendi kaftanıymış. Göğsünde kocaman bir delikle sallanıyormuş.
+[scene: street_day | chars: wife, hoca | props: fur_coat | action: hoca_plead]
+EN: His wife started scolding him, but Hodja raised his hands to the sky in pure gratitude. Because if he had been inside that coat, he would be dead right now.
+TR: Hanımı söylenmeye başlamış ama Hoca ellerini gökyüzüne açıp şükretmiş. Çünkü o kaftanın içinde kendisi olsaymış, şu an ölmüş olurmuş.
+BEN: Thank God I wasn't IN it!
+BTR: Ya içinde BEN olsaydım!
+# punchline_hold: 2

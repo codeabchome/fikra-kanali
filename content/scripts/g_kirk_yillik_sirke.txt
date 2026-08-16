@@ -1,0 +1,24 @@
+# title_en: Forty-Year-Old Vinegar | title_tr: Kırk Yıllık Sirke
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_door | chars: hoca, neighbor_a | props: water_jug | action: hoca_talk]
+EN: One day Hodja was bragging to a neighbor about his greatest treasure. A jar of vinegar that had been aging for forty years.
+TR: Bir gün Hoca komşusuna en büyük hazinesiyle övünüyormuş. Tam kırk yıldır bekleyen bir küp sirkeymiş bu.
+BEN: I have FORTY-year-old vinegar!
+BTR: Bende KIRK yıllık sirke var!
+[scene: home_door | chars: neighbor_a, hoca | action: neighbor_plead]
+EN: The neighbor's eyes lit up. Forty-year vinegar was legendary stuff. He immediately asked for a small cup of it.
+TR: Komşunun gözleri parlamış. Kırk yıllık sirke efsanevi bir şeymiş. Hemen küçük bir kase istemiş.
+BEN: Give me a little cup of it!
+BTR: Bir kasecik versene!
+[scene: home_door | chars: hoca, neighbor_a | props: water_jug | action: hoca_shrug]
+EN: Hodja refused without a moment of hesitation. The answer was a firm and absolute no.
+TR: Hoca saniye düşünmeden reddetmiş. Cevap net ve kesin bir hayırmış.
+[scene: home_door | chars: neighbor_a, hoca | action: neighbor_shocked]
+EN: The neighbor was offended. What was the point of keeping vinegar for forty years if you refused to share even a cup of it?
+TR: Komşu alınmış. Bir kaseciğini bile vermeyecekse insan sirkeyi kırk yıl niye saklarmış?
+[scene: home_door | chars: hoca, neighbor_a | props: water_jug | action: hoca_point]
+EN: Hodja explained the flawless mathematics of the situation. If he had given a cup to everyone who asked, would that vinegar ever have become forty years old?
+TR: Hoca meselenin kusursuz matematiğini açıklamış. Her isteyene bir kase verseymiş, o sirke hiç kırk yıllık olabilir miymiş?
+BEN: If I gave it away, would it BE forty years old?!
+BTR: Vere vere KIRK yıllık olur muydu?!
+# punchline_hold: 2

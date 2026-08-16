@@ -1,0 +1,19 @@
+# title_en: Is the Thief Innocent? | title_tr: Hırsızın Hiç mi Suçu Yok
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: barn_interior | chars: hoca | action: hoca_shocked]
+EN: One morning Hodja walked into his barn and froze. The donkey was gone. Stolen in the night.
+TR: Bir sabah Hoca ahıra girmiş ve donakalmış. Eşek yerinde yokmuş. Gece çalınmış.
+[scene: village_square | chars: neighbor_a, neighbor_b, hoca | action: neighbors_point]
+EN: When the neighbors heard, they lined up to explain how it was all his fault. He should have locked the door. He should have gotten a dog. He should have slept in the barn.
+TR: Komşular duyunca sıraya girip suçun tamamen onda olduğunu anlatmaya başlamış. Kapıyı kilitleseymiş. Köpek alsaymış. Ahırda yatsaymış.
+BEN: It's YOUR fault, Hodja!
+BTR: Suç SENDE Hocam!
+[scene: village_square | chars: hoca, neighbor_a, neighbor_b | action: hoca_shrug]
+EN: Hodja listened to the entire performance patiently. Apparently everyone in the village was guilty of this theft except one person.
+TR: Hoca bütün bu gösteriyi sabırla dinlemiş. Anlaşılan bu hırsızlıkta köyde bir kişi hariç herkes suçluymuş.
+[scene: village_square | chars: hoca, neighbor_a | action: hoca_point]
+EN: So he asked the obvious question. Fine, the fault was all his. But did the thief have no share in this at all?
+TR: Sonunda o bariz soruyu sormuş. Tamam, suç tamamen ondaymış. Peki hırsızın hiç mi suçu yokmuş?
+BEN: Is the THIEF completely innocent?!
+BTR: HIRSIZIN hiç mi suçu yok?!
+# punchline_hold: 2

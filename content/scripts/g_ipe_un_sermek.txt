@@ -1,0 +1,21 @@
+# title_en: Flour on the Clothesline | title_tr: İpe Un Sermek
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_door | chars: neighbor_a, hoca | action: neighbor_plead]
+EN: One day a neighbor knocked on Hodja's door and asked to borrow his clothesline.
+TR: Bir gün komşunun biri Hoca'nın kapısını çalmış ve çamaşır ipini ödünç istemiş.
+BEN: Can I borrow your clothesline?
+BTR: Çamaşır ipini versene?
+[scene: home_door | chars: hoca, neighbor_a | action: hoca_shrug]
+EN: Hodja, who had no intention of lending anything that day, apologized and explained that the line was busy. They had spread flour on it.
+TR: O gün hiçbir şey ödünç vermeye niyeti olmayan Hoca özür dilemiş ve ipin dolu olduğunu söylemiş. İpe un sermişlermiş.
+BEN: Sorry, we spread FLOUR on it.
+BTR: Kusura bakma, ipe UN serdik.
+[scene: home_door | chars: neighbor_a, hoca | action: neighbor_shocked]
+EN: The neighbor blinked. Flour, on a clothesline? Whoever heard of such a thing? It was physically impossible.
+TR: Komşu bakakalmış. İpe un mu serilirmiş? Kim duymuş böyle bir şeyi? Fiziken imkansızmış.
+[scene: home_door | chars: hoca, neighbor_a | action: hoca_point]
+EN: Hodja nodded in complete agreement, and then explained the real rule of the universe. When the heart does not want to lend, spreading flour on a clothesline becomes remarkably easy.
+TR: Hoca tamamen katıldığını belirtmiş ve sonra evrenin asıl kuralını açıklamış. Gönül vermek istemeyince, ipe un sermek son derece kolay oluyormuş.
+BEN: When you don't WANT to lend... anything works!
+BTR: Gönül vermek istemeyince... her şey olur!
+# punchline_hold: 2
