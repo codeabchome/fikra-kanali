@@ -1,0 +1,21 @@
+# title_en: Searching with a Song | title_tr: El Elin Eşeğini Türkü İle Arar
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: village_square | chars: neighbor_a, hoca | action: neighbor_plead]
+EN: One day a neighbor's donkey went missing, and he begged Hodja to help search the hills for it.
+TR: Bir gün komşunun eşeği kaybolmuş ve adam tepeleri aramak için Hoca'dan yardım istemiş.
+BEN: My donkey is LOST, help me!
+BTR: Eşeğim KAYBOLDU, yardım et!
+[scene: hill_road | chars: hoca, neighbor_a | action: hoca_carry]
+EN: Hodja agreed. But as he wandered the hills, he searched while singing cheerful folk songs at the top of his voice.
+TR: Hoca kabul etmiş. Ama tepelerde dolaşırken avazı çıktığı kadar neşeli türküler söyleyerek arıyormuş.
+[scene: hill_road | chars: neighbor_a, hoca | action: neighbor_shocked]
+EN: The neighbor was baffled. His donkey was missing, this was a disaster, and Hodja was out here singing like it was a festival.
+TR: Komşu afallamış. Eşeği kayıpmış, ortada felaket varmış, Hoca ise bayram havasında türkü söylüyormuş.
+BEN: Why are you SINGING?!
+BTR: Neden TÜRKÜ söylüyorsun?!
+[scene: hill_road | chars: hoca, neighbor_a | action: hoca_shrug]
+EN: Hodja kept humming and explained the universal law of effort. If it were his own donkey, he would be crying his eyes out. But someone else's donkey gets searched for with a song.
+TR: Hoca mırıldanmaya devam etmiş ve emeğin evrensel yasasını açıklamış. Kaybolan kendi eşeği olsaymış gözyaşları içinde ararmış. Ama el elin eşeğini türkü çağırarak ararmış.
+BEN: It's YOUR donkey, not mine!
+BTR: Eşek SENİN, benim değil!
+# punchline_hold: 2

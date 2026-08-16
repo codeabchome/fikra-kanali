@@ -1,0 +1,19 @@
+# title_en: Counting Ramadan | title_tr: Ramazan Taşları
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_interior | chars: hoca | props: soup_pot | action: hoca_carry]
+EN: When Ramadan began, Hodja invented a foolproof calendar. Every day he would drop one pebble into a pot, so he could always count which day it was.
+TR: Ramazan başlayınca Hoca şaşmaz bir takvim icat etmiş. Her gün çömleğe bir taş atacakmış, böylece ayın kaçı olduğunu hep bilecekmiş.
+[scene: home_interior | chars: kid_a | props: soup_pot | action: kid_carry]
+EN: But his little daughter saw the game, loved it, and secretly dumped a whole handful of pebbles into the pot.
+TR: Ama küçük kızı bu oyunu görmüş, çok sevmiş ve gizlice çömleğe bir avuç taş boşaltmış.
+[scene: village_square | chars: villager_a, hoca | action: villager_talk]
+EN: A few days later the villagers asked Hodja what day of Ramadan it was. He went home, proudly counted his pebbles, and returned with scientific precision.
+TR: Birkaç gün sonra köylüler Hoca'ya Ramazan'ın kaçı olduğunu sormuş. Hoca eve gitmiş, taşlarını gururla saymış ve bilimsel bir kesinlikle geri dönmüş.
+BEN: What day of Ramadan is it?
+BTR: Ramazan'ın kaçı bugün?
+[scene: village_square | chars: hoca, villager_a | action: hoca_point]
+EN: The answer was the hundred and twentieth day. When the crowd howled that a month has thirty days, Hodja revealed he was being modest. According to the official pot count, it was actually day three hundred and sixty.
+TR: Cevap yüz yirmiymiş. Kalabalık bir ayın otuz gün olduğunu haykırınca Hoca mütevazı davrandığını açıklamış. Resmi çömlek hesabına göre bugün aslında üç yüz altmışıymış.
+BEN: By POT count... day 360!
+BTR: ÇÖMLEK hesabına göre... 360'ı!
+# punchline_hold: 2

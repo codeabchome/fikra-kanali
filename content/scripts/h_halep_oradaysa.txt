@@ -1,0 +1,19 @@
+# title_en: If Aleppo Is Far, the Ruler Is Here | title_tr: Halep Oradaysa Arşın Burada
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: village_square | chars: traveler, hoca, villager_a | action: traveler_talk]
+EN: One day a braggart was entertaining the village square with tall tales. His masterpiece was about the day in Aleppo when he supposedly jumped forty meters in a single leap.
+TR: Bir gün palavracının biri meydanı abartılı hikayelerle coşturuyormuş. Şaheseri de Halep'te bir gün tek sıçrayışta kırk metre atladığı iddiasıymış.
+BEN: In Aleppo I jumped FORTY meters!
+BTR: Halep'te KIRK metre atladım!
+[scene: village_square | chars: villager_a, traveler | action: villager_shocked]
+EN: The villagers listened with open mouths. Nobody dared to question the great athlete of Aleppo.
+TR: Köylüler ağzı açık dinliyormuş. Kimse Halep'in büyük atletini sorgulamaya cesaret edemiyormuş.
+[scene: village_square | chars: hoca, traveler | action: hoca_point]
+EN: Except Hodja. He stepped forward, drew a line on the ground, and made a simple offer. Aleppo might be far away, but the measuring stick was right here. He was welcome to repeat the jump.
+TR: Hoca hariç. Öne çıkmış, yere bir çizgi çekmiş ve basit bir teklifte bulunmuş. Halep uzakta olabilirmiş ama arşın buradaymış. Buyursun, atlayışı burada tekrarlasınmış.
+BEN: Aleppo is there... the RULER is HERE!
+BTR: Halep orada... ARŞIN BURADA!
+[scene: village_square | chars: traveler, hoca, villager_a | action: traveler_shocked]
+EN: The great athlete of Aleppo suddenly remembered an urgent appointment, and the village learned a proverb that still lives today.
+TR: Halep'in büyük atleti aniden acil bir işini hatırlamış ve köy, bugün hala yaşayan bir atasözü öğrenmiş.
+# punchline_hold: 2

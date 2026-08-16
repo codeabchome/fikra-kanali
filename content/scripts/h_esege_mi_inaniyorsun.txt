@@ -1,0 +1,24 @@
+# title_en: The Donkey Says Otherwise | title_tr: Eşeğe mi İnanıyorsun
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_door | chars: neighbor_a, hoca | action: neighbor_plead]
+EN: One day a neighbor knocked on Hodja's door, asking to borrow the donkey for a trip to the mill.
+TR: Bir gün komşunun biri Hoca'nın kapısını çalmış ve değirmene gitmek için eşeği ödünç istemiş.
+BEN: Can I borrow the donkey?
+BTR: Eşeği versene?
+[scene: home_door | chars: hoca, neighbor_a | action: hoca_shrug]
+EN: Hodja, who guarded his donkey like treasure, apologized with a straight face. Unfortunately the donkey was not home. He had lent it to someone else.
+TR: Eşeğini hazine gibi koruyan Hoca, gayet ciddi bir yüzle özür dilemiş. Maalesef eşek evde değilmiş. Başkasına vermişmiş.
+BEN: Sorry, the donkey is not home.
+BTR: Kusura bakma, eşek evde yok.
+[scene: home_door | chars: neighbor_a, hoca | props: donkey | action: neighbor_shocked]
+EN: At that exact moment, from the barn behind the house, the donkey brayed at the top of its lungs.
+TR: Tam o anda, evin arkasındaki ahırdan, eşek avazı çıktığı kadar anırmış.
+[scene: home_door | chars: neighbor_a, hoca | action: neighbor_point]
+EN: The neighbor pointed at the barn in triumph. The donkey was clearly right there, announcing itself to the whole village.
+TR: Komşu zafer kazanmış gibi ahırı göstermiş. Eşek besbelli oradaymış ve varlığını bütün köye duyuruyormuş.
+[scene: home_door | chars: hoca, neighbor_a | action: hoca_point]
+EN: Hodja drew himself up, deeply offended, and asked the question of honor. With this white beard standing in front of him, was the man really going to believe a donkey instead of Hodja?
+TR: Hoca derin bir gücenmişlikle doğrulmuş ve o onur sorusunu sormuş. Karşısında bu ak sakal dururken, adam gerçekten Hoca'ya değil de eşeğe mi inanacakmış?
+BEN: You believe the DONKEY over ME?!
+BTR: Bana değil de EŞEĞE mi inanıyorsun?!
+# punchline_hold: 2

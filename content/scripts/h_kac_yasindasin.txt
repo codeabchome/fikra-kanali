@@ -1,0 +1,18 @@
+# title_en: Forever Forty | title_tr: Kaç Yaşındasın
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: village_square | chars: friend, hoca | action: friend_talk]
+EN: One day an old friend asked Hodja how old he was. Hodja answered without hesitation. Forty.
+TR: Bir gün eski bir ahbabı Hoca'ya kaç yaşında olduğunu sormuş. Hoca hiç duraksamadan cevap vermiş. Kırk.
+BEN: I'm forty.
+BTR: Kırk yaşındayım.
+[scene: village_square | chars: friend, hoca | action: friend_shocked]
+EN: The friend frowned. Something was off. Ten years ago he had asked the exact same question, and the answer had also been forty.
+TR: Ahbap kaşlarını çatmış. Bir terslik varmış. On yıl önce de aynı soruyu sormuş ve cevap yine kırkmış.
+BEN: You said FORTY ten years ago!
+BTR: On yıl önce de KIRK demiştin!
+[scene: village_square | chars: hoca, friend | action: hoca_point]
+EN: Hodja drew himself up with dignity and explained the situation. He was a man of his word. Whatever he said once, he stood behind forever.
+TR: Hoca vakarla doğrulmuş ve durumu açıklamış. O sözünün eriymiş. Bir kere ne dediyse, sonsuza kadar arkasında dururmuş.
+BEN: I'm a man of my WORD!
+BTR: Ben SÖZÜMÜN eriyim!
+# punchline_hold: 2

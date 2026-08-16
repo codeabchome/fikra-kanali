@@ -1,0 +1,19 @@
+# title_en: Keep an Eye on the Door | title_tr: Gözün Kapıda Olsun
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_door | chars: wife, kid_a | action: wife_point]
+EN: One day, as she left for the neighbor's house, the mother gave little Nasreddin one strict instruction. Keep an eye on the door.
+TR: Bir gün annesi komşuya giderken küçük Nasreddin'e tek bir sıkı talimat vermiş. Gözün kapıda olsun.
+BEN: Keep an EYE on the DOOR!
+BTR: GÖZÜN KAPIDA olsun!
+[scene: home_door | chars: kid_a | action: kid_carry]
+EN: A while later, his uncle stopped by and told the boy to inform his parents that guests were coming that evening.
+TR: Bir süre sonra dayısı uğramış ve çocuğa akşam misafir geleceklerini, anne babasına haber vermesini söylemiş.
+[scene: village_road | chars: kid_a | action: kid_carry]
+EN: Little Nasreddin faced a serious dilemma. He had to deliver the message, but he was also ordered to watch the door. So he found the perfect solution. He ripped the door off its hinges, strapped it to his back, and set off.
+TR: Küçük Nasreddin ciddi bir ikilemle karşılaşmış. Haberi iletmesi lazımmış ama kapıya da göz kulak olması emredilmişmiş. O da kusursuz çözümü bulmuş. Kapıyı menteşelerinden söküp sırtına vurmuş ve yola koyulmuş.
+[scene: village_road | chars: wife, kid_a | action: wife_shocked]
+EN: When his stunned mother saw him hauling the door through the village, the boy defended himself with unbeatable logic. She told him to keep an eye on the door. The eye was on the door. The door was just also on his back.
+TR: Annesi onu kapıyı sırtında köyün ortasında taşırken görünce dona kalmış. Çocuk ise kendini yenilmez bir mantıkla savunmuş. Gözü kapıda olacakmış. Gözü kapıdaymış. Kapı da sırtındaymış, o kadar.
+BEN: My eye IS on the door!
+BTR: Gözüm kapıda İŞTE!
+# punchline_hold: 2

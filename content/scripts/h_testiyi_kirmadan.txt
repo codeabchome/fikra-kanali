@@ -1,0 +1,19 @@
+# title_en: The Slap Before the Jug | title_tr: Testiyi Kırmadan
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_interior | chars: hoca, kid_a | props: water_jug | action: hoca_carry]
+EN: One day Hodja handed his son a jug and told him to fetch water from the fountain.
+TR: Bir gün Hoca oğluna bir testi vermiş ve çeşmeden su getirmesini söylemiş.
+[scene: home_interior | chars: hoca, kid_a | props: water_jug | action: hoca_point]
+EN: But before the boy took a single step, Hodja gave him a good slap and sternly warned him not to break the jug.
+TR: Ama çocuk daha bir adım atmadan Hoca ona bir tokat patlatmış ve testiyi sakın kırmamasını sıkı sıkı tembihlemiş.
+BEN: Don't you DARE break the jug!
+BTR: Sakın ha testiyi KIRMA!
+[scene: home_interior | chars: neighbor_a, hoca, kid_a | action: neighbor_shocked]
+EN: A neighbor who saw this was horrified. The poor kid had done absolutely nothing. What kind of justice was slapping someone before the crime?
+TR: Bunu gören bir komşu dehşete düşmüş. Çocukcağız daha hiçbir şey yapmamışmış. Suçtan önce tokat atmak ne biçim adaletmiş?
+[scene: home_interior | chars: hoca, neighbor_a | props: water_jug | action: hoca_shrug]
+EN: Hodja explained his flawless system. What good would the slap do after the jug was already broken? Would slapping him then bring the jug back?
+TR: Hoca kusursuz sistemini açıklamış. Testi kırıldıktan sonra atılan tokat neye yarayacakmış? O zaman dövse testi geri mi gelecekmiş?
+BEN: If I slap him AFTER, does the jug come back?!
+BTR: SONRA dövsem testi geri mi gelir?!
+# punchline_hold: 2

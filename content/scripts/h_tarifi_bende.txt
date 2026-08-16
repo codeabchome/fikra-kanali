@@ -1,0 +1,19 @@
+# title_en: I Still Have the Recipe | title_tr: Tarifi Bende
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: butcher_shop | chars: butcher, hoca | props: meat_package, market_stall | action: butcher_talk]
+EN: One day the butcher sold Hodja a beautiful cut of meat, and even wrote down his special recipe so the dish would come out perfect.
+TR: Bir gün kasap Hoca'ya nefis bir et satmış, üstüne bir de yemek kusursuz olsun diye özel tarifini yazıp vermiş.
+BEN: Cook it EXACTLY like this!
+BTR: AYNEN böyle pişir!
+[scene: village_road | chars: hoca | props: meat_package, recipe_paper | action: hoca_carry]
+EN: Hodja headed home, meat in one hand, recipe in the other, already dreaming about dinner.
+TR: Hoca bir elinde et, bir elinde tarif, akşam yemeğinin hayalini kura kura evin yolunu tutmuş.
+[scene: village_road | chars: hoca | props: eagle, meat_package | action: hoca_shocked]
+EN: What he didn't notice was the hawk circling above. It dove like an arrow, snatched the meat right out of his hand, and shot into the sky.
+TR: Fark etmediği şey tepesinde dönen çaylakmış. Kuş ok gibi dalmış, eti elinden kaptığı gibi gökyüzüne fırlamış.
+[scene: village_road | chars: hoca | props: eagle_distant, recipe_paper | action: hoca_point]
+EN: Anyone else would have cursed the heavens. Hodja just laughed, waved the paper at the sky, and reminded the thief of one small detail. The bird had the meat, but the recipe was still with him. Good luck cooking it.
+TR: Başkası olsa göklere lanet ederdi. Hoca ise gülmüş, kağıdı gökyüzüne sallamış ve hırsıza küçük bir detayı hatırlatmış. Et kuştaymış ama tarif hala ondaymış. Pişirebilirse pişirsinmiş.
+BEN: You took the meat but the RECIPE is with ME!
+BTR: Eti kaptın ama TARİF BENDE!
+# punchline_hold: 2

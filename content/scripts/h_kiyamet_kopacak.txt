@@ -1,0 +1,22 @@
+# title_en: Doomsday Is Coming Anyway | title_tr: Kıyamet Kopacak Nasıl Olsa
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: village_square | chars: villager_a, villager_b, hoca | action: villagers_talk]
+EN: Hodja had a plump lamb, and his friends wanted to eat it. So they invented a plan and told him that doomsday was coming very soon. Why not slaughter the lamb and have one last feast by the lake?
+TR: Hoca'nın besili bir kuzusu varmış ve arkadaşlarının gözü bu kuzudaymış. Bir plan kurmuşlar ve Hoca'ya kıyametin çok yakında kopacağını söylemişler. Madem öyleymiş, kuzuyu kesip göl kenarında son bir ziyafet çekselermiş ya?
+BEN: Doomsday is coming SOON!
+BTR: Kıyamet ÇOK YAKINDA kopacak!
+[scene: riverside | chars: hoca, villager_a, villager_b | props: soup_pot, river | action: hoca_carry]
+EN: Hodja saw through the trick instantly, but he agreed with a suspicious amount of enthusiasm. At the lake, the friends stripped down and jumped in for a swim while he cooked the lamb.
+TR: Hoca oyunu anında çakmış ama şüphe uyandıracak bir hevesle kabul etmiş. Göl kenarında arkadaşlar soyunup yüzmeye girmiş, Hoca da kuzuyu pişirmeye koyulmuş.
+[scene: riverside | chars: hoca | props: fire_load, river | action: hoca_carry]
+EN: While they splashed around, Hodja calmly gathered all their clothes and fed them into the cooking fire, piece by piece.
+TR: Onlar suda şapırdarken Hoca sakin sakin bütün kıyafetlerini toplamış ve tek tek ateşe atmış.
+[scene: riverside | chars: villager_a, villager_b, hoca | props: river | action: villagers_shocked]
+EN: The friends came out of the water and found nothing but ashes. They were horrified. How would they even walk home without clothes?
+TR: Arkadaşlar sudan çıkınca küllerden başka bir şey bulamamış. Dehşete düşmüşler. Kıyafetsiz eve nasıl gideceklermiş?
+[scene: riverside | chars: hoca, villager_a, villager_b | action: hoca_shrug]
+EN: Hodja shrugged with perfect innocence and asked why they were so upset. Doomsday was coming anyway. What would they need clothes for?
+TR: Hoca masum masum omuz silkmiş ve niye bu kadar üzüldüklerini sormuş. Nasıl olsa kıyamet kopacakmış. Kıyafeti ne yapacaklarmış?
+BEN: Doomsday is coming... why do you need CLOTHES?
+BTR: Kıyamet kopacak... KIYAFETİ ne yapacaksınız?
+# punchline_hold: 2

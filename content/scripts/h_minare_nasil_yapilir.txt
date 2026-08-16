@@ -1,0 +1,16 @@
+# title_en: How Minarets Are Made | title_tr: Minareyi Nasıl Yaparlar
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: mosque_courtyard | chars: traveler, hoca | action: traveler_point]
+EN: One day a traveler stood gawking at the tall minaret and asked Hodja how on earth people built such a thing.
+TR: Bir gün bir yolcu upuzun minareye ağzı açık bakakalmış ve Hoca'ya bunu nasıl yaptıklarını sormuş.
+BEN: How do they BUILD these?!
+BTR: Bunları nasıl YAPIYORLAR?!
+[scene: mosque_courtyard | chars: hoca, traveler | action: hoca_talk]
+EN: Hodja glanced at the minaret, then at the traveler, and revealed the trade secret with complete confidence.
+TR: Hoca önce minareye, sonra yolcuya bakmış ve mesleki sırrı büyük bir özgüvenle açıklamış.
+[scene: mosque_courtyard | chars: hoca, traveler | action: hoca_point]
+EN: It was simple. They took the wells, and turned them inside out.
+TR: Gayet basitmiş. Kuyuları alıyorlarmış ve içini dışına çeviriyorlarmış.
+BEN: They turn WELLS inside out!
+BTR: KUYULARIN içini dışına çeviriyorlar!
+# punchline_hold: 2

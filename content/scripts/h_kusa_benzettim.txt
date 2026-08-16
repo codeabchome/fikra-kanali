@@ -1,0 +1,14 @@
+# title_en: Now It Looks Like a Bird | title_tr: Kuşa Benzettim
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: street_day | chars: hoca | props: eagle | action: hoca_shocked]
+EN: One day Hodja caught a stork, and he had never seen such a bizarre creature. The beak was too long, the legs were too long, everything about it was wrong.
+TR: Bir gün Hoca bir leylek yakalamış ve ömründe böyle tuhaf bir yaratık görmemiş. Gagası fazla uzunmuş, bacakları fazla uzunmuş, her şeyi yanlışmış.
+[scene: street_day | chars: hoca | props: eagle | action: hoca_carry]
+EN: Birds, as everyone knows, are supposed to be small and round. So Hodja decided to fix this one. He trimmed the beak and shortened the legs.
+TR: Herkesin bildiği gibi kuş dediğin ufak ve toparlak olurmuş. Hoca da bunu düzeltmeye karar vermiş. Gagayı kısaltmış, bacakları kesmiş.
+[scene: street_day | chars: hoca | props: eagle | action: hoca_point]
+EN: He held up the confused animal, examined his work with the pride of a master craftsman, and congratulated it.
+TR: Şaşkın hayvanı havaya kaldırmış, eserini usta bir zanaatkar gururuyla incelemiş ve onu tebrik etmiş.
+BEN: NOW you look like a bird!
+BTR: İŞTE ŞİMDİ kuşa benzedin!
+# punchline_hold: 2

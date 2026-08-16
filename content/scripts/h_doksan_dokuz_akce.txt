@@ -1,0 +1,19 @@
+# title_en: Ninety-Nine Coins | title_tr: Doksan Dokuz Akçe
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: bedroom_night | chars: hoca | props: moon | action: hoca_carry]
+EN: One night Hodja had a magnificent dream. A stranger was counting gold coins straight into his palm. One by one.
+TR: Bir gece Hoca muhteşem bir rüya görmüş. Yabancının biri avucuna tek tek altın sayıyormuş.
+[scene: bedroom_night | chars: hoca | props: coin | action: hoca_plead]
+EN: The man stopped at ninety-nine. Hodja was outraged. Who counts to ninety-nine? He demanded the man round it up to a proper hundred.
+TR: Adam doksan dokuzda durmuş. Hoca küplere binmiş. Doksan dokuza kadar sayılır mıymış hiç? Adamdan hesabı adam gibi yüze tamamlamasını istemiş.
+BEN: Make it a HUNDRED!
+BTR: YÜZE tamamla şunu!
+[scene: bedroom_night | chars: hoca | action: hoca_shocked]
+EN: In the middle of the argument, Hodja woke up. He looked at his palm. Empty. No stranger, no gold, no ninety-nine coins.
+TR: Tam kavganın ortasında Hoca uyanmış. Avucuna bakmış. Bomboş. Ne yabancı varmış, ne altın, ne doksan dokuz akçe.
+[scene: bedroom_night | chars: hoca | props: moon | action: hoca_plead]
+EN: So he shut his eyes as fast as he could, stretched out his palm, and announced to the darkness that he had reconsidered. Ninety-nine was perfectly acceptable.
+TR: Bunun üzerine gözlerini olanca hızıyla kapatmış, avucunu uzatmış ve karanlığa doğru fikrini değiştirdiğini duyurmuş. Doksan dokuza da razıymış.
+BEN: OK OK, ninety-nine is FINE! Come back!
+BTR: Tamam tamam, doksan dokuza RAZIYIM! Geri gel!
+# punchline_hold: 2

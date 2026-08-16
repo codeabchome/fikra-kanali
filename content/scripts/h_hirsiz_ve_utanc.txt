@@ -1,0 +1,17 @@
+# title_en: The Embarrassed Homeowner | title_tr: Hırsız ve Utanç
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: bedroom_night | chars: hoca | props: candle, moon | action: hoca_shocked]
+EN: One night Hodja heard footsteps inside the house. A burglar had broken in and was searching the rooms one by one.
+TR: Bir gece Hoca evin içinde ayak sesleri duymuş. Bir hırsız girmiş, odaları tek tek arıyormuş.
+[scene: bedroom_night | chars: hoca | action: hoca_carry]
+EN: Instead of confronting him, Hodja quietly slipped into the big chest in the corner and pulled the lid shut.
+TR: Hoca hırsızın karşısına çıkmak yerine sessizce köşedeki büyük sandığa girmiş ve kapağı üstüne kapatmış.
+[scene: bedroom_night | chars: villager_a, hoca | props: candle | action: villager_shocked]
+EN: The burglar searched the entire house and found absolutely nothing worth stealing. Finally he opened the chest, and there was Hodja, curled up inside.
+TR: Hırsız bütün evi aramış ve çalmaya değer tek bir şey bulamamış. En sonunda sandığı açmış ve içinde kıvrılmış yatan Hoca'yla burun buruna gelmiş.
+[scene: bedroom_night | chars: hoca, villager_a | action: hoca_plead]
+EN: The burglar demanded to know what he was doing in there. Hodja apologized sincerely. He was hiding out of embarrassment, because he knew there was nothing in the house worth stealing.
+TR: Hırsız orada ne işi olduğunu sormuş. Hoca içtenlikle özür dilemiş. Evde çalınacak hiçbir şey olmadığını bildiği için utancından saklanıyormuş.
+BEN: I'm hiding out of EMBARRASSMENT... house is empty!
+BTR: UTANCIMDAN saklandım... evde bir şey yok!
+# punchline_hold: 2

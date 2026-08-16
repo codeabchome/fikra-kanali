@@ -1,0 +1,24 @@
+# title_en: The Amateur Nightingale | title_tr: Acemi Bülbül
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: forest | chars: hoca | props: tree_big | action: hoca_carry]
+EN: One day Hodja sneaked into someone's orchard, climbed an apricot tree, and started filling his bag with fruit.
+TR: Bir gün Hoca birinin bahçesine gizlice girmiş, kayısı ağacına çıkmış ve torbasını meyveyle doldurmaya başlamış.
+[scene: forest | chars: peasant, hoca | props: tree_big | action: peasant_shocked]
+EN: Of course, the owner showed up at exactly the wrong moment and demanded to know what he was doing up in the tree.
+TR: Tabii ki bahçe sahibi tam olmayacak anda çıkagelmiş ve ağacın tepesinde ne aradığını sormuş.
+BEN: What are you doing in MY tree?!
+BTR: AĞACIMDA ne işin var?!
+[scene: forest | chars: hoca, peasant | props: tree_big | action: hoca_talk]
+EN: Hodja announced from the branches that he was a nightingale, simply sitting in a tree as nightingales do.
+TR: Hoca dallardan, kendisinin bir bülbül olduğunu, bülbüller gibi ağaçta oturduğunu duyurmuş.
+BEN: I'm a nightingale!
+BTR: Ben bülbülüm!
+[scene: forest | chars: peasant, hoca | props: tree_big | action: peasant_point]
+EN: The owner crossed his arms and told the nightingale to sing, then. Hodja produced a horrible screeching noise. When the owner protested that no nightingale sounds like that, Hodja shrugged from the tree.
+TR: Bahçe sahibi kollarını kavuşturmuş ve madem öyle bülbülün ötmesini istemiş. Hoca berbat bir cırlama sesi çıkarmış. Adam hiçbir bülbülün böyle ötmediğini söyleyince de Hoca ağaçtan omuz silkmiş.
+[scene: forest | chars: hoca, peasant | props: tree_big | action: hoca_shrug]
+EN: An amateur nightingale, he explained, sings exactly this much.
+TR: Acemi bülbül, demiş, ancak bu kadar öter.
+BEN: An AMATEUR nightingale sings THIS much!
+BTR: ACEMİ bülbül bu kadar öter!
+# punchline_hold: 2

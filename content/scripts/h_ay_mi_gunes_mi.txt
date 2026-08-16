@@ -1,0 +1,19 @@
+# title_en: The Moon or the Sun? | title_tr: Ay mı Güneş mi
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: street_night | chars: villager_a, hoca | props: moon | action: villager_talk]
+EN: One evening the villagers were debating a deep question and brought it to Hodja. Which was more useful, the moon or the sun?
+TR: Bir akşam köylüler derin bir meseleyi tartışıyormuş ve soruyu Hoca'ya getirmişler. Ay mı daha faydalıymış, güneş mi?
+BEN: Moon or sun, which is more useful?
+BTR: Ay mı faydalı, güneş mi?
+[scene: street_night | chars: hoca, villager_a | props: moon | action: hoca_talk]
+EN: Hodja thought carefully, stroked his beard, and ruled in favor of the moon. Without a doubt.
+TR: Hoca iyice düşünmüş, sakalını sıvazlamış ve kararını aydan yana vermiş. Hem de hiç şüphesiz.
+[scene: street_night | chars: villager_a, hoca | props: moon | action: villager_shocked]
+EN: The villagers were stunned. How could the moon possibly beat the mighty sun that warms the whole world?
+TR: Köylüler şaşkına dönmüş. Ay, koca dünyayı ısıtan güneşi nasıl geçebilirmiş?
+[scene: street_night | chars: hoca, villager_a | props: moon | action: hoca_point]
+EN: Hodja explained the obvious. The sun rises when it is already daytime and bright everywhere. But the moon shows up in the pitch dark, exactly when light is needed most.
+TR: Hoca gayet açık olanı anlatmış. Güneş zaten ortalık gündüzken ve her yer aydınlıkken doğuyormuş. Ama ay, ışığa en çok ihtiyaç duyulan zifiri karanlıkta geliyormuş.
+BEN: The sun rises when it's ALREADY bright!
+BTR: Güneş zaten AYDINLIKKEN doğuyor!
+# punchline_hold: 2

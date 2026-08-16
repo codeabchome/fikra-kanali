@@ -1,0 +1,22 @@
+# title_en: God Willing | title_tr: İnşallah
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_door | chars: hoca, wife | props: donkey | action: hoca_talk]
+EN: One morning Hodja was heading out to chop firewood, and confidently told his wife he would be home by evening.
+TR: Bir sabah Hoca odun kesmeye çıkıyormuş ve hanımına büyük bir özgüvenle akşama evde olacağını söylemiş.
+[scene: home_door | chars: wife, hoca | action: wife_point]
+EN: His wife reminded him to say God willing, as one should. But Hodja waved her off. He was going to the forest and coming back. What could possibly happen?
+TR: Hanımı adap gereği inşallah demesini hatırlatmış. Ama Hoca elini sallamış. Ormana gidip gelecekmiş. Ne olabilirmiş ki?
+BEN: Say God willing!
+BTR: İnşallah de!
+[scene: forest_road | chars: villager_a, villager_b, hoca | props: donkey | action: villagers_point]
+EN: On the way home, bandits stopped him, took his donkey and his wood, and made him work for them for three whole days, washing, cooking and carrying.
+TR: Dönüş yolunda eşkıyalar önünü kesmiş, eşeğini ve odununu almış ve onu üç gün boyunca çamaşırdan yemeğe, taşımadan bulaşığa çalıştırmışlar.
+[scene: street_night | chars: hoca | props: moon | action: hoca_carry]
+EN: Three days later, exhausted and empty-handed, Hodja walked all night and finally reached his own door in the dark.
+TR: Üç gün sonra bitkin ve eli boş kalan Hoca bütün gece yürümüş ve karanlıkta nihayet kendi kapısına varmış.
+[scene: home_door | chars: wife, hoca | props: candle | action: hoca_plead]
+EN: From inside, his wife asked who was knocking at this hour. And Hodja, a changed man, gave the most careful answer of his life. God willing, it was him.
+TR: İçeriden hanımı bu saatte kapıyı çalanın kim olduğunu sormuş. Ve artık değişmiş bir adam olan Hoca, hayatının en tedbirli cevabını vermiş. İnşallah kendisiymiş.
+BEN: It's me... GOD WILLING!
+BTR: Benim... İNŞALLAH!
+# punchline_hold: 2
