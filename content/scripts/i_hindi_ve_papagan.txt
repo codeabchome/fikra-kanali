@@ -1,0 +1,21 @@
+# title_en: The Turkey Thinks | title_tr: Hindi de Düşünür
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: bazaar | chars: merchant, hoca | props: market_stall | action: merchant_talk]
+EN: One day at the bazaar, a merchant was selling a parrot for a hundred silver coins. An outrageous price. When Hodja asked why, the merchant explained that this bird could talk.
+TR: Bir gün pazarda bir satıcı, papağanı yüz akçeye satıyormuş. Akıl almaz bir fiyat. Hoca nedenini sorunca satıcı bu kuşun konuşabildiğini açıklamış.
+BEN: 100 coins! This bird TALKS!
+BTR: 100 akçe! Bu kuş KONUŞUYOR!
+[scene: home_interior | chars: hoca | action: hoca_carry]
+EN: Hodja went straight home, grabbed his old turkey, and marched back to the bazaar.
+TR: Hoca doğruca eve gitmiş, ihtiyar hindisini kaptığı gibi pazara geri dönmüş.
+[scene: bazaar | chars: hoca, merchant | props: market_stall | action: hoca_talk]
+EN: He set up next to the parrot seller and started shouting his own price. Two hundred coins for the turkey. Double the parrot.
+TR: Papağancının yanına kurulmuş ve kendi fiyatını haykırmaya başlamış. Hindiye iki yüz akçe. Papağanın tam iki katı.
+BEN: TWO hundred coins for the turkey!
+BTR: Hindiye İKİ yüz akçe!
+[scene: bazaar | chars: merchant, hoca | props: market_stall | action: merchant_shocked]
+EN: The merchant burst out laughing. His parrot could talk. What could this fat old turkey possibly do? Hodja looked at the silent, serious turkey and defended the price. The parrot talks, yes. But this one THINKS.
+TR: Satıcı kahkahayı basmış. Onun papağanı konuşuyormuş. Bu şişko ihtiyar hindi ne yapabilirmiş ki? Hoca sessiz ve ciddi hindisine bakmış ve fiyatı savunmuş. Papağan konuşuyormuş, doğru. Ama bu DÜŞÜNÜYORMUŞ.
+BEN: Yours TALKS... but mine THINKS!
+BTR: Seninki KONUŞUR... benimki DÜŞÜNÜR!
+# punchline_hold: 2

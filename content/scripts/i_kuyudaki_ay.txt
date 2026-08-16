@@ -1,0 +1,19 @@
+# title_en: Rescuing the Moon | title_tr: Kuyudaki Ay
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: street_night | chars: hoca | props: moon | action: hoca_shocked]
+EN: One night Hodja went to draw water from the well, looked down, and gasped. The moon had fallen into the well and was lying there at the bottom.
+TR: Bir gece Hoca kuyudan su çekmeye gitmiş, aşağı bakmış ve donakalmış. Ay kuyuya düşmüş, dibinde öylece yatıyormuş.
+BEN: The MOON fell in the well!
+BTR: AY kuyuya düşmüş!
+[scene: street_night | chars: hoca | props: moon | action: hoca_carry]
+EN: This was clearly an emergency. Hodja fetched a rope and a hook and lowered it down to rescue the poor moon.
+TR: Bu besbelli acil bir durummuş. Hoca ip ve çengel getirmiş, zavallı ayı kurtarmak için aşağı sarkıtmış.
+[scene: street_night | chars: hoca | props: moon | action: hoca_lie]
+EN: The hook snagged on a rock. Hodja pulled with all his strength, the rope suddenly snapped, and he flew backwards, landing flat on the ground.
+TR: Çengel bir taşa takılmış. Hoca var gücüyle asılmış, ip aniden kopmuş ve Hoca geriye fırlayıp sırtüstü yere serilmiş.
+[scene: street_night | chars: hoca | props: moon | action: hoca_plead]
+EN: Lying on his back, he looked up, and there was the moon, shining safely in the sky. Hodja raised his hands in gratitude. It had been hard work, but at least the moon was back in its place.
+TR: Sırtüstü yatarken yukarı bakmış, bir de ne görsün, ay gökyüzünde güvenle parlıyormuş. Hoca ellerini şükürle kaldırmış. Zor olmuş ama olsun, ay yerine dönmüşmüş.
+BEN: Tough job... but I SAVED the moon!
+BTR: Zor oldu ama... AYI KURTARDIM!
+# punchline_hold: 2

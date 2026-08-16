@@ -1,0 +1,17 @@
+# title_en: What If I Was On It? | title_tr: Ya Üstünde Olsaydım
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: barn_interior | chars: hoca | action: hoca_shocked]
+EN: One morning Hodja discovered that his donkey had escaped in the night and completely vanished.
+TR: Bir sabah Hoca eşeğinin gece kaçtığını ve tamamen ortadan kaybolduğunu fark etmiş.
+[scene: village_square | chars: hoca, neighbor_a | action: hoca_plead]
+EN: He searched the whole village, the hills, and the valleys. The donkey was gone for good.
+TR: Bütün köyü, tepeleri, vadileri aramış. Eşek temelli gitmişmiş.
+[scene: village_square | chars: neighbor_a, hoca | action: neighbor_talk]
+EN: The neighbors gathered to console him for the terrible loss. But they found Hodja raising his hands to the sky in deep gratitude.
+TR: Komşular bu büyük kayıp için başsağlığına toplanmış. Ama Hoca'yı ellerini göğe açmış, derin bir şükür içinde bulmuşlar.
+[scene: village_square | chars: hoca, neighbor_a | action: hoca_plead]
+EN: When they asked why on earth he was giving thanks, Hodja explained the bright side. Thank goodness he wasn't sitting on the donkey at the time. Otherwise he would be lost too.
+TR: Neden şükrettiğini sorduklarında Hoca işin iyi tarafını açıklamış. İyi ki o sırada eşeğin üstünde değilmişmiş. Yoksa şimdi kendisi de kayıpmış.
+BEN: Imagine if I was ON it... I'd be lost too!
+BTR: Ya üstünde olsaydım... ben de kaybolurdum!
+# punchline_hold: 2

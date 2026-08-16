@@ -1,0 +1,19 @@
+# title_en: Come Upstairs | title_tr: Yukarı Gel
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_door | chars: villager_a, hoca | action: villager_plead]
+EN: One day a man knocked on Hodja's door. Hodja leaned out from the upstairs window and asked what he wanted. The man insisted he come down first.
+TR: Bir gün adamın biri Hoca'nın kapısını çalmış. Hoca üst kat penceresinden sarkıp ne istediğini sormuş. Adam illa aşağı inmesini istemiş.
+BEN: Come DOWN, then I'll tell you!
+BTR: AŞAĞI in, öyle söylerim!
+[scene: home_door | chars: hoca, villager_a | action: hoca_talk]
+EN: Hodja climbed all the way down the stairs and opened the door. The man finally revealed his great request. He was asking for charity.
+TR: Hoca ta yukarıdan merdivenleri inmiş, kapıyı açmış. Adam nihayet büyük talebini açıklamış. Sadaka istiyormuş.
+[scene: home_door | chars: hoca, villager_a | action: hoca_point]
+EN: Hodja looked at him for a long moment, then told him to follow. They climbed all the stairs together, all the way to the top floor.
+TR: Hoca ona uzun uzun bakmış, sonra peşinden gelmesini söylemiş. Birlikte bütün merdivenleri çıkmışlar, ta en üst kata kadar.
+[scene: home_interior | chars: hoca, villager_a | action: hoca_shrug]
+EN: At the top, Hodja delivered his answer. May God provide. The stunned man asked why he couldn't have said that downstairs. Hodja asked right back why HE couldn't have asked from down there.
+TR: Yukarıda Hoca cevabını vermiş. Allah versin. Şaşkına dönen adam bunu neden aşağıda söylemediğini sorunca, Hoca da aynısını neden AŞAĞIDAN sormadığını sormuş.
+BEN: You made ME walk... I made YOU climb!
+BTR: Sen beni İNDİRDİN... ben seni ÇIKARDIM!
+# punchline_hold: 2

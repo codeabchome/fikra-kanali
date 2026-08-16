@@ -1,0 +1,21 @@
+# title_en: The Baklava Tray | title_tr: Baklava Tepsisi
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: street_day | chars: hoca, friend | action: hoca_shocked]
+EN: One day Hodja and a friend were sitting in the street when two men walked past, carrying an enormous tray of baklava.
+TR: Bir gün Hoca ve bir ahbabı sokakta otururken, iki adam kocaman bir tepsi baklavayla önlerinden geçmiş.
+[scene: street_day | chars: hoca, friend | action: hoca_point]
+EN: Hodja jumped up, watching the tray with wide eyes, and wondered aloud where all that baklava was going.
+TR: Hoca yerinden fırlamış, gözleri fal taşı gibi tepsiyi izlerken bu kadar baklavanın nereye gittiğini merak etmiş.
+BEN: Where is that BAKLAVA going?!
+BTR: O BAKLAVA nereye gidiyor?!
+[scene: street_day | chars: friend, hoca | action: friend_shrug]
+EN: His friend shrugged and told him it was none of his business.
+TR: Ahbabı omuz silkmiş ve bunun onu ilgilendirmediğini söylemiş.
+BEN: None of YOUR business.
+BTR: SANA ne.
+[scene: street_day | chars: hoca, friend | action: hoca_point]
+EN: Hodja turned to him, deeply offended by the logic. If the baklava wasn't coming to their house, how exactly was it none of HIS business but somehow the friend's business to comment on?
+TR: Hoca derin bir mantık kırgınlığıyla ona dönmüş. Baklava onların evine gelmiyorsa, bu nasıl oluyor da ONU ilgilendirmiyor ama ahbabını yorum yapacak kadar ilgilendiriyormuş?
+BEN: If it's not coming to US... then what's it to YOU?!
+BTR: Bize gelmiyorsa... SANA ne?!
+# punchline_hold: 2

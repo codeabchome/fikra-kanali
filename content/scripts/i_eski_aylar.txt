@@ -1,0 +1,16 @@
+# title_en: What Happens to Old Moons | title_tr: Eski Aylar Ne Olur
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: street_night | chars: villager_a, hoca | props: moon | action: villager_talk]
+EN: One night a curious villager pointed at the brand new crescent moon and asked Hodja a cosmic question. Every month a new moon arrives. So what happens to all the old ones?
+TR: Bir gece meraklı bir köylü yepyeni hilali göstermiş ve Hoca'ya kozmik bir soru sormuş. Her ay yeni bir ay geliyormuş. Peki eski aylar ne oluyormuş?
+BEN: What happens to the OLD moons?
+BTR: ESKİ aylar ne oluyor?
+[scene: street_night | chars: hoca, villager_a | props: moon | action: hoca_talk]
+EN: Hodja looked up at the sky, examined the thousands of twinkling stars, and delivered the answer with the confidence of a professor.
+TR: Hoca gökyüzüne bakmış, binlerce parıldayan yıldızı incelemiş ve cevabı profesör özgüveniyle vermiş.
+[scene: street_night | chars: hoca, villager_a | props: moon | action: hoca_point]
+EN: It was obvious. They cut the old moons into little pieces and make stars out of them.
+TR: Gayet açıkmış. Eski ayları kırpıp kırpıp yıldız yapıyorlarmış.
+BEN: They CUT them up... into STARS!
+BTR: Kırpıp kırpıp... YILDIZ yapıyorlar!
+# punchline_hold: 2

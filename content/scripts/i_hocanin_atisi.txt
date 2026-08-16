@@ -1,0 +1,21 @@
+# title_en: That Was MY Shot | title_tr: İşte Bu Hoca'nın Atışı
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: palace_tent | chars: timur, hoca | props: throne | action: timur_point]
+EN: One day Timur decided to test Hodja's famous confidence and ordered him to demonstrate his archery in front of the whole court.
+TR: Bir gün Timur, Hoca'nın meşhur özgüvenini sınamaya karar vermiş ve bütün divanın önünde okçuluğunu göstermesini emretmiş.
+BEN: Show us your archery, Hodja!
+BTR: Göster bakalım okçuluğunu Hoca!
+[scene: palace_tent | chars: hoca, timur, guard | action: hoca_carry]
+EN: Hodja's first arrow flew wildly off target. He turned to the court without a hint of shame and explained that this was how the chief constable shoots.
+TR: Hoca'nın ilk oku hedefin ta uzağına uçmuş. Hoca zerre utanmadan divana dönmüş ve bunun subaşının atışı olduğunu açıklamış.
+BEN: THAT is how the constable shoots!
+BTR: Bu, SUBAŞININ atışı!
+[scene: palace_tent | chars: hoca, timur | action: hoca_carry]
+EN: The second arrow also missed by a mile. Hodja nodded knowingly. And that one, he announced, was how the governor shoots.
+TR: İkinci ok da fersah fersah ıskalamış. Hoca bilgiç bilgiç kafa sallamış. Bu da valinin atışıymış.
+[scene: palace_tent | chars: hoca, timur, guard | action: hoca_point]
+EN: The third arrow, by pure luck, hit dead center. Hodja spun around, puffed out his chest, and claimed his glory. And THAT, ladies and gentlemen, was the shot of Nasreddin Hodja.
+TR: Üçüncü ok tamamen şans eseri tam on ikiden vurmuş. Hoca anında dönmüş, göğsünü kabartmış ve şerefine konmuş. İşte BU, hanımlar beyler, Nasreddin Hoca'nın atışıymış.
+BEN: And THAT... is MY shot!
+BTR: İşte BU... BENİM atışım!
+# punchline_hold: 2

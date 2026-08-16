@@ -1,0 +1,21 @@
+# title_en: Searching for the Donkey | title_tr: Eşek Üstünde Eşek Aramak
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: village_square | chars: hoca | props: donkey | action: hoca_shocked]
+EN: One day Hodja was riding through the village in a total panic, stopping everyone he saw.
+TR: Bir gün Hoca büyük bir panikle köyün içinde dolaşıyor, önüne geleni durduruyormuş.
+[scene: village_square | chars: hoca, villager_a | props: donkey | action: hoca_plead]
+EN: He was asking everybody the same desperate question. Had anyone seen his donkey? It was lost, and he was looking everywhere for it.
+TR: Herkese aynı çaresiz soruyu soruyormuş. Eşeğini gören var mıymış? Kaybolmuşmuş ve her yerde onu arıyormuş.
+BEN: Has anyone seen my DONKEY?!
+BTR: EŞEĞİMİ gören var mı?!
+[scene: village_square | chars: villager_a, hoca | props: donkey | action: villager_shocked]
+EN: The villagers stared at him. Then at what he was sitting on. Then back at him. Someone finally pointed out that he was riding the donkey at that very moment.
+TR: Köylüler ona bakmış. Sonra altındakine bakmış. Sonra yine ona. Sonunda biri, aradığı eşeğin tam o anda altında olduğunu söylemiş.
+BEN: Hodja... you're SITTING on it!
+BTR: Hocam... ÜSTÜNDESİN!
+[scene: village_square | chars: hoca, villager_a | props: donkey | action: hoca_shrug]
+EN: Hodja looked down, saw the donkey, and thanked the man politely. That explained why he couldn't find it anywhere. Who would think to look under himself?
+TR: Hoca aşağı bakmış, eşeği görmüş ve adama kibarca teşekkür etmiş. Demek bu yüzden hiçbir yerde bulamıyormuşmuş. İnsanın kendi altına bakmak aklına mı gelirmiş?
+BEN: No WONDER I couldn't find it!
+BTR: BULAMAMAMA şaşmamalı!
+# punchline_hold: 2

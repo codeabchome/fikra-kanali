@@ -1,0 +1,19 @@
+# title_en: The Crow and the Soap | title_tr: Karga ile Sabun
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: riverside | chars: hoca, wife | props: river | action: hoca_carry]
+EN: One day Hodja and his wife went down to the river to wash their laundry.
+TR: Bir gün Hoca ile hanımı çamaşır yıkamak için dere kenarına inmiş.
+[scene: riverside | chars: hoca | props: eagle, river | action: hoca_shocked]
+EN: Just as they laid everything out, a crow swooped down, snatched their only bar of soap, and flew off with it.
+TR: Tam her şeyi sermişler ki bir karga dalmış, biricik sabunlarını kaptığı gibi havalanmış.
+[scene: riverside | chars: wife, hoca | props: eagle_distant, river | action: wife_shocked]
+EN: His wife started shouting after the thief, furious about the soap. But Hodja just watched the bird fly away, completely calm.
+TR: Hanımı hırsızın ardından bağırmaya başlamış, sabuna yanıyormuş. Hoca ise gayet sakin, kuşun gidişini izliyormuş.
+BEN: It took our SOAP!
+BTR: SABUNUMUZU kaptı!
+[scene: riverside | chars: hoca, wife | props: eagle_distant | action: hoca_shrug]
+EN: He told her to let the bird keep it. Look at the state of it, all black from head to toe. Clearly, the crow needed that soap far more than they did.
+TR: Hoca kuşta kalmasını söylemiş. Haline baksınmış, tepeden tırnağa simsiyahmış. Belli ki o sabuna kargaların ihtiyacı onlarınkinden çok daha fazlaymış.
+BEN: Look at it... it's DIRTIER than us!
+BTR: Baksana... bizden KİRLİ!
+# punchline_hold: 2

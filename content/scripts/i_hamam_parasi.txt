@@ -1,0 +1,19 @@
+# title_en: Payment for Last Time | title_tr: Geçen Seferin Parası
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: inn_interior | chars: innkeeper, hoca | action: innkeeper_idle]
+EN: One day Hodja went to the bathhouse in his plain old clothes. The attendants barely looked at him, gave him a ragged towel, and treated him like furniture.
+TR: Bir gün Hoca hamama eski püskü kıyafetleriyle gitmiş. Görevliler yüzüne zor bakmış, eline lime lime bir peştamal tutuşturmuş ve ona mobilya muamelesi yapmışlar.
+[scene: inn_interior | chars: hoca, innkeeper | props: coin | action: hoca_carry]
+EN: On the way out, Hodja dropped a whole gold coin into their hands. A fortune. The attendants stared at each other in disbelief.
+TR: Çıkarken Hoca avuçlarına koca bir altın bırakmış. Bir servet. Görevliler birbirlerine inanamayarak bakmışlar.
+BEN: A GOLD coin... for THIS service?!
+BTR: Bu hizmete... ALTIN mı?!
+[scene: inn_interior | chars: innkeeper, hoca | action: innkeeper_plead]
+EN: The next week Hodja came again. This time they treated him like a sultan. Silk towels, massages, sherbet, the royal package.
+TR: Ertesi hafta Hoca yine gelmiş. Bu sefer ona padişah muamelesi yapmışlar. İpek peştamallar, keseler, şerbetler, tam kraliyet paketi.
+[scene: inn_interior | chars: hoca, innkeeper | props: coin | action: hoca_shrug]
+EN: On the way out, Hodja dropped one tiny copper coin into their hands. When they protested, he explained the accounting. This copper was for last week. The gold... was for today.
+TR: Çıkarken Hoca avuçlarına minicik bir bakır para bırakmış. İtiraz ettiklerinde hesabı açıklamış. Bu bakır geçen haftanınmış. O altın ise... bugünün parasıymış.
+BEN: The gold was for TODAY'S service!
+BTR: Altın, BUGÜNÜN hizmetinindi!
+# punchline_hold: 2

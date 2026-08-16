@@ -1,0 +1,19 @@
+# title_en: Say TAKE, Not GIVE | title_tr: Al Elini
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: riverside | chars: hoca | props: river | action: hoca_shocked]
+EN: One day Hodja slipped on the riverbank and fell into the water. He couldn't swim, and he was flailing like a broken windmill.
+TR: Bir gün Hoca dere kenarında ayağı kayıp suya düşmüş. Yüzme bilmiyormuş ve bozuk bir yel değirmeni gibi çırpınıyormuş.
+[scene: riverside | chars: villager_a, villager_b, hoca | props: river | action: villagers_plead]
+EN: People rushed over, stretched out their hands and shouted at him to give his hand. But Hodja kept sinking and refused to reach out.
+TR: Millet koşuşturmuş, ellerini uzatıp ver elini diye bağırmışlar. Ama Hoca batmaya devam etmiş, elini bir türlü uzatmamış.
+BEN: GIVE us your hand!
+BTR: VER elini!
+[scene: riverside | chars: friend, villager_a, hoca | props: river | action: friend_point]
+EN: Then an old friend pushed through the crowd, having realized the problem. This man had never given anything in his life. So he shouted the magic word instead. Take my hand.
+TR: Derken kalabalığı yarıp eski bir dostu gelmiş. Meseleyi anlamışmış. Bu adam ömründe kimseye bir şey vermemişmiş. O yüzden sihirli kelimeyi haykırmış. Al elimi.
+BEN: Don't say give... say TAKE my hand!
+BTR: Ver deme... AL elimi de!
+[scene: riverside | chars: hoca, friend | props: river | action: hoca_carry]
+EN: The moment he heard the word take, Hodja's hand shot out of the water like a rocket, and he was saved.
+TR: Al kelimesini duyar duymaz Hoca'nın eli sudan roket gibi fırlamış ve kurtulmuş.
+# punchline_hold: 2

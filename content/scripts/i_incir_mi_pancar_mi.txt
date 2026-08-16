@@ -1,0 +1,19 @@
+# title_en: Thank God It Was Figs | title_tr: İyi ki Pancar Getirmedim
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_door | chars: friend, hoca | action: friend_talk]
+EN: One day Hodja decided to visit Timur with a gift from his garden. His friend advised bringing beets, big impressive beets. But Hodja chose a basket of soft ripe figs instead.
+TR: Bir gün Hoca, Timur'a bahçesinden hediye götürmeye karar vermiş. Ahbabı pancar götürmesini önermiş, kocaman gösterişli pancarlar. Ama Hoca yumuşacık olgun incirlerden bir sepet hazırlamış.
+BEN: Take BEETS, they're impressive!
+BTR: PANCAR götür, gösterişli!
+[scene: palace_tent | chars: timur, hoca | props: throne | action: timur_shocked]
+EN: Unfortunately, Timur was in a terrible mood that day. He took one look at the gift and started hurling the figs at Hodja's head, one by one.
+TR: Ne yazık ki Timur o gün korkunç bir ruh halindeymiş. Hediyeye şöyle bir bakmış ve incirleri tek tek Hoca'nın kafasına fırlatmaya başlamış.
+[scene: palace_tent | chars: hoca, timur | action: hoca_plead]
+EN: And with every fig that bounced off his head, instead of complaining, Hodja loudly thanked God. Timur finally stopped, baffled, and asked why he was grateful while being pelted.
+TR: Ve kafasında patlayan her incirle birlikte Hoca şikayet etmek yerine yüksek sesle şükrediyormuş. Sonunda Timur afallayıp durmuş ve taşlanırken neden şükrettiğini sormuş.
+[scene: palace_tent | chars: hoca, timur | action: hoca_point]
+EN: Hodja explained between the flying figs. He was thanking God that he hadn't listened to his friend. Imagine if these had been beets.
+TR: Hoca uçuşan incirlerin arasında açıklamış. Ahbabını dinlemediği için şükrediyormuş. Ya bunlar pancar olsaymış?
+BEN: Thank GOD these aren't BEETS!
+BTR: İyi ki PANCAR getirmedim!
+# punchline_hold: 2

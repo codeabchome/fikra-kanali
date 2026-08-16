@@ -1,0 +1,16 @@
+# title_en: For the Friends to See | title_tr: Dostlar Alışverişte Görsün
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: bazaar | chars: hoca | props: market_stall, turban_cloth | action: hoca_talk]
+EN: One day Hodja set up a stall at the bazaar, piled it with worthless old junk, and started shouting prices like the market champion.
+TR: Bir gün Hoca pazarda tezgah açmış, üstüne beş para etmez eski püskü eşyalar yığmış ve pazarın şampiyonu gibi fiyat haykırmaya başlamış.
+[scene: bazaar | chars: merchant, hoca | props: market_stall | action: merchant_shocked]
+EN: The other sellers were confused. Nobody was buying, nothing was sellable, yet Hodja kept shouting with tremendous enthusiasm.
+TR: Diğer satıcılar şaşkınmış. Kimse bir şey almıyormuş, mallar satılık gibi değilmiş ama Hoca müthiş bir coşkuyla bağırmaya devam ediyormuş.
+BEN: Why are you shouting? Nothing sells!
+BTR: Niye bağırıyorsun? Satılmıyor ki!
+[scene: bazaar | chars: hoca, merchant | props: market_stall | action: hoca_shrug]
+EN: Hodja shrugged and revealed his actual business model. He wasn't there to sell. He was there so the friends could see him doing business.
+TR: Hoca omuz silkmiş ve asıl iş modelini açıklamış. Satmak için orada değilmiş. Dostlar onu alışverişte görsün diye oradaymış.
+BEN: Let the FRIENDS see me trading!
+BTR: DOSTLAR alışverişte görsün!
+# punchline_hold: 2

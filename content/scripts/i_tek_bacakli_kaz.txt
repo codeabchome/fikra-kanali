@@ -1,0 +1,21 @@
+# title_en: The One-Legged Goose | title_tr: Tek Bacaklı Kaz
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: home_interior | chars: hoca | props: soup_pot | action: hoca_carry]
+EN: One day Hodja roasted a goose to present to Timur. But on the way, the smell defeated him, and he ate one of the legs.
+TR: Bir gün Hoca, Timur'a sunmak için bir kaz kızartmış. Ama yolda kokuya yenik düşmüş ve bacağın birini yemiş.
+[scene: palace_tent | chars: timur, hoca | props: throne | action: timur_point]
+EN: Timur looked at the bird and immediately asked why this goose had only one leg.
+TR: Timur kuşa bakmış ve derhal bu kazın neden tek bacaklı olduğunu sormuş.
+BEN: Why does it have ONE leg?!
+BTR: Neden TEK bacağı var?!
+[scene: riverside | chars: hoca, timur | props: ducks_x3, river | action: hoca_point]
+EN: Hodja calmly led him to the pond and pointed at the geese sleeping on the bank, each standing on a single leg. In this region, he explained, all geese are one-legged.
+TR: Hoca sakince onu göl kenarına götürmüş ve kıyıda tek ayak üstünde uyuyan kazları göstermiş. Bu memlekette, demiş, bütün kazlar tek bacaklıymış.
+BEN: See? ALL geese here have one leg!
+BTR: Bak! Burada BÜTÜN kazlar tek bacaklı!
+[scene: riverside | chars: timur, hoca | props: ducks_x3 | action: timur_shocked]
+EN: Timur clapped his hands loudly, the startled geese dropped their second legs and scattered. Triumphant, he demanded an explanation. Hodja bowed politely and noted that if Timur received an applause like that, he would grow four legs himself.
+TR: Timur ellerini şiddetle çırpmış, irkilen kazlar ikinci bacaklarını indirip dağılmış. Zafer kazanmış edasıyla açıklama istemiş. Hoca kibarca eğilmiş ve Timur da öyle bir alkış yeseymiş dört bacaklı olurmuş demiş.
+BEN: With THAT applause, YOU'D grow four legs!
+BTR: O alkışı yeseniz SİZ dört bacak olurdunuz!
+# punchline_hold: 2

@@ -1,0 +1,21 @@
+# title_en: The Candle That Cooks | title_tr: Mum ile Kazan
+# voice_en: en-US-AndrewNeural | voice_tr: tr-TR-AhmetNeural
+[scene: street_night | chars: villager_a, hoca | props: moon | action: villager_talk]
+EN: One winter night, Hodja's friends bet him that he couldn't stand outside in the freezing cold until morning. If he won, they would throw him a feast.
+TR: Bir kış gecesi arkadaşları Hoca'yla iddiaya girmiş. Sabaha kadar dondurucu soğukta dışarıda duramazmış. Durursa ona ziyafet vereceklermiş.
+BEN: You can't survive the night outside!
+BTR: Sabaha kadar dışarıda duramazsın!
+[scene: street_night | chars: hoca | props: moon, candle | action: hoca_shocked]
+EN: Hodja stood shivering all night. In the distance, in someone's far window, a tiny candle flickered. In the morning he came to collect his feast.
+TR: Hoca bütün gece tir tir titreyerek dikilmiş. Ta uzakta, birinin penceresinde minicik bir mum titriyormuş. Sabah olunca ziyafetini almaya gelmiş.
+[scene: home_interior | chars: villager_a, hoca | props: candle | action: villager_point]
+EN: But the friends refused to pay. They claimed the distant candle had kept him warm, so the bet didn't count. Hodja said nothing.
+TR: Ama arkadaşlar sözlerini tutmamış. Güya o uzaktaki mum onu ısıtmışmış, iddia geçersizmiş. Hoca hiç ses etmemiş.
+BEN: The candle WARMED you! Bet's off!
+BTR: Mum seni ISITTI! İddia yattı!
+[scene: forest | chars: hoca, villager_a | props: soup_pot, candle, tree_big | action: hoca_point]
+EN: A week later he invited them all to dinner. Hours passed, no food arrived. In the garden they found the pot hanging from a tree branch, with one tiny candle burning far below it. Hodja shrugged. If a candle could warm a man from across the village, it could certainly cook a pot from down there.
+TR: Bir hafta sonra hepsini yemeğe çağırmış. Saatler geçmiş, yemek gelmemiş. Bahçeye çıktıklarında kazanı ağacın dalına asılı, tâ altında da minicik bir mum yanarken bulmuşlar. Hoca omuz silkmiş. Mum köyün öbür ucundan adam ısıtabiliyorsa, şuradan kazanı da pişirirmiş.
+BEN: If it warmed ME from afar... it can COOK this!
+BTR: Beni uzaktan ısıttıysa... bunu da PİŞİRİR!
+# punchline_hold: 2

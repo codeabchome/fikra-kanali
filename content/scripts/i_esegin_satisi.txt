@@ -1,0 +1,19 @@
+# title_en: Sold to the Owner | title_tr: Eşeğin Satışı
+# voice_en: en-US-GuyNeural | voice_tr: tr-TR-AhmetNeural
+[scene: barn_interior | chars: hoca | props: donkey | action: hoca_shocked]
+EN: Hodja's donkey had become impossible. It bit, it kicked, it brayed all night. Finally he took it to the bazaar to sell it.
+TR: Hoca'nın eşeği çekilmez olmuş. Isırıyor, çifte atıyor, bütün gece anırıyormuş. Sonunda satmak için pazara götürmüş.
+[scene: bazaar | chars: auctioneer, hoca | props: donkey, market_stall | action: auctioneer_talk]
+EN: The auctioneer went to work, and what a performance it was. This donkey was gentle as a lamb, strong as an ox, quiet as a library. The crowd started bidding higher and higher.
+TR: Tellal işe koyulmuş, hem de ne performansla. Bu eşek kuzu gibi uysal, öküz gibi güçlü, kütüphane gibi sessizmiş. Kalabalık gitgide yüksek teklifler vermeye başlamış.
+BEN: Gentle as a LAMB! Strong as an OX!
+BTR: KUZU gibi uysal! ÖKÜZ gibi güçlü!
+[scene: bazaar | chars: hoca, auctioneer | props: donkey | action: hoca_shocked]
+EN: Hodja listened to the descriptions with growing amazement. What a magnificent animal this was. Where had it been all his life?
+TR: Hoca anlatılanları gittikçe büyüyen bir hayranlıkla dinliyormuş. Ne muhteşem bir hayvanmış bu böyle. Ömrü boyunca neredeymiş?
+[scene: bazaar | chars: hoca, auctioneer | props: donkey | action: hoca_point]
+EN: When the bidding peaked, Hodja pushed through the crowd and topped every offer himself. An animal this perfect could not be sold to strangers. He was buying his own donkey back.
+TR: Teklifler zirveye çıkınca Hoca kalabalığı yarmış ve bütün teklifleri bizzat kendisi geçmiş. Bu kadar kusursuz bir hayvan el aleme satılamazmış. Kendi eşeğini geri satın alıyormuş.
+BEN: SOLD! To me! Such a donkey can't go to strangers!
+BTR: SATTIM! Kendime! Böyle eşek ele gitmez!
+# punchline_hold: 2
