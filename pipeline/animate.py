@@ -26,6 +26,25 @@ def _font(size):
     return ImageFont.load_default()
 
 
+
+
+WATERMARK = {"TR": "Karalama F\u0131kralar", "EN": "Scribbled Yarns"}
+
+
+def draw_watermark(img, lang):
+    """Ust-orta banda elle yazilmis hissi veren kanal adi filigrani."""
+    name = WATERMARK.get(lang, "")
+    if not name:
+        return
+    f = _font(54)
+    tmp = Image.new("RGBA", (W, 160), (0, 0, 0, 0))
+    td = ImageDraw.Draw(tmp)
+    tw = td.textlength(name, font=f)
+    td.text(((W - tw) / 2, 40), name, font=f,
+            fill=(255, 255, 255, 235), stroke_width=5, stroke_fill=(15, 15, 15, 235))
+    tmp = tmp.rotate(-2.2, expand=False, resample=Image.BICUBIC)
+    img.paste(tmp, (0, 42), tmp)
+
 def resolve_action(action, chars):
     a = action.lower()
 
@@ -200,5 +219,6 @@ def render_scene_image(scene, lang, bubble_text, out_path):
             continue  # konusanin etiketi yok — balon kuyrugu zaten gosteriyor
         draw_name_label(img, sk, display_name(ch.key, lang), hx, hy)
 
+    draw_watermark(img, lang)
     img.save(out_path, "PNG")
     return out_path
