@@ -13,8 +13,7 @@ from pipeline_v3.panelgen import build_episode, wrap_caption
 from pipeline_v3.autostager import build_panels as auto_panels
 
 # --- SES: gercekci anlatim icin cok-dilli nöral sesler ---
-DEFAULT_VOICES = {"TR": "en-US-AndrewMultilingualNeural",
-                  "EN": "en-US-AndrewMultilingualNeural"}
+DEFAULT_VOICES = {"TR": "tr-TR-AhmetNeural", "EN": "en-US-AvaMultilingualNeural"}
 RATE = {"TR": "-6%", "EN": "-4%"}
 CHANNELS = {"TR": "Karalama F\u0131kralar", "EN": "Scribbled Yarns"}
 PAD = 0.45
