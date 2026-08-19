@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>V3 Onizleme</title>
+<style>body{margin:0;background:#000;display:flex;justify-content:center;align-items:center;height:100vh}
+canvas{width:min(100vw,56.25vh);aspect-ratio:9/16}</style></head><body>
+<canvas id="c" width="720" height="1280"></canvas>
+<script src="motor.js"></script>
+<script>
+// episode.json'u yanina koy ve bir yerel sunucuyla ac (python -m http.server)
+fetch('episode.json').then(r=>r.json()).then(EP=>{
+  const ctx=document.getElementById('c').getContext('2d');
+  FikraMotor.init(ctx,720,1280);
+  const t0=performance.now();
+  (function loop(){ const t=(performance.now()-t0)/1000;
+    FikraMotor.renderFrame(Math.min(t,FikraMotor.totalDuration(EP)),EP);
+    requestAnimationFrame(loop); })();
+});
+</script></body></html>

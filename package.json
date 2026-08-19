@@ -1,0 +1,5 @@
+{
+  "name": "fikra-kanali",
+  "private": true,
+  "dependencies": { "canvas": "^3.2.0" }
+}

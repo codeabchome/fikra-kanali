@@ -18,7 +18,13 @@ import os
 import sys
 from datetime import datetime, timezone
 
-from .make_episode import build_episode
+import os as _os
+if _os.environ.get("USE_V3") == "1":
+    from pipeline_v3.make_episode import build as _v3_build
+    def build_episode(script, lang, out):
+        return _v3_build(script, lang, out)
+else:
+    from .make_episode import build_episode
 from . import upload as up
 
 LEDGER = "content/published/published.json"
