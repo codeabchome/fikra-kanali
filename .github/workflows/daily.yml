@@ -3,9 +3,9 @@ name: Gunluk Fikra Yayini
 on:
   schedule:
     # UTC 06:30, 11:30, 15:30 = TR saatiyle ~09:30, 14:30, 18:30 (gunde 3 bolum)
-    - cron: "30 6 * * *"
-    - cron: "30 11 * * *"
-    - cron: "30 15 * * *"
+#    - cron: "30 6 * * *"
+#    - cron: "30 11 * * *"
+#    - cron: "30 15 * * *"
   workflow_dispatch:
     inputs:
       episodes:
