@@ -1,0 +1,51 @@
+name: V3 Sinematik Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "Senaryo dosyasi (content/scripts/ icinden)"
+        default: "f_gole_kos.txt"
+      privacy:
+        description: "public / unlisted / private"
+        default: "unlisted"
+
+jobs:
+  build-v3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - name: Bagimliliklar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+          npm install --no-package-lock --loglevel=error canvas
+      - name: TR bolum uret
+        run: python -m pipeline_v3.make_episode "content/scripts/${{ github.event.inputs.script }}" TR out/v3_tr.mp4
+      - name: EN bolum uret
+        run: python -m pipeline_v3.make_episode "content/scripts/${{ github.event.inputs.script }}" EN out/v3_en.mp4
+      - name: TR kanala yukle
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_TR_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_TR_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_TR_REFRESH_TOKEN }}
+        run: |
+          python pipeline/upload.py --file out/v3_tr.mp4 \
+            --title "V3 sinematik test - silinebilir" \
+            --description "Yeni motor testi." \
+            --privacy "${{ github.event.inputs.privacy }}" --lang tr
+      - name: EN kanala yukle
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_EN_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_EN_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_EN_REFRESH_TOKEN }}
+        run: |
+          python pipeline/upload.py --file out/v3_en.mp4 \
+            --title "V3 cinematic test - safe to delete" \
+            --description "New engine test." \
+            --privacy "${{ github.event.inputs.privacy }}" --lang en
